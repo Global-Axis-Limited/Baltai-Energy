@@ -64,7 +64,8 @@ header nav {
     font-size: 14px;
     font-weight: 400;
 }
-.All{
+
+.All {
     padding: 0 250px;
 }
 
@@ -110,23 +111,27 @@ header nav .navbar-nav .nav-item .nav-link:hover {
 .btn-area .bi {
     color: #fff;
 }
-@media (max-width: 1400px){
+
+@media (max-width: 1400px) {
     header nav .navbar-brand img {
         width: 150px;
     }
+
     header nav .navbar-nav .nav-item .nav-link {
         color: #000;
         font-weight: 400;
         padding: 15px 15px !important;
     }
-    
-    
+
+
 }
-@media (max-width: 1199px){
-    
-    .bg-dark{
+
+@media (max-width: 1199px) {
+
+    .bg-dark {
         display: none;
     }
+
     header nav {
         background-color: #fff;
         margin-top: 1px !important;
@@ -300,70 +305,84 @@ header nav .offcanvas-header button i {
         color: #000;
         font-weight: 400;
     }
+
     header nav {
         background-color: #fff;
         margin-bottom: -101px !important;
         padding: 5px 10px 05px 10px !important;
     }
-    
-    
+
+
 }
+
 /* Welcome Banner */
 
 
 /* Welcome Screen */
-.welcome-screen{
+.welcome-screen {
     margin-top: 100px;
 }
-.welcome-screen .banner-one{
+
+.welcome-screen .banner-one {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873828/Energy/p_1_fch0xz.jpg');
 
 }
-.welcome-screen .banner-two{
+
+.welcome-screen .banner-two {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873832/Energy/o_1_vllvrl.jpg');
 }
-.welcome-screen .banner-three{
+
+.welcome-screen .banner-three {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736874129/Energy/i_smqbvk.jpg');
-    
+
 }
-.welcome-screen .carousel-item{
+
+.welcome-screen .carousel-item {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     padding: 150px 10px 200px 10px;
     color: #fff;
-   
+
 }
-.welcome-screen .carousel-item .banner-note{
+
+.welcome-screen .carousel-item .banner-note {
     width: 53%;
     padding: 0 0 0 180px;
-    
+
 }
-.welcome-screen .carousel-item .banner-note h1{
+
+.welcome-screen .carousel-item .banner-note h1 {
     font-size: 3.5rem;
     font-weight: 100;
     padding-top: 10px;
     line-height: 1.5;
     padding-bottom: 10px;
 }
-.welcome-screen .carousel-item .banner-note h1 span{
-   
+
+.welcome-screen .carousel-item .banner-note h1 span {
+
     font-weight: 500;
-   color: #FEC31C;
+    color: #FEC31C;
 }
-.welcome-screen .carousel-item .banner-note h5{
+
+.welcome-screen .carousel-item .banner-note h5 {
     font-weight: 300;
     font-size: 22px;
 }
-.welcome-screen .carousel-item .banner-note p{
+
+.welcome-screen .carousel-item .banner-note p {
     font-size: 17px;
     line-height: 2;
     font-weight: 400;
 }
-.welcome-screen .banner-note .btn-div{
+
+.welcome-screen .banner-note .btn-div {
     margin-top: 45px;
 }
-.welcome-screen .banner-note .btn-div .btn-contact, .welcome-screen .banner-note .btn-div .btn-read{
+
+.welcome-screen .banner-note .btn-div .btn-contact,
+.welcome-screen .banner-note .btn-div .btn-read {
     padding: 15px 35px;
     border-radius: 50px;
     margin: 5px;
@@ -372,61 +391,73 @@ header nav .offcanvas-header button i {
     font-weight: 300;
     text-decoration: none;
 }
-.welcome-screen .banner-note .btn-div .btn-contact{
+
+.welcome-screen .banner-note .btn-div .btn-contact {
     border: 1px solid #fff;
 }
-.welcome-screen .banner-note .btn-div .btn-read{
+
+.welcome-screen .banner-note .btn-div .btn-read {
     background-color: #F8861A;
-   
+
 }
-.welcome-screen .banner-note .btn-div .btn-contact:hover, .welcome-screen .banner-note .btn-div .btn-read:hover{
+
+.welcome-screen .banner-note .btn-div .btn-contact:hover,
+.welcome-screen .banner-note .btn-div .btn-read:hover {
     background-color: #fff;
     color: #000;
     font-size: 14px;
     font-weight: 300;
     border: 1px solid #fff;
 }
+
 .icon-group {
-      position: absolute;
-      bottom: 90px;
-      left: 15%;
-      transform: translateX(-50%);
-      display: flex;
-      gap: 10px;
-      font-size: 1.5rem;
-    }
+    position: absolute;
+    bottom: 90px;
+    left: 15%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
 
-    .icon-group span {
-      cursor: pointer;
-      opacity: 0.5;
-    }
+.icon-group span {
+    cursor: pointer;
+    opacity: 0.5;
+}
 
-    .icon-group .active {
-      opacity: 1;
-      color: #f39c12; /* Highlight color for active */
-    }
-@media (max-width: 991px){
-    .welcome-screen .carousel-item .banner-note{
+.icon-group .active {
+    opacity: 1;
+    color: #f39c12;
+    /* Highlight color for active */
+}
+
+@media (max-width: 991px) {
+    .welcome-screen .carousel-item .banner-note {
         width: 100% !important;
         padding: 0 10px 0 50px !important;
     }
-    .welcome-screen{
+
+    .welcome-screen {
         margin-top: 01px !important;
     }
-    .welcome-screen .carousel-item{
+
+    .welcome-screen .carousel-item {
         padding: 150px 0px 100px 0px !important;
         color: #fff;
     }
 }
-@media (max-width: 1400px){
-    .welcome-screen .carousel-item .banner-note{
+
+@media (max-width: 1400px) {
+    .welcome-screen .carousel-item .banner-note {
         width: 65%;
         padding: 0 0 0 130px;
     }
-    .welcome-screen .carousel-item{
-        padding: 100px 0px 100px 0px;
+
+    .welcome-screen .carousel-item {
+        padding: 100px 0px 130px 0px;
         color: #fff;
     }
+
     .icon-group {
         position: absolute;
         bottom: 30px;
@@ -435,65 +466,137 @@ header nav .offcanvas-header button i {
         display: flex;
         gap: 10px;
         font-size: 1.5rem;
-      }
+    }
 }
-@media (max-width: 540px){
-    .welcome-screen .carousel-item .banner-note{
+
+@media (max-width: 540px) {
+    .welcome-screen .carousel-item .banner-note {
         width: 80%;
     }
-    .welcome-screen .carousel-item{
+
+    .welcome-screen .carousel-item {
         padding: 100px 10px 100px 10px;
     }
-    .welcome-screen .carousel-item .banner-note h1{
+
+    .welcome-screen .carousel-item .banner-note h1 {
         font-size: 2.5rem;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .welcome-screen .carousel-item .banner-note h5{
+
+    .welcome-screen .carousel-item .banner-note h5 {
         font-size: 18px;
     }
-    .welcome-screen .carousel-item .banner-note p{
+
+    .welcome-screen .carousel-item .banner-note p {
         font-size: 16px;
     }
-    .welcome-screen .banner-note .btn-div .btn-contact, .welcome-screen .banner-note .btn-div .btn-read{
+
+    .welcome-screen .banner-note .btn-div .btn-contact,
+    .welcome-screen .banner-note .btn-div .btn-read {
         padding: 10px 15px;
         font-size: 14px;
     }
-    .icon-group{
+
+    .icon-group {
         display: none;
     }
-    .btn-contact{
+
+    .btn-contact {
         display: none;
     }
 }
+
 /* Benefit */
-.Benefit{
-    padding: 100px 0px;
+.Benefit {
+    padding: 80px 0px;
 }
-.Benefit .Txt{
+
+.Benefit .Txt {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736881066/Energy/l_skskly.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
-.Benefit .Txt .Just{
+
+.Benefit .Txt .Just {
     font-size: 25px;
     font-weight: 400 !important;
     line-height: 1.5;
 }
-.Benefit .Txt .highlight{
+
+.Benefit .Txt .highlight {
     font-size: 20px;
     color: #F8861A;
     font-weight: 500;
     padding: 0 0 0px 100px;
 }
-.Benefit .E{
+
+.Benefit .E {
     font-size: 15px;
     line-height: 2;
 
 }
-.Benefit button{
+
+.Benefit button {
     background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
     font-size: 14px;
     border: none;
     cursor: pointer;
 }
+
+.Benefit .card{
+    border: none;
+}
+
+.Benefit .fw-bold  {
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.icon {
+    margin-top: -50px;
+    display: inline-block;
+}
+
+.icon img {
+    width: 100px;
+    height: auto;
+}
+
+.Benefit ul li {
+   font-size: 14px;
+   line-height: 35px;
+}
+.Benefit ul{
+    height: 140px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:1400px) {
+    .Benefit .Txt .highlight {
+        font-size: 20px;
+        color: #F8861A;
+        font-weight: 500;
+        padding: 0 0 0px 50px;
+    }
+    .Benefit ul{
+        height: 170px;
+    }
+}
+@media (max-width:770px) {
+    .Benefit ul{
+        height: auto;
+    }
+    .Benefit .card{
+       margin-bottom: 80px;
+    }
+    .Benefit {
+        padding: 80px 0px 30px 0;
+    }
+}
+

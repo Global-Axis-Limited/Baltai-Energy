@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 mb-4">
             <p class="E">
                 Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
             </p>
@@ -83,13 +83,13 @@
                 <button class="btn text-white px-4 py-2">Request a free quote</button>
             </div>
             </div>
-            <div class="row g-4 mt-5">
+            <div class="row g-2 mt-5">
                 <!-- Card 1 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <div class="p-3 text-center">
+                        <div class="">
                             <div class="icon">
-                                <img src="https://via.placeholder.com/40" alt="Reliability Icon">
+                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_438_fqtouq.png" alt="Reliability Icon">
                             </div>
                         </div>
                         <div class="card-body">
@@ -99,16 +99,16 @@
                                 <li>Never worry about blackouts again</li>
                             </ul>
                         </div>
-                        <img src="https://via.placeholder.com/300x150" alt="Reliability Image">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924150/Energy/w_ntn3ms.png" draggable="false" alt="Reliability Image">
                     </div>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <div class="p-3 text-center">
+                        <div class="">
                             <div class="icon">
-                                <img src="https://via.placeholder.com/40" alt="Cost Savings Icon">
+                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_448_lijcit.png" alt="Cost Savings Icon">
                             </div>
                         </div>
                         <div class="card-body">
@@ -118,16 +118,16 @@
                                 <li>Reduces cost on your energy bills</li>
                             </ul>
                         </div>
-                        <img src="https://via.placeholder.com/300x150" alt="Cost Savings Image">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924150/Energy/q_q8gdb7.png" draggable="false" alt="Cost Savings Image">
                     </div>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <div class="p-3 text-center">
+                        <div class="">
                             <div class="icon">
-                                <img src="https://via.placeholder.com/40" alt="Sustainability Icon">
+                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4138_mkquu6.png" alt="Sustainability Icon">
                             </div>
                         </div>
                         <div class="card-body">
@@ -137,16 +137,16 @@
                                 <li>Reduces your carbon footprint to a cleaner environment</li>
                             </ul>
                         </div>
-                        <img src="https://via.placeholder.com/300x150" alt="Sustainability Image">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924150/Energy/i_gyhzqy.png" draggable="false" alt="Sustainability Image">
                     </div>
                 </div>
 
                 <!-- Card 4 -->
                 <div class="col-md-3">
                     <div class="card">
-                        <div class="p-3 text-center">
+                        <div class="">
                             <div class="icon">
-                                <img src="https://via.placeholder.com/40" alt="Easy Process Icon">
+                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4338_qq3uai.png" alt="Easy Process Icon">
                             </div>
                         </div>
                         <div class="card-body">
@@ -156,7 +156,7 @@
                                 <li>Quick and easy to use and maintain</li>
                             </ul>
                         </div>
-                        <img src="https://via.placeholder.com/300x150" alt="Easy Process Image">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924149/Energy/e_rmxhbh.png" draggable="false" alt="Easy Process Image">
                     </div>
                 </div>
             </div>
@@ -164,6 +164,10 @@
     </div>
 </section>
 <!-- Benefit Ends -->
+
+<!-- FAQs -->
+
+<!-- FAQs  Ends-->
 @endsection
 
 <script>
