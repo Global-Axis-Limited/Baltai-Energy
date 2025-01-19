@@ -544,11 +544,11 @@ header nav .offcanvas-header button i {
     cursor: pointer;
 }
 
-.Benefit .card{
+.Benefit .card {
     border: none;
 }
 
-.Benefit .fw-bold  {
+.Benefit .fw-bold {
     font-weight: 600 !important;
     font-size: 18px;
     line-height: 2;
@@ -565,10 +565,11 @@ header nav .offcanvas-header button i {
 }
 
 .Benefit ul li {
-   font-size: 14px;
-   line-height: 35px;
+    font-size: 14px;
+    line-height: 35px;
 }
-.Benefit ul{
+
+.Benefit ul {
     height: 140px;
 }
 
@@ -584,35 +585,43 @@ header nav .offcanvas-header button i {
         font-weight: 500;
         padding: 0 0 0px 50px;
     }
-    .Benefit ul{
+
+    .Benefit ul {
         height: 170px;
     }
+
     .faqPage {
         padding: 50px 0px;
     }
-    .Justt{
-        padding:80px 20px 50px 20px !important;
+
+    .Justt {
+        padding: 80px 20px 50px 20px !important;
     }
 }
+
 @media (max-width:770px) {
-    .Benefit ul{
+    .Benefit ul {
         height: auto;
     }
-    .Benefit .card{
-       margin-bottom: 80px;
+
+    .Benefit .card {
+        margin-bottom: 80px;
     }
+
     .Benefit {
         padding: 80px 0px 30px 0;
     }
-    .King{
+
+    .King {
 
         float: right;
         padding: 0 0 0 30px !important;
-        top:-200px;
+        top: -200px;
         width: 70% !important;
         clear: both;
         margin-bottom: -200px;
     }
+
     .right-image {
         width: 100%;
         position: relative;
@@ -622,6 +631,7 @@ header nav .offcanvas-header button i {
        left: 20px; */
     }
 }
+
 /* FAQs */
 
 .faqPage {
@@ -634,6 +644,7 @@ header nav .offcanvas-header button i {
     font-size: 25px;
     color: #000;
 }
+
 .faqPage p {
     font-size: 14px;
     color: #000;
@@ -695,6 +706,7 @@ header nav .offcanvas-header button i {
     display: block;
     margin: auto;
 }
+
 /* Providing */
 
 .custom-section {
@@ -702,6 +714,7 @@ header nav .offcanvas-header button i {
     color: white;
     /* padding: 50px 0; */
 }
+
 .quote-text {
     font-size: 20px !important;
     font-weight: 600;
@@ -710,6 +723,7 @@ header nav .offcanvas-header button i {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .main-heading {
     margin-top: -10px;
     font-size: 40px;
@@ -717,49 +731,57 @@ header nav .offcanvas-header button i {
     font-family: "Montserrat", serif;
     padding: 0 0 10px 0;
 }
-.custom-section p{
+
+.custom-section p {
     line-height: 2;
-    font-size:15px;
-     font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
     font-weight: 400 !important;
     padding: 0 0 30px 0;
 }
+
 .icon-text {
     text-align: left;
 }
-.icon-text p{
+
+.icon-text p {
     line-height: 2;
-    font-size:17px;
-     font-family: "Montserrat", serif;
+    font-size: 17px;
+    font-family: "Montserrat", serif;
     font-weight: 500 !important;
 }
+
 .icon-text img {
     width: 50px;
     height: auto;
 }
-.King{
+
+.King {
     background: #4A4A4A;
     position: relative;
     float: right;
     padding: 0 0 0 50px;
-    top:-200px;
+    top: -200px;
     width: 50%;
     clear: both;
     margin-bottom: -200px;
 
 }
-.King h1{
+
+.King h1 {
     font-size: 35px;
     font-family: "Montserrat", serif;
     font-weight: 600;
     color: #fff;
     padding: 50px 0 0px 0;
 }
-.King p{
+
+.King p {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
+
 .right-image {
     width: 100%;
     position: relative;
@@ -767,4 +789,328 @@ header nav .offcanvas-header button i {
     object-fit: cover;
     /* top: 0;
    left: 20px; */
+}
+
+/*  */
+
+.accordion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 550px;
+}
+
+.section-heading {
+
+    font-size: 2rem;
+    text-align: right;
+    font-style: normal;
+    color: #000;
+}
+
+.solutions-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F8861A;
+}
+
+.solutions-section .Line {
+    height: 3px;
+    width: 50px;
+    background-color: #F8861A;
+}
+
+.solutions-section {
+    background-color: #F9F9F9;
+    padding: 80px 0px;
+    font-family: "Montserrat", serif;
+}
+
+.accordion-item {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    transition: flex 0.3s ease;
+    border-radius: 10px;
+}
+
+.accordion-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item:hover {
+    flex: 2;
+    border-radius: 10px;
+}
+
+.accordion-item:hover img {
+    transform: scale(1.1);
+}
+
+.accordion-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.081);
+    color: white;
+    padding: 30px 25px;
+    text-align: left;
+    width: 100%;
+    font-family: "Montserrat", serif;
+}
+
+.accordion-content h5 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.accordion-content img {
+    width: 40px;
+    padding: 0 0 20px 0;
+}
+
+.accordion-content p {
+    padding: 15px 0 0px 0;
+    font-size: 0.9rem;
+}
+
+.accordion-content a {
+    color: #f4c10f;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.accordion-content a:hover {
+    text-decoration: underline;
+}
+
+/* Trusted Partners Section */
+.trusted-partners {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    font-family: "Montserrat", serif;
+}
+
+.trusted-partners h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.trusted-partners img {
+    max-width: 150px;
+    margin: 0 50px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.trusted-partners img:hover {
+    opacity: 1;
+}
+
+/* Spotlight Section */
+.spotlight-bg {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    font-family: "Montserrat", serif;
+    padding: 80px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.spotlight-section {
+    padding: 50px 0px;
+}
+
+
+.spotlight-background {
+    background:
+        url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737282133/Energy/Frame_1618873242_ggv40z.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+/* Content Overlay */
+.position-relative {
+    z-index: 2;
+}
+
+.text-white h2 {
+    font-size: 2rem;
+    font-weight: 400 !important;
+    line-height: 2;
+}
+
+.spotlight-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+}
+
+.bg-white p {
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+
+.bg-warning {
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
+
+}
+
+.bg-warning p {
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+.btn-warning {
+    border-radius: 5px;
+}
+
+/* Energy Calculator Section */
+.energy-calculator-section {
+    background-color: #fff;
+    padding: 80px 0px;
+    font-family: "Montserrat", serif;
+}
+
+.calculator-form {
+    background: linear-gradient(135deg, #F8861A, #FEC31C);
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-form h3 {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.calculator-form .form-label {
+    font-size: 0.9rem;
+}
+
+.input-group-text {
+    background-color: #FEC31C !important;
+    color: #000;
+    border: none;
+    padding: 18px 20px !important;
+    border-radius: 5px 0 0 5px;
+    border: none !important;
+}
+
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    /* Optional: Remove default focus shadow */
+}
+
+.input-group .form-control {
+    border: none;
+    background-color: #DEDEDE !important;
+    padding: 18px 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.form-select {
+    border: none;
+    background-color: #DEDEDE !important;
+    padding: 18px 20px !important;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 18px 20px !important;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .calculator-form {
+        text-align: center;
+    }
+
+    .calculator-form h3,
+    .calculator-form p {
+        text-align: center;
+    }
+}
+
+/*  */
+
+.insights-section {
+    padding: 80px 0;
+    background-color: #F9F9F9;
+    font-family: "Montserrat", serif;
+}
+
+.insights-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.insights-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.insights-section .card-body {
+    padding: 35px 20px !important;
+}
+
+.insights-section .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.insights-section .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.insights-section .card-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.insights-section .btn {
+    color: #ffa500;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.insights-section .btn:hover {
+    text-decoration: underline;
 }

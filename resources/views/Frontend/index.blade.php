@@ -170,10 +170,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                
+
                 <h1>Why Choose Baltai Energy?</h1>
                 <p>
-                Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy
+                    Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy
                 </p>
             </div>
             <div class="col-lg-6"></div>
@@ -262,6 +262,227 @@
         </div>
     </div>
 </section>
+
+<section class="solutions-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="solutions-title">Our Solutions</h2>
+                <div class="Line"></div>
+            </div>
+        </div>
+        <div class="accordion-container mt-5">
+            <!-- Residential Solutions -->
+            <div class="accordion-item me-2">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737278964/Energy/image_1_sg2knb.jpg" alt="Residential Solutions">
+                <div class="accordion-content">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279428/Energy/3d-house_1_jdx07h.png" draggable="false" alt="">
+                    <h5>Residential Solutions</h5>
+                    <p>Reinvent your home with clean, reliable solar energy solutions, tailored, and carefully thought out to help uplift your living spaces while improving daily life. Enjoy uninterrupted power, lower utility bills, and a greener lifestyle for your family and the environment</p>
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+            <!-- Business Solutions -->
+            <div class="accordion-item  me-2">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737280221/Energy/pexels-house_landscape_with_panels_o_roof_hc0eur.jpg" alt="Business Solutions">
+                <div class="accordion-content">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279428/Energy/3d-house_1_1_bxjurr.png" draggable="false" alt="">
+                    <h5>Business Solutions</h5>
+                    <p>Empower your business with sustainable energy solutions designed to optimize operations and cut costs. Our innovative solar systems provide reliable power designed to effectively meet your commercial needs.</p>
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+            <!-- Industrial Solutions -->
+            <div class="accordion-item  me-2">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737280244/Energy/pexels-pixabay-433308_1_taa10h.jpg" alt="Industrial Solutions">
+                <div class="accordion-content">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279427/Energy/3d-building_1_fiflbi.png" draggable="false" alt="">
+                    <h5>Industrial Solutions</h5>
+                    <p>Scale your operations sustainably with our high-capacity solar energy solutions... From powering industrial facilities to large-scale enterprises, our systems will help you achieve operational efficiency and long-term savings with significant years of peak utility for every use case.</p>
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trusted Partners Section -->
+<section class="trusted-partners">
+    <h2>Trusted Partners</h2>
+    <div class="d-flex justify-content-center flex-wrap">
+        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
+        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
+        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" draggable="false" alt="Partner 3">
+        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" draggable="false" alt="Partner 4">
+    </div>
+</section>
+
+<!-- Spotlight Section -->
+<section class="spotlight-section">
+    <div class="container">
+        <div class="spotlight-bg position-relative rounded">
+            <!-- Background Image -->
+            <div class="spotlight-background rounded"></div>
+
+            <!-- Overlay Content -->
+            <div class="row g-4 align-items-center position-relative z-2 p-4">
+                <!-- Left Spotlight Card -->
+                <div class="col-md-6">
+                    <div class="text-white">
+                        <h2 class="fw-bold">Spotlight on <strong>SSN</strong></h2>
+                        <p class="mt-3">
+                            Say goodbye to power outages and high bills. With Solar Solutions Network (SSN),
+                            enjoy uninterrupted electricity powered by the sun.
+                        </p>
+                        <a href="#" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+                <!-- Right Cards -->
+                <div class="col-lg-12 mt-5">
+                    <div class="row g-3">
+                        <!-- Card 1 -->
+                        <div class="col-md-4">
+                            <div class="bg-warning text-white p-4 rounded">
+                                <h4 class="fw-bold">24/7 Reliable Power Starts Here!</h4>
+                                <p class="mt-2">
+                                    Say goodbye to power outages and high bills. Enjoy uninterrupted electricity powered by the sun.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-md-4">
+                            <div class="bg-white p-4 rounded">
+                                <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
+                                <p class="mt-2">
+                                    Discover how much you could save by switching to solar energy. It’s time to power your home and wallet.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-md-4">
+                            <div class="bg-white p-4 rounded">
+                                <h4 class="fw-bold">Solar for Every Budget!</h4>
+                                <p class="mt-2">
+                                    With flexible financing plans, owning solar power has never been easier. Start today with no upfront cost.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="energy-calculator-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left: Form Section -->
+            <div class="col-md-6">
+                <div class="calculator-form p-4 rounded">
+                    <h3 class="fw-bold text-white">Quick Energy Calculator</h3>
+                    <p class="text-white">Estimate Your Solar Savings</p>
+                    <form>
+                        <!-- Monthly Electricity Bill -->
+                        <div class="mb-4">
+                            <label for="electricity-bill" class="form-label text-white">Monthly Electricity Bill</label>
+                            <div class="input-group">
+                                <span class="input-group-text">₦</span>
+                                <input type="text" class="form-control" id="electricity-bill" value="40,000" required />
+                            </div>
+                        </div>
+
+                        <!-- Monthly Cost on Fuel -->
+                        <div class="mb-4">
+                            <label for="fuel-cost" class="form-label text-white">Monthly Cost on Fuel (Generator)</label>
+                            <div class="input-group">
+                                <span class="input-group-text">₦</span>
+                                <input type="text" class="form-control" id="fuel-cost" value="190,000" required />
+                            </div>
+                        </div>
+
+                        <!-- Hours of Electricity Supply -->
+                        <div class="mb-4">
+                            <label for="electricity-supply" class="form-label text-white">Hours of Electricity Supply (Daily)</label>
+                            <select id="electricity-supply" class="form-select" required>
+                                <option selected>3-5</option>
+                                <option>6-8</option>
+                                <option>9-12</option>
+                            </select>
+                        </div>
+
+                        <!-- Type of Apartment -->
+                        <div class="mb-4">
+                            <label for="apartment-type" class="form-label text-white">Type of Apartment</label>
+                            <select id="apartment-type" class="form-select" required>
+                                <option selected>Duplex</option>
+                                <option>Flat</option>
+                                <option>Bungalow</option>
+                            </select>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary fw-bold">
+                                Calculate Savings Cost
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right: Images -->
+            <div class="col-md-6">
+                <div class="d-flex flex-column gap-3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737284084/Energy/Group_48097585_ve6ahj.jpg" draggable="false" alt="Solar Engineer" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="insights-section">
+    <div class="container">
+        <h2 class="text-center mb-5">Insights</h2>
+        <div class="row mt-5">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" draggable="false" class="card-img-top" alt="Solar Home">
+                    <div class="card-body">
+                        <h5 class="card-title">5 Reasons to Switch to Solar Today</h5>
+                        <p class="card-text">From lower electricity bills to eco-friendliness, discover why solar power is the solution for you.</p>
+                        <a href="#" class="btn">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
+                    <div class="card-body">
+                        <h5 class="card-title">Sustainable Future with Solar</h5>
+                        <p class="card-text">Solar technology continues to advance, offering more efficient and versatile energy solutions.</p>
+                        <a href="#" class="btn">Read More →</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" draggable="false" class="card-img-top" alt="Harnessing the Sun">
+                    <div class="card-body">
+                        <h5 class="card-title">Harnessing the Sun</h5>
+                        <p class="card-text">Solar energy is more than just power—it's a step towards a sustainable and reliable future.</p>
+                        <a href="#" class="btn">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection
 
