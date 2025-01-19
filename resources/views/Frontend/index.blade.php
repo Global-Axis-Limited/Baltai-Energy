@@ -262,7 +262,24 @@
         </div>
     </div>
 </section>
-
+<section style="background: #000; padding: 100px;">
+<div class="mb-8 max-w-3xl">
+              <div class="">
+                <p class="text-darkGrey text-base md:text-lg mb-8 leading-7">
+                <div><span class="opacity-0 ">We’re<!-- --> </span><span class="opacity-0 ">the<!-- --> </span><span
+                    class="opacity-0 ">architects<!-- --> </span><span class="opacity-0 ">of<!-- --> </span><span
+                    class="opacity-0 ">digital<!-- --> </span><span class="opacity-0 ">excellence<!-- --> </span><span
+                    class="opacity-0 ">across<!-- --> </span><span class="opacity-0 ">industries.<!-- --> </span><span
+                    class="opacity-0 ">We<!-- --> </span><span class="opacity-0 ">redefine<!-- --> </span><span
+                    class="opacity-0 ">business<!-- --> </span><span class="opacity-0 ">with<!-- --> </span><span
+                    class="opacity-0 ">cutting-edge<!-- --> </span><span class="opacity-0 ">digital<!-- --> </span><span
+                    class="opacity-0 ">strategies<!-- --> </span><span class="opacity-0 ">that<!-- --> </span><span
+                    class="opacity-0 ">invokes<!-- --> </span><span class="opacity-0 ">sector-wide<!-- --> </span><span
+                    class="opacity-0 ">transformation.<!-- --> </span></div>
+                </p>
+              </div>
+            </div>
+</section>
 <section class="solutions-section">
     <div class="container">
         <div class="row">
