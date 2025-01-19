@@ -1,21 +1,3 @@
-<!-- <section class="Newsletter">
-    <div class="container Amen">
-        <div class="row">
-            <div class="col-lg-6">
-                <p>Subscribe to our Newsletter</p>
-                <h1>Stay informed on Industry trends</h1>
-            </div>
-            <div class="col-lg-6">
-                <form class="search-bar">
-                    <div class="input-group">
-                        <input type="text" class="form-control" name="email" placeholder="Your email Address" required>
-                        <input type="submit" class="input-group-text" value="Subscribe Now" id="basic-addon2">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section> -->
 <section class="footer">
 <div class="container Amen">
         <div class="row">
