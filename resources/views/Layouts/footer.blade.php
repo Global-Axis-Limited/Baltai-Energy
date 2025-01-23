@@ -1,5 +1,5 @@
 <section class="footer">
-<div class="container Amen">
+<!-- <div class="container Amen">
         <div class="row">
             <div class="col-lg-6">
                 <p>Subscribe to our Newsletter</p>
@@ -14,7 +14,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container">
         <div class="row">
             <div class="col-lg-3">

@@ -6,7 +6,7 @@
 
 html,
 body {
-    font-family: "Sora", serif !important;
+    font-family: "Montserrat", serif !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-size: cover;
@@ -58,6 +58,7 @@ header nav {
     background-color: #fff;
     margin-top: 50px;
     padding: 05px 10px 05px 10px !important;
+    font-family: "Sora", serif;
 }
 
 .bg-dark p {
@@ -510,6 +511,7 @@ header nav .offcanvas-header button i {
 /* Benefit */
 .Benefit {
     padding: 80px 0px;
+    font-family: "Montserrat", serif;
 }
 
 .Benefit .Txt {
@@ -559,6 +561,12 @@ header nav .offcanvas-header button i {
     display: inline-block;
 }
 
+.iconing img {
+    width: 50px;
+    height: auto;
+    margin: 30px 20px 0px 20px;
+}
+
 .icon img {
     width: 100px;
     height: auto;
@@ -566,11 +574,11 @@ header nav .offcanvas-header button i {
 
 .Benefit ul li {
     font-size: 14px;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 .Benefit ul {
-    height: 140px;
+    height: 100px;
 }
 
 .card {
@@ -637,6 +645,8 @@ header nav .offcanvas-header button i {
 .faqPage {
     width: 100%;
     padding: 50px 0 0 0;
+    font-family: "Montserrat", serif;
+
 }
 
 
@@ -825,32 +835,40 @@ header nav .offcanvas-header button i {
     padding: 80px 0px;
     font-family: "Montserrat", serif;
 }
+
 @media (max-width:768px) {
     .solutions-section {
-       display: none;
+        display: none;
     }
-    .trusted-partners img{
+
+    .trusted-partners img {
         max-width: 150px;
         margin: 20px !important;
         opacity: 0.8;
         transition: opacity 0.3s ease;
     }
+
     .trusted-partners {
         padding: 50px 0 !important;
         font-family: "Montserrat", serif;
     }
+
     .spotlight-bg {
         padding: 50px 15px 50px 15px !important;
         margin-bottom: 0px !important;
-    }.energy-calculator-section {
+    }
+
+    .energy-calculator-section {
         background-color: #fff;
         padding: 50px 0px !important;
         font-family: "Montserrat", serif;
     }
+
     .img-fluid {
-       margin-top: 50px !important;
-      }
+        margin-top: 50px !important;
+    }
 }
+
 .accordion-item {
     flex: 1;
     overflow: hidden;
@@ -1087,14 +1105,15 @@ textarea:focus {
         text-align: center;
     }
 
-    .Amen{ 
+    .Amen {
         margin-top: -150px !important;
-         text-align: center !important;
+        text-align: center !important;
     }
-    .search-bar{
+
+    .search-bar {
         margin-top: 30px !important;
     }
-    
+
 }
 
 /*  */
@@ -1148,14 +1167,16 @@ textarea:focus {
 .insights-section .btn:hover {
     text-decoration: underline;
 }
+
 /* Newsltter */
 .Newsletter {
     font-family: "Montserrat", serif;
     width: 100%;
     z-index: 10;
 }
-.Amen{ 
-    background-color: #565052 ;
+
+.Amen {
+    background-color: #565052;
     padding: 50px 50px 50px 50px !important;
     border-radius: 10px;
     width: 100%;
@@ -1164,7 +1185,7 @@ textarea:focus {
     margin-top: -150px;
 }
 
-.Amen p{
+.Amen p {
     font-size: 20px;
     color: #fff;
 }
@@ -1174,9 +1195,11 @@ textarea:focus {
     font-weight: 600;
     color: #fff;
 }
-.search-bar{
+
+.search-bar {
     margin-top: 30px;
 }
+
 .search-bar .input-group>.form-control,
 .input-group>.form-select {
     position: relative;
@@ -1189,7 +1212,7 @@ textarea:focus {
 .input-group>.form-select:focus {
     outline: 0px !important;
     box-shadow: none !important;
-    border:none !important;
+    border: none !important;
 }
 
 .search-bar .input-group>.form-control::placeholder {
@@ -1215,7 +1238,7 @@ textarea:focus {
 .search-bar .form-control {
     display: block;
     width: 10%;
-    padding:  20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
     font-size: 1rem;
     border-radius: 10px 0px 10px 10px;
     font-weight: 400;
@@ -1468,55 +1491,6 @@ textarea:focus {
     color: #fff;
 }
 
-.footer li a:hover {
-    text-decoration: underline;
-}
-
-.top .media-icons a:nth-child(1) {
-    background: #4267B2;
-}
-
-.top .media-icons a:nth-child(1):hover {
-    color: #4267B2;
-    background: #fff;
-}
-
-.top .media-icons a:nth-child(2) {
-    background: #1DA1F2;
-}
-
-.top .media-icons a:nth-child(2):hover {
-    color: #1DA1F2;
-    background: #fff;
-}
-
-.top .media-icons a:nth-child(3) {
-    background: #E1306C;
-}
-
-.top .media-icons a:nth-child(3):hover {
-    color: #E1306C;
-    background: #fff;
-}
-
-.top .media-icons a:nth-child(4) {
-    background: #0077B5;
-}
-
-.top .media-icons a:nth-child(4):hover {
-    color: #0077B5;
-    background: #fff;
-}
-
-.top .media-icons a:nth-child(5) {
-    background: #FF0000;
-}
-
-.top .media-icons a:nth-child(5):hover {
-    color: #FF0000;
-    background: #fff;
-}
-
 .footer .copy {
     text-align: center;
     padding: 30px 0 0 0;
@@ -1524,3 +1498,233 @@ textarea:focus {
 }
 
 /**Footer Ends**/
+
+.Beadcrum {
+    padding: 250px 0px 120px 0px;
+    background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355408/Energy/Group_48097580_r4eaky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", serif;
+}
+
+.Beadcrum .text h1 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Beadcrum .text p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*  */
+.Pushing {
+    margin-top: -150px;
+}
+
+.Pushing .card:hover {
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Justing */
+.Just {
+    padding: 30px 0 50px 0;
+}
+
+.Just .Txt {
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737372105/Energy/Group_48097670_ugau4c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Just .Justing {
+    font-size: 30px;
+    font-weight: 600 !important;
+    line-height: 1.5;
+}
+
+.Just p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.Just .Txt .highlight {
+    font-size: 20px;
+    color: #F8861A;
+    font-weight: 500;
+}
+
+.Story {
+    padding: 100px 0 100px 0px;
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355394/Energy/Group_33_pvot15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+.Story .Emmet h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Story .Emmet p {
+    font-size: 1rem;
+    line-height: 2;
+    color: #fff;
+}
+
+.Emmeting {
+    position: relative;
+    left: 230px;
+}
+
+.Story .Emmeting h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Story .Emmeting p {
+    font-size: 1rem;
+    line-height: 2;
+    color: #fff;
+}
+
+.Story .Emmeting img {
+    width: 70%;
+}
+
+/* vISION */
+
+.hero-section {
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355398/Energy/Group_48097667_qwh4zm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 80px 0px 0px 0px;
+    width: 100%;
+}
+
+.quote-card {
+    background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737620532/Energy/Group_48097674_mydhkx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -200px;
+    color: #000;
+    width: 100%;
+    border-radius: 1px;
+    height: 400px;
+    padding: 100px 80px;
+}
+
+.quote-card p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.quote-card h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    line-height: 2;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.trustpilot {
+    padding: 50px 0 0 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.trustpilot p {
+    padding: 20px 0 0 0;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.Testimonials {
+    background-color: #F9F9F9;
+    padding: 200px 0 50px 0;
+}
+
+.join-us-section {
+    background-color: #FFF8F1;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.join-us-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.join-us-section .text {
+    background-color: #F8861A;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.join-us-section .text:hover {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.join-button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-investor,
+.btn-solar {
+    background-color: #c87d31;
+    color: white;
+}
+
+.btn-investor:hover,
+.btn-solar:hover {
+    background-color: #a86027;
+    /* Darker gold for hover effect */
+}
+
+.btn-oem {
+    background-color: white;
+    border: 2px solid #d1d1d1;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-oem:hover {
+    background-color: #f5f5f5;
+}
+
+*/

@@ -15,4 +15,8 @@ class HomePageController extends Controller
     {
         return view('Frontend.index');
     }
+    public function about()
+    {
+        return view('Frontend.about');
+    }
 }

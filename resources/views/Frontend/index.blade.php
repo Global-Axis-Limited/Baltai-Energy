@@ -262,24 +262,7 @@
         </div>
     </div>
 </section>
-<section style="background: #000; padding: 100px;">
-<div class="mb-8 max-w-3xl">
-              <div class="">
-                <p class="text-darkGrey text-base md:text-lg mb-8 leading-7">
-                <div><span class="opacity-0 ">We’re<!-- --> </span><span class="opacity-0 ">the<!-- --> </span><span
-                    class="opacity-0 ">architects<!-- --> </span><span class="opacity-0 ">of<!-- --> </span><span
-                    class="opacity-0 ">digital<!-- --> </span><span class="opacity-0 ">excellence<!-- --> </span><span
-                    class="opacity-0 ">across<!-- --> </span><span class="opacity-0 ">industries.<!-- --> </span><span
-                    class="opacity-0 ">We<!-- --> </span><span class="opacity-0 ">redefine<!-- --> </span><span
-                    class="opacity-0 ">business<!-- --> </span><span class="opacity-0 ">with<!-- --> </span><span
-                    class="opacity-0 ">cutting-edge<!-- --> </span><span class="opacity-0 ">digital<!-- --> </span><span
-                    class="opacity-0 ">strategies<!-- --> </span><span class="opacity-0 ">that<!-- --> </span><span
-                    class="opacity-0 ">invokes<!-- --> </span><span class="opacity-0 ">sector-wide<!-- --> </span><span
-                    class="opacity-0 ">transformation.<!-- --> </span></div>
-                </p>
-              </div>
-            </div>
-</section>
+
 <section class="solutions-section">
     <div class="container">
         <div class="row">
@@ -325,12 +308,16 @@
 
 <!-- Trusted Partners Section -->
 <section class="trusted-partners">
-    <h2>Trusted Partners</h2>
-    <div class="d-flex justify-content-center flex-wrap">
-        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
-        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
-        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" draggable="false" alt="Partner 3">
-        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" draggable="false" alt="Partner 4">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-left">Trusted Partners</h2>
+            <div class="d-flex justify-content-center flex-wrap">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" draggable="false" alt="Partner 3">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" draggable="false" alt="Partner 4">
+            </div>
+        </div>
     </div>
 </section>
 

@@ -56,12 +56,12 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-center flex-grow-1">
                             <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
+                                <a href="{{route('index')}}" class="nav-link" class="routers">
                                     Home
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
+                                <a href="{{route('about')}}" class="nav-link" class="routers">
                                     About Us
                                 </a>
                             </li>
