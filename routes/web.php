@@ -9,3 +9,4 @@ Route::get('/solution/residential', [App\Http\Controllers\HomePageController::cl
 Route::get('/solution/business', [App\Http\Controllers\HomePageController::class, 'business'])->name('business');
 Route::get('/solution/industrial', [App\Http\Controllers\HomePageController::class, 'industrial'])->name('industrial');
 Route::get('/faqs', [App\Http\Controllers\HomePageController::class, 'faqs'])->name('faqs');
+Route::get('/contact', [App\Http\Controllers\HomePageController::class, 'contact'])->name('contact');

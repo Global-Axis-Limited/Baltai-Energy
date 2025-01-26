@@ -105,7 +105,7 @@
 
                         <div class="login-div space-x-4">
                             <i class="fas fa-search"></i>
-                            <a href="#" class="btn-signup">Contact Us</a>
+                            <a href="{{route('contact')}}" class="btn-signup">Contact Us</a>
                         </div>
                     </div>
                 </div>
