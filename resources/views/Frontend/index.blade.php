@@ -71,12 +71,13 @@
             <div class="col-lg-4">
                 <div class="Txt">
                     <div class="highlight mb-3">Key Benefits of Going Solar:</div>
-                    <h5 class="Just fw-bold mt-2">The Bright Advantage with <br>Baltai Energy</h5>
+                    <h5 class="Just fw-bold mt-2 text-anime-wave">The Bright Advantage with <br>Baltai Energy</h5>
                 </div>
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-7 mb-4">
-                <p class="E">
+                <p class="E wow animate__fadeInUp animate__animated"
+                                            data-wow-duration="1.5s" data-wow-delay="0s">
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
                 </p>
                 <div class="my-4">
@@ -86,7 +87,8 @@
             <div class="row g-2 mt-5">
                 <!-- Card 1 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card effec-icon animate__zoomIn wow animate__animated"
+                                                data-wow-duration="1.5s">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_438_fqtouq.png" alt="Reliability Icon">
@@ -95,7 +97,7 @@
                         <div class="card-body">
                             <h5 class="fw-bold">Reliability</h5>
                             <ul>
-                                <li>24/7 Uninterrupted Power Supply</li>
+                                <li >24/7 Uninterrupted Power Supply</li>
                                 <li>Never worry about blackouts again</li>
                             </ul>
                         </div>
@@ -105,7 +107,8 @@
 
                 <!-- Card 2 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card effec-icon animate__zoomIn wow animate__animated"
+                                                data-wow-duration="1.5s">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_448_lijcit.png" alt="Cost Savings Icon">
@@ -124,7 +127,8 @@
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card effec-icon animate__zoomIn wow animate__animated"
+                                                data-wow-duration="1.5s">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4138_mkquu6.png" alt="Sustainability Icon">
@@ -172,7 +176,8 @@
             <div class="col-lg-6">
 
                 <h1>Why Choose Baltai Energy?</h1>
-                <p>
+                <p class=" wow animate__fadeInUp animate__animated"
+                                    data-wow-duration="1s" data-wow-delay="0s">
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy
                 </p>
             </div>
@@ -229,7 +234,8 @@
             <div class="col-lg-5 Justt ">
                 <p class="quote-text">“Leading Sustainable Energy Provider”</p>
                 <h1 class="main-heading">Providing Innovative and Sustainable Solutions</h1>
-                <p>
+                <p class="wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
+                            data-wow-delay="0s">
                     We are a Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team
                     and exclusive partnerships with top European and Asian Engineering OEMs. We provide Off-grid and
                     On-grid solutions that cover every capacity or scale: from residential, to commercial, to
@@ -237,7 +243,7 @@
                 </p>
                 <div class="row mt-4">
                     <div class="col-md-4 icon-text">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_18_psqrxy.png" alt="Sustainability Icon">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_18_psqrxy.png" class="effec-icon" alt="Sustainability Icon">
                         <p class="mt-2">Environmental <br> Sustainability</p>
                     </div>
                     <div class="col-md-4 icon-text">
@@ -310,7 +316,8 @@
 <section class="trusted-partners">
     <div class="container">
         <div class="row">
-            <h2 class="text-left">Trusted Partners</h2>
+            <h2 class="text-left  wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
+                                    data-wow-delay="0s">Trusted Partners</h2>
             <div class="d-flex justify-content-center flex-wrap">
                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
@@ -347,7 +354,7 @@
                     <div class="row g-3">
                         <!-- Card 1 -->
                         <div class="col-md-4">
-                            <div class="bg-warning text-white p-4 rounded">
+                            <div class="bg-warning text-white p-4 rounded" data-aos="fade-down-right">
                                 <h4 class="fw-bold">24/7 Reliable Power Starts Here!</h4>
                                 <p class="mt-2">
                                     Say goodbye to power outages and high bills. Enjoy uninterrupted electricity powered by the sun.
@@ -356,7 +363,7 @@
                         </div>
                         <!-- Card 2 -->
                         <div class="col-md-4">
-                            <div class="bg-white p-4 rounded">
+                            <div class="bg-white p-4 rounded" data-aos="fade-up-left">
                                 <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
                                 <p class="mt-2">
                                     Discover how much you could save by switching to solar energy. It’s time to power your home and wallet.
@@ -365,7 +372,7 @@
                         </div>
                         <!-- Card 3 -->
                         <div class="col-md-4">
-                            <div class="bg-white p-4 rounded">
+                            <div class="bg-white p-4 rounded" data-aos="fade-down-left">
                                 <h4 class="fw-bold">Solar for Every Budget!</h4>
                                 <p class="mt-2">
                                     With flexible financing plans, owning solar power has never been easier. Start today with no upfront cost.
@@ -384,8 +391,8 @@
         <div class="row align-items-center">
             <!-- Left: Form Section -->
             <div class="col-md-6">
-                <div class="calculator-form p-4 rounded">
-                    <h3 class="fw-bold text-white">Quick Energy Calculator</h3>
+                <div class="calculator-form p-4 rounded" data-aos="zoom-out-right">
+                    <h3 class="fw-bold text-white text-anime-wave">Quick Energy Calculator</h3>
                     <p class="text-white">Estimate Your Solar Savings</p>
                     <form>
                         <!-- Monthly Electricity Bill -->
@@ -438,7 +445,9 @@
 
             <!-- Right: Images -->
             <div class="col-md-6">
-                <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-column gap-3" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737284084/Energy/Group_48097585_ve6ahj.jpg" draggable="false" alt="Solar Engineer" class="img-fluid rounded">
                 </div>
             </div>
@@ -452,7 +461,9 @@
         <div class="row mt-5">
             <!-- Card 1 -->
             <div class="col-md-4 mb-4">
-                <div class="card">
+                <div class="card" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" draggable="false" class="card-img-top" alt="Solar Home">
                     <div class="card-body">
                         <h5 class="card-title">5 Reasons to Switch to Solar Today</h5>
@@ -463,7 +474,8 @@
             </div>
             <!-- Card 2 -->
             <div class="col-md-4 mb-4">
-                <div class="card">
+                <div class="card"  data-aos="fade-up"
+     data-aos-duration="3000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
                     <div class="card-body">
                         <h5 class="card-title">Sustainable Future with Solar</h5>
@@ -474,7 +486,9 @@
             </div>
             <!-- Card 3 -->
             <div class="col-md-4 mb-4">
-                <div class="card">
+                <div class="card" data-aos="fade-left"
+                data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" draggable="false" class="card-img-top" alt="Harnessing the Sun">
                     <div class="card-body">
                         <h5 class="card-title">Harnessing the Sun</h5>

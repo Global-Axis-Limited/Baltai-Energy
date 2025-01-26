@@ -14,6 +14,12 @@ body {
     background-repeat: no-repeat;
 }
 
+header nav .navbar-nav .nav-item .active {
+    color: #fff !important;
+    border-top: 1px solid #000;
+}
+
+
 button a {
     text-decoration: none;
     color: #fff;
@@ -190,6 +196,21 @@ header nav .navbar-toggler:active {
     box-shadow: none !important;
 }
 
+header nav .dropdown:hover .dropdown-menu {
+    display: block !important;
+    visibility: visible !important;
+}
+
+header nav .dropdown:hover .dropdown-menu li {
+    line-height: 3 !important;
+    font-size: 15px !important;
+}
+
+header nav .dropdown:hover .dropdown-menu li i {
+    color: #F8861A;
+    font-size: 18px !important;
+}
+
 /********Nav Mobile Offcanvas********/
 header nav .offcanvas {
     width: 340px;
@@ -275,11 +296,6 @@ header nav .offcanvas-header button i {
 
     header nav .navbar-nav {
         margin-top: -5px;
-    }
-
-    header nav .desktop-dropdown {
-        display: none !important;
-        visibility: hidden !important;
     }
 
     header nav .dropdown:hover .dropdown-menu {
@@ -613,7 +629,7 @@ header nav .offcanvas-header button i {
     }
 
     .Benefit .card {
-        margin-bottom: 80px;
+        margin-bottom: 20px;
     }
 
     .Benefit {
@@ -644,7 +660,7 @@ header nav .offcanvas-header button i {
 
 .faqPage {
     width: 100%;
-    padding: 50px 0 0 0;
+    padding: 50px 0 50px 0;
     font-family: "Montserrat", serif;
 
 }
@@ -1508,8 +1524,55 @@ textarea:focus {
 }
 
 .Beadcrum .text h1 {
-    text-align: left;
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .Beadcrum .text h1 {
+        font-size: 25px;
+    }
+
+    .Hello .float-end {
+        display: none;
+    }
+
+    .align img {
+        width: 80% !important;
+        margin-bottom: 30px;
+        display: block;
+        margin: auto;
+    }
+
+    .Components .features h1 {
+        font-size: 25px !important;
+        font-weight: 600;
+    }
+
+    .installation-title {
+        text-align: left;
+        font-size: 1.5rem !important;
+        font-weight: bold;
+        margin-bottom: 20px !important;
+    }
+
+    .card-custom {
+        height: auto !important;
+    }
+
+    .Components .features {
+        padding: 25px !important;
+        background: #565052;
+        color: #fff;
+        border-radius: 10px;
+        height: auto !important;
+    }
+
+}
+
+.Beadcrum .text h4 {
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
 }
@@ -1519,6 +1582,11 @@ textarea:focus {
     color: #fff;
     font-size: 13px;
     font-weight: 500;
+}
+
+.Beadcrum .allow img {
+    width: 100px;
+    padding: 0 0 10px 0;
 }
 
 /*  */
@@ -1678,6 +1746,7 @@ textarea:focus {
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .join-us-section .text {
     background-color: #F8861A;
     padding: 30px 0;
@@ -1687,6 +1756,7 @@ textarea:focus {
     color: white;
     cursor: pointer;
 }
+
 .join-us-section .text:hover {
     background-color: #fff;
     padding: 30px 0;
@@ -1727,4 +1797,314 @@ textarea:focus {
     background-color: #f5f5f5;
 }
 
-*/
+/**Communication**/
+.communication {
+    padding: 100px 0px 100px 0px;
+    background-color: #FCFCFE;
+}
+
+.communication .el-icon-message img {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.communication .thread-text {
+    padding: 0px 0px 0px 40px;
+}
+
+.communication .thread-text h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #A7A5A3;
+    padding: 0px 0px 5px 0px;
+}
+
+.communication .thread-text h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.communication .thread-text p {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #000;
+}
+
+
+.communication .thread-text button {
+    margin-top: 40px !important;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    border-radius: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.communication .thread-text button:hover {
+    background-color: #70418F;
+    color: #fff;
+}
+
+.communication .Just {
+    padding: 0 0 0 0 !important;
+}
+
+.communication .el-icon-message .pulse {
+    animation: pulse 3s infinite ease-in-out alternate;
+}
+
+@media (max-width:1200px) {
+    .communication .thread-text {
+        padding: 0px 0px 0px 1px;
+    }
+
+    .communication .el-icon-message img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width:990px) {
+    .Beadcrum {
+        padding: 150px 0px 80px 0px;
+        background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355408/Energy/Group_48097580_r4eaky.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Montserrat", serif;
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width:756px) {
+    .communication .thread-text h1 {
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .communication .thread-text h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .communication .Just {
+        padding: 50px 0 0 0 !important;
+        display: block !important;
+    }
+}
+
+@media (max-width:570px) {
+    .communication .thread-text button {
+        margin-top: 40px !important;
+        display: block;
+        margin: auto;
+        padding: 10px 20px 10px 20px;
+        width: 80%;
+    }
+
+    .communication .thread-text h1 {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+        padding: 0px 0px 40px 0px;
+    }
+}
+
+@media (max-width:520px) {
+    .communication {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+/**Communication Ends**/
+
+.Hello {
+    padding: 80px 0;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+}
+
+.Hello .align img {
+    width: 100%;
+}
+
+.Hello button {
+    margin-top: -30px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    background: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    color: #FEC31C;
+}
+
+.Hello button:hover {
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    color: #fff;
+}
+
+/* Components */
+.Components {
+    padding: 80px 0;
+    background: #F9F9F9;
+}
+
+.Components .features {
+    padding: 40px;
+    background: #565052;
+    color: #fff;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.Components .features h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Components .features ul li {
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 3;
+}
+
+.installation-section {
+    padding: 50px 15px;
+}
+
+.installation-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card-custom {
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.card-custom h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-custom p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.number-circle {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: white;
+    color: #e69500;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* SeNDING */
+
+.SeNDING {
+    padding: 80px 0;
+    background: #FEF9ED;
+}
+
+.SeNDING .el-icon-message img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.SeNDING h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.SeNDING p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.SeNDING .form-group .form-control {
+    border: none;
+    background-color: #fff;
+    padding: 25px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    color: #000;
+}
+
+.SeNDING .form-group .btn-primary {
+    border: none;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.faq-image {
+    animation: zoomInFade 1.5s ease-out forwards, rotateIn 3s ease-in-out infinite;
+}
+
+@keyframes zoomInFade {
+    0% {
+        transform: scale(0.5);
+
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /* Complete a full rotation */
+    }
+}

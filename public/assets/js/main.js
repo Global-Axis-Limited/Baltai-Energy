@@ -1,3 +1,4 @@
+AOS.init();
 
 // Header//
 const nav = document.querySelector('.header')

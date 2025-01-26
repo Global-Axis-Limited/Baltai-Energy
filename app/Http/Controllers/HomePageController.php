@@ -19,4 +19,26 @@ class HomePageController extends Controller
     {
         return view('Frontend.about');
     }
+    public function solution()
+    {
+        return view('Frontend.solution.solution');
+    }
+    public function residential()
+    {
+        return view('Frontend.solution.residential_solutions');
+    }
+    public function business()
+    {
+        return view('Frontend.solution.business_solution');
+    }
+    public function industrial()
+    {
+        return view('Frontend.solution.industrial_solutions');
+    }
+    public function faqs()
+    {
+        return view('Frontend.faqs');
+    }
+    
+    
 }

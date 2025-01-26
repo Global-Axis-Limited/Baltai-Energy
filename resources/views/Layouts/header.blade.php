@@ -56,19 +56,24 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-center flex-grow-1">
                             <li class="nav-item">
-                                <a href="{{route('index')}}" class="nav-link" class="routers">
+                                <a href="{{route('index')}}" class="nav-link" class="routers" {{ (request()->is('/')) ? 'active' : '' }}>
                                     Home
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('about')}}" class="nav-link" class="routers">
+                                <a href="{{route('about')}}" class="nav-link" class="routers" {{ (request()->is('about')) ? 'active' : '' }}>
                                     About Us
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
-                                    Solution
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="{{route('solution')}}" {{ (request()->is('solution*')) ? 'active' : '' }}>
+                                Solution
                                 </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{{route('residential')}}" class="dropdown-item"><i class="bi bi-house"></i>  Residential Solutions</a></li>
+                                    <li><a href="{{route('business')}}" class="dropdown-item"><i class="bi bi-house-heart"></i> Business Solutions</a></li>
+                                    <li><a href="{{route('industrial')}}" class="dropdown-item"><i class="bi bi-houses"></i> Industrial Solutions</a></li>
+                                </ul>
                             </li>
                             <!-- -->
                             <li class="nav-item">
