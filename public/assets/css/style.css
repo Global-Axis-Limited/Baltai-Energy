@@ -2053,7 +2053,15 @@ textarea:focus {
         font-weight: 600;
         line-height: 1.5;
     }
-    
+    .contact-section h2 {
+        font-size: 25px !important;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .contact-details {
+        padding: 20px !important;
+    }
+
 }
 
 .SeNDING h1 {
@@ -2117,4 +2125,90 @@ textarea:focus {
         transform: rotate(360deg);
         /* Complete a full rotation */
     }
+}
+
+.contact-section {
+    background-color: #ffff;
+    padding: 80px 0;
+}
+
+.contact-details {
+    background-color: #565052;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+}
+.contact-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.contact-section .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.contact-section h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact-section .Just {
+    color: #ffffff;
+    padding: 20px;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    line-height: 2;
+}
+.contact-section .form-control {
+    border: 1px solid #F4F4F4;
+    background-color: #FFF;
+    padding: 20px 20px !important;
+    border-radius: 5px;
+    height: auto !important;
+}
+
+.contact-section .form-controll {
+    border: 1px solid #F4F4F4;
+    background-color: #FFF;
+    padding: 30px 20px !important;
+    border-radius: 5px;
+}
+
+.form-control {
+    border-radius: 6px;
+    height: 50px;
+}
+
+.form-control::placeholder {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.btn-submit {
+    background-color: #F29620 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-radius: 6px;
+    float: right;
+    padding: 15px 20px;
+}
+
+.btn-submit:hover {
+    background-color: #b48845;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.social-icons a:hover {
+    color: #c99850;
 }

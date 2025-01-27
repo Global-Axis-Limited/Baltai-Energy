@@ -15,7 +15,7 @@ class HomePageController extends Controller
     {
         return view('Frontend.index');
     }
-    
+
     public function about()
     {
         return view('Frontend.about');
@@ -50,5 +50,9 @@ class HomePageController extends Controller
     {
         return view('Frontend.contact');
     }
-    
+
+    public function ssn()
+    {
+        return view('Frontend.our-ssn');
+    }
 }
