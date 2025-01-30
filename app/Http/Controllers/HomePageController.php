@@ -71,6 +71,10 @@ class HomePageController extends Controller
         return view('Frontend.finance');
     }
 
+    public function partners()
+    {
+        return view('Frontend.partners');
+    }
     
     
 }

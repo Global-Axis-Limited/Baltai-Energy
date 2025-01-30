@@ -187,36 +187,36 @@
             <div class="col-lg-6"></div>
             <div class="col-lg-6">
                 <div class="faq-box">
-                    <details  data-aos="fade-up"
-     data-aos-duration="1000">
+                    <details data-aos="fade-up"
+                        data-aos-duration="1000">
                         <summary>Best Quality Equipment?</summary>
                         <div class="faq-content">
                             <p> We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish. </p>
                         </div>
                     </details>
-                    <details  data-aos="fade-up"
-     data-aos-duration="2000">
+                    <details data-aos="fade-up"
+                        data-aos-duration="2000">
                         <summary>Professional Expertise?</summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details  data-aos="fade-up"
-     data-aos-duration="3000">
+                    <details data-aos="fade-up"
+                        data-aos-duration="3000">
                         <summary> Tailor-Made Solutions </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details  data-aos="fade-up"
-     data-aos-duration="3000">
+                    <details data-aos="fade-up"
+                        data-aos-duration="3000">
                         <summary> Why Choose Baltai Energy? </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details  data-aos="fade-up"
-     data-aos-duration="1000">
+                    <details data-aos="fade-up"
+                        data-aos-duration="1000">
                         <summary> Tailor-Made Solutions </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
@@ -241,11 +241,11 @@
             <!-- Left Content -->
             <div class="col-lg-5 Justt ">
                 <p class="quote-text" data-aos="fade-right"
-     data-aos-duration="1000">“Leading Sustainable Energy Provider”</p>
+                    data-aos-duration="1000">“Leading Sustainable Energy Provider”</p>
                 <h1 class="main-heading" data-aos="fade-up"
-     data-aos-duration="2000">Providing Innovative and Sustainable Solutions</h1>
+                    data-aos-duration="2000">Providing Innovative and Sustainable Solutions</h1>
                 <p class="" data-aos="fade-down"
-     data-aos-duration="3000">
+                    data-aos-duration="3000">
                     We are a Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team
                     and exclusive partnerships with top European and Asian Engineering OEMs. We provide Off-grid and
                     On-grid solutions that cover every capacity or scale: from residential, to commercial, to
@@ -253,19 +253,19 @@
                 </p>
                 <div class="row mt-4">
                     <div class="col-md-4 icon-text" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_18_psqrxy.png" class="effec-icon" alt="Sustainability Icon">
                         <p class="mt-2">Environmental <br> Sustainability</p>
                     </div>
                     <div class="col-md-4 icon-text" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+                        data-aos-anchor-placement="bottom-bottom">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_32_fae3my.png" alt="Personalized Solutions Icon">
                         <p class="mt-2">Personalized <br> Solutions</p>
                     </div>
                     <div class="col-md-4 icon-text" data-aos="flip-right"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_33_atqnrr.png" alt="High Performance Icon">
                         <p class="mt-2">High <br> Performance</p>
                     </div>
@@ -337,22 +337,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
-                            <!-- <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_3_2_cnupbu.png" class="d-block mx-5" alt="Partner 3">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237625/unnamed_4_2_zyiezd.png" class="d-block mx-5" alt="Partner 4">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/image_8_mtt5j1.png" class="d-block mx-5" alt="Partner 4">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_6_1_j2cstz.png" class="d-block mx-5" alt="Partner 4"> -->
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                         </div>
                     </div>
                 </div>

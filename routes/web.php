@@ -14,3 +14,4 @@ Route::get('/ssn/our_ssn', [App\Http\Controllers\HomePageController::class, 'our
 Route::get('/careers/career', [App\Http\Controllers\HomePageController::class, 'career'])->name('career');
 Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
+Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');

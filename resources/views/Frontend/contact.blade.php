@@ -48,23 +48,23 @@
                 <form class="Just">
                     <div class="mb-4">
                         <label for="fullName" class="form-label mb-3">Full Name</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Your full name">
+                        <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
                     </div>
                     <div class="mb-4">
                         <label for="emailAddress" class="form-label mb-3">Email Address</label>
-                        <input type="email" class="form-control" id="emailAddress" placeholder="Your email address">
+                        <input type="email" class="form-control" id="emailAddress" placeholder="Your email address" required>
                     </div>
                     <div class="mb-4">
                         <label for="phoneNumber" class="form-label mb-3">Phone Number</label>
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="Your phone number">
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="Your phone number" required>
                     </div>
                     <div class="mb-4">
                         <label for="message" class="form-label mb-3">Message</label>
-                        <textarea class="form-control" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea>
+                        <textarea class="form-control" id="message" cols="30" rows="5" placeholder="Write your message here" required></textarea>
                     </div>
                     <div class="mb-4">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="notARobot">
+                            <input class="form-check-input" type="checkbox" id="notARobot" required>
                             <label class="form-check-label" for="notARobot">
                                 I'm not a robot
                             </label>

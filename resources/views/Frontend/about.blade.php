@@ -125,7 +125,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="Emmet" data-aos="zoom-in" data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    data-aos-easing="ease-in-sine">
                     <h5 class="fw-bold mb-4">Our Story</h5>
                     <p class="mb-4">
                         Baltai Energy was born out of the need to make reliable power an accessible daily necessity rather than a remote luxury, because we believe in a future where energy is clean, affordable, and accessible to all Nigerians. 
@@ -160,17 +160,17 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="quote-card" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <h5>Our Vision</h5>
                     <p>To be Nigeria's foremost provider of innovative, affordable, and reliable solar energy solutions, empowering communities and driving sustainable development.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="quote-card" data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500">
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500">
                     <h5>Our Mission</h5>
                     <p>To accelerate Nigeria's transition to renewable energy by delivering innovative and accessible solar solutions that empower communities, strengthen energy independence, and enhance the nation's power infrastructure for a brighter, sustainable future.</p>
                 </div>
@@ -278,22 +278,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
-                            <!-- <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_3_2_cnupbu.png" class="d-block mx-5" alt="Partner 3">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237625/unnamed_4_2_zyiezd.png" class="d-block mx-5" alt="Partner 4">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/image_8_mtt5j1.png" class="d-block mx-5" alt="Partner 4">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_6_1_j2cstz.png" class="d-block mx-5" alt="Partner 4"> -->
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                         </div>
                     </div>
                 </div>
@@ -318,10 +318,11 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="text">
-                    <a href="{{route('career')}}"></a>
-                    Solar Financing
-                </div>
+                <a href="{{route('finance')}}" style="text-decoration: none;">
+                    <div class="text">
+                        Solar Financing
+                    </div>
+                </a>
             </div>
         </div>
     </div>

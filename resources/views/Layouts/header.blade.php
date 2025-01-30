@@ -77,7 +77,7 @@
                             </li>
                             <!-- -->
                             <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
+                                <a href="{{route('partners')}}" class="nav-link" class="routers">
                                     Partners
                                 </a>
                             </li>
