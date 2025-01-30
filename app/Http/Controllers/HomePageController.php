@@ -51,8 +51,26 @@ class HomePageController extends Controller
         return view('Frontend.contact');
     }
 
-    public function ssn()
+    public function our_ssn()
     {
-        return view('Frontend.our-ssn');
+        return view('Frontend.ssn.our_ssn');
     }
+
+    public function career()
+    {
+        return view('Frontend.careers.career');
+    }
+
+    public function baltai()
+    {
+        return view('Frontend.careers.baltai_learning');
+    }
+
+    public function finance()
+    {
+        return view('Frontend.finance');
+    }
+
+    
+    
 }

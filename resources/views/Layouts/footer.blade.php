@@ -59,13 +59,13 @@
                             <a href="{{route('index')}}">Home</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="{{route('about')}}">About Us</a>
                         </li>
                         <li>
                             <a href="#">Our Team</a>
                         </li>
                         <li>
-                            <a href="#">FAQs</a>
+                            <a href="{{route('faqs')}}">FAQs</a>
                         </li>
                         <li>
                             <a href="#">Partners</a>
@@ -77,7 +77,7 @@
                             <a href="#">Insights</a>
                         </li>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="{{route('contact')}}">Contact Us</a>
                         </li>
                     </ul>
                 </div>

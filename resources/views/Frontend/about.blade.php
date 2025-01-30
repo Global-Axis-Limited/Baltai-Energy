@@ -284,17 +284,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="text">
+                <div class="text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Investor
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="text">
+                <div class="text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                     OEM
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="text">
+                    <a href="{{route('career')}}"></a>
                     Solar Financing
                 </div>
             </div>
@@ -305,6 +306,113 @@
         <button class="join-button btn-oem"></button>
         <button class="join-button btn-solar">Solar Financing</button>
     </div> -->
+</div>
+<!-- Vertically centered modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Investor Form</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mb-4 mt-2">
+                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter email address" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
+                                <div class="input-group">
+                                    <input type="tel" class="form-control" placeholder="Enter phone number" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Message</label>
+                                <div class="input-group">
+                                    <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">OEM Form</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mb-4 mt-2">
+                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter email address" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
+                                <div class="input-group">
+                                    <input type="tel" class="form-control" placeholder="Enter phone number" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Message</label>
+                                <div class="input-group">
+                                    <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 @endsection

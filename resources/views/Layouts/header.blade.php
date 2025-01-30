@@ -82,7 +82,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
+                                <a href="{{route('our_ssn')}}" class="nav-link" class="routers">
                                     SSN
                                 </a>
                             </li>
@@ -91,9 +91,8 @@
                                     Careers
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Features 1</a></li>
-                                    <li><a href="#" class="dropdown-item">Features 2</a></li>
-                                    <li><a href="#" class="dropdown-item">Features 3</a></li>
+                                    <li><a href="{{route('baltai')}}" class="dropdown-item">Baltai Learning</a></li>
+                                    <li><a href="{{route('career')}}" class="dropdown-item">SRM</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">

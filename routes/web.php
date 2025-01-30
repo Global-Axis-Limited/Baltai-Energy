@@ -10,4 +10,7 @@ Route::get('/solution/business', [App\Http\Controllers\HomePageController::class
 Route::get('/solution/industrial', [App\Http\Controllers\HomePageController::class, 'industrial'])->name('industrial');
 Route::get('/faqs', [App\Http\Controllers\HomePageController::class, 'faqs'])->name('faqs');
 Route::get('/contact', [App\Http\Controllers\HomePageController::class, 'contact'])->name('contact');
-Route::get('/ssn/our-ssn', [App\Http\Controllers\HomePageController::class, 'our-ssn'])->name('our-ssn');
+Route::get('/ssn/our_ssn', [App\Http\Controllers\HomePageController::class, 'our_ssn'])->name('our_ssn');
+Route::get('/careers/career', [App\Http\Controllers\HomePageController::class, 'career'])->name('career');
+Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
+Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');

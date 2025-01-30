@@ -87,8 +87,9 @@
             <div class="row g-2 mt-5">
                 <!-- Card 1 -->
                 <div class="col-md-3">
-                    <div class="card effec-icon animate__zoomIn wow animate__animated"
-                                                data-wow-duration="1.5s">
+                    <div class="card" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_438_fqtouq.png" alt="Reliability Icon">
@@ -107,8 +108,8 @@
 
                 <!-- Card 2 -->
                 <div class="col-md-3">
-                    <div class="card effec-icon animate__zoomIn wow animate__animated"
-                                                data-wow-duration="1.5s">
+                    <div class="card" data-aos="fade-up"
+     data-aos-duration="3000">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_448_lijcit.png" alt="Cost Savings Icon">
@@ -127,8 +128,9 @@
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
-                    <div class="card effec-icon animate__zoomIn wow animate__animated"
-                                                data-wow-duration="1.5s">
+                    <div class="card"  data-aos="fade-down"
+                data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4138_mkquu6.png" alt="Sustainability Icon">
@@ -147,7 +149,9 @@
 
                 <!-- Card 4 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card"  data-aos="fade-left"
+                data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4338_qq3uai.png" alt="Easy Process Icon">
