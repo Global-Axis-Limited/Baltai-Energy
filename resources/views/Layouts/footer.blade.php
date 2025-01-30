@@ -68,10 +68,10 @@
                             <a href="{{route('faqs')}}">FAQs</a>
                         </li>
                         <li>
-                            <a href="#">Partners</a>
+                            <a href="{{route('partners')}}">Partners</a>
                         </li>
                         <li>
-                            <a href="#">Solution</a>
+                            <a href="{{route('solution')}}">Solution</a>
                         </li>
                         <li>
                             <a href="#">Insights</a>

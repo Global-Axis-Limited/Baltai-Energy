@@ -41,7 +41,7 @@
         </div>
         <nav class="navbar navbar-expand-lg fixed-top" id="header-scroll">
             <div class="container">
-                <a href="#" class="navbar-brand">
+                <a href="{{route('index')}}" class="navbar-brand">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736857400/Energy/p_1_w9bqwe.png" draggable="false" alt="">
                 </a>
                 <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

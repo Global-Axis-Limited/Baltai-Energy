@@ -326,11 +326,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="d-flex justify-content-center gap-3">
-        <button class="join-button btn-investor">Investor</button>
-        <button class="join-button btn-oem"></button>
-        <button class="join-button btn-solar">Solar Financing</button>
-    </div> -->
 </div>
 <!-- Vertically centered modal -->
 
