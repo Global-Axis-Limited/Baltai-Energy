@@ -75,9 +75,8 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-7 mb-4">
-                <p class="E wow animate__fadeInUp animate__animated"
-                                            data-wow-duration="1.5s" data-wow-delay="0s">
+            <div class="col-lg-7 mb-4" data-aos="zoom-in-left">
+                <p class="E">
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
                 </p>
                 <div class="my-4">
@@ -88,8 +87,8 @@
                 <!-- Card 1 -->
                 <div class="col-md-3">
                     <div class="card" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_438_fqtouq.png" alt="Reliability Icon">
@@ -98,7 +97,7 @@
                         <div class="card-body">
                             <h5 class="fw-bold">Reliability</h5>
                             <ul>
-                                <li >24/7 Uninterrupted Power Supply</li>
+                                <li>24/7 Uninterrupted Power Supply</li>
                                 <li>Never worry about blackouts again</li>
                             </ul>
                         </div>
@@ -109,7 +108,7 @@
                 <!-- Card 2 -->
                 <div class="col-md-3">
                     <div class="card" data-aos="fade-up"
-     data-aos-duration="3000">
+                        data-aos-duration="3000">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_448_lijcit.png" alt="Cost Savings Icon">
@@ -128,9 +127,9 @@
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
-                    <div class="card"  data-aos="fade-down"
-                data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    <div class="card" data-aos="fade-down"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4138_mkquu6.png" alt="Sustainability Icon">
@@ -149,9 +148,9 @@
 
                 <!-- Card 4 -->
                 <div class="col-md-3">
-                    <div class="card"  data-aos="fade-left"
-                data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    <div class="card" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4338_qq3uai.png" alt="Easy Process Icon">
@@ -181,38 +180,43 @@
 
                 <h1>Why Choose Baltai Energy?</h1>
                 <p class=" wow animate__fadeInUp animate__animated"
-                                    data-wow-duration="1s" data-wow-delay="0s">
+                    data-wow-duration="1s" data-wow-delay="0s">
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy
                 </p>
             </div>
             <div class="col-lg-6"></div>
             <div class="col-lg-6">
                 <div class="faq-box">
-                    <details>
+                    <details  data-aos="fade-up"
+     data-aos-duration="1000">
                         <summary>Best Quality Equipment?</summary>
                         <div class="faq-content">
                             <p> We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish. </p>
                         </div>
                     </details>
-                    <details>
+                    <details  data-aos="fade-up"
+     data-aos-duration="2000">
                         <summary>Professional Expertise?</summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details>
+                    <details  data-aos="fade-up"
+     data-aos-duration="3000">
                         <summary> Tailor-Made Solutions </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details>
+                    <details  data-aos="fade-up"
+     data-aos-duration="3000">
                         <summary> Why Choose Baltai Energy? </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
-                    <details>
+                    <details  data-aos="fade-up"
+     data-aos-duration="1000">
                         <summary> Tailor-Made Solutions </summary>
                         <div class="faq-content">
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
@@ -236,25 +240,32 @@
             <div class="col-lg-1"></div>
             <!-- Left Content -->
             <div class="col-lg-5 Justt ">
-                <p class="quote-text">“Leading Sustainable Energy Provider”</p>
-                <h1 class="main-heading">Providing Innovative and Sustainable Solutions</h1>
-                <p class="wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
-                            data-wow-delay="0s">
+                <p class="quote-text" data-aos="fade-right"
+     data-aos-duration="1000">“Leading Sustainable Energy Provider”</p>
+                <h1 class="main-heading" data-aos="fade-up"
+     data-aos-duration="2000">Providing Innovative and Sustainable Solutions</h1>
+                <p class="" data-aos="fade-down"
+     data-aos-duration="3000">
                     We are a Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team
                     and exclusive partnerships with top European and Asian Engineering OEMs. We provide Off-grid and
                     On-grid solutions that cover every capacity or scale: from residential, to commercial, to
                     industrial applications.
                 </p>
                 <div class="row mt-4">
-                    <div class="col-md-4 icon-text">
+                    <div class="col-md-4 icon-text" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_18_psqrxy.png" class="effec-icon" alt="Sustainability Icon">
                         <p class="mt-2">Environmental <br> Sustainability</p>
                     </div>
-                    <div class="col-md-4 icon-text">
+                    <div class="col-md-4 icon-text" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_32_fae3my.png" alt="Personalized Solutions Icon">
                         <p class="mt-2">Personalized <br> Solutions</p>
                     </div>
-                    <div class="col-md-4 icon-text">
+                    <div class="col-md-4 icon-text" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_33_atqnrr.png" alt="High Performance Icon">
                         <p class="mt-2">High <br> Performance</p>
                     </div>
@@ -321,12 +332,30 @@
     <div class="container">
         <div class="row">
             <h2 class="text-left  wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
-                                    data-wow-delay="0s">Trusted Partners</h2>
-            <div class="d-flex justify-content-center flex-wrap">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" draggable="false" alt="Partner 3">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" draggable="false" alt="Partner 4">
+                data-wow-delay="0s">Trusted Partners</h2>
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                            <!-- <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_3_2_cnupbu.png" class="d-block mx-5" alt="Partner 3">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237625/unnamed_4_2_zyiezd.png" class="d-block mx-5" alt="Partner 4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/image_8_mtt5j1.png" class="d-block mx-5" alt="Partner 4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_6_1_j2cstz.png" class="d-block mx-5" alt="Partner 4"> -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -370,7 +399,7 @@
                             <div class="bg-white p-4 rounded" data-aos="fade-up-left">
                                 <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
                                 <p class="mt-2">
-                                    Discover how much you could save by switching to solar energy. It’s time to power your home and wallet.
+                                    Discover how much you could save by switching to solar energy. It’s time to power your home.
                                 </p>
                             </div>
                         </div>
@@ -450,8 +479,8 @@
             <!-- Right: Images -->
             <div class="col-md-6">
                 <div class="d-flex flex-column gap-3" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737284084/Energy/Group_48097585_ve6ahj.jpg" draggable="false" alt="Solar Engineer" class="img-fluid rounded">
                 </div>
             </div>
@@ -466,8 +495,8 @@
             <!-- Card 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" draggable="false" class="card-img-top" alt="Solar Home">
                     <div class="card-body">
                         <h5 class="card-title">5 Reasons to Switch to Solar Today</h5>
@@ -478,8 +507,8 @@
             </div>
             <!-- Card 2 -->
             <div class="col-md-4 mb-4">
-                <div class="card"  data-aos="fade-up"
-     data-aos-duration="3000">
+                <div class="card" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
                     <div class="card-body">
                         <h5 class="card-title">Sustainable Future with Solar</h5>
@@ -491,8 +520,8 @@
             <!-- Card 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card" data-aos="fade-left"
-                data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" draggable="false" class="card-img-top" alt="Harnessing the Sun">
                     <div class="card-body">
                         <h5 class="card-title">Harnessing the Sun</h5>

@@ -23,7 +23,7 @@
             <div class="row">
                 <!-- Card 1 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left">
                         <div class="">
                             <div class="iconing">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097669_wa4p7l.png" alt="Reliability iconing">
@@ -40,7 +40,7 @@
 
                 <!-- Card 2 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-up">
                         <div class="">
                             <div class="iconing">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370852/Energy/Group_48097670_gqdt7o.png" alt="Cost Savings iconing">
@@ -59,7 +59,7 @@
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-down">
                         <div class="">
                             <div class="iconing">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097671_byicev.png" alt="Sustainability iconing">
@@ -77,7 +77,7 @@
 
                 <!-- Card 4 -->
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right">
                         <div class="">
                             <div class="iconing">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097672_k88q7q.png" alt="Easy Process iconing">
@@ -104,14 +104,14 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="Txt">
-                    <div class="highlight mb-3">International team, Exclusive partnerships</div>
+                    <div class="highlight mb-3" data-aos="fade-right">International team, Exclusive partnerships</div>
                 </div>
             </div>
             <div class="col-lg-6"></div>
             <div class="col-lg-12">
-                <h5 class="Justing fw-bold mt-2">Just a little about us</h5>
+                <h5 class="Justing fw-bold mt-2" data-aos="fade-left">Just a little about us</h5>
 
-                <p>
+                <p data-aos="fade-up">
                     Baltai Energy is a Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team and exclusive partnerships with top European and Asian Engineering OEMs. We are committed to providing reliable, sustainable, and cost-effective energy solutions to our clients. Our goal is to redefine power utility in Nigeria and change the status quo. We believe that 24-Hours power supply is not a luxury but a daily necessity for individuals and businesses alike striving for a better economic future. We are convinced that capacity can be built with a stable power economy expanding our road to a brighter tomorrow.
                 </p>
             </div>
@@ -124,7 +124,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="Emmet">
+                <div class="Emmet" data-aos="zoom-in" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <h5 class="fw-bold mb-4">Our Story</h5>
                     <p class="mb-4">
                         Baltai Energy was born out of the need to make reliable power an accessible daily necessity rather than a remote luxury, because we believe in a future where energy is clean, affordable, and accessible to all Nigerians. 
@@ -157,14 +158,19 @@
     <p class="text-center">Strategic objectives guiding our growth journey.</p>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6 mb-3">
-                <div class="quote-card">
+            <div class="col-md-6">
+                <div class="quote-card" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <h5>Our Vision</h5>
                     <p>To be Nigeria's foremost provider of innovative, affordable, and reliable solar energy solutions, empowering communities and driving sustainable development.</p>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
-                <div class="quote-card">
+            <div class="col-md-6">
+                <div class="quote-card" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
                     <h5>Our Mission</h5>
                     <p>To accelerate Nigeria's transition to renewable energy by delivering innovative and accessible solar solutions that empower communities, strengthen energy independence, and enhance the nation's power infrastructure for a brighter, sustainable future.</p>
                 </div>
@@ -268,11 +274,29 @@
     <div class="container">
         <div class="row">
             <h2 class="text-left">Partnerships</h2>
-            <div class="d-flex justify-content-center flex-wrap">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" draggable="false" alt="Partner 1">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" draggable="false" alt="Partner 2">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" draggable="false" alt="Partner 3">
-                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" draggable="false" alt="Partner 4">
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_4_1_zabcpg.png" class="d-block mx-5" alt="Partner 1">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281606/Energy/unnamed_3_1_o8cuxe.png" class="d-block mx-5" alt="Partner 2">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_1_s6uu8m.png" class="d-block mx-5" alt="Partner 3">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737281607/Energy/unnamed_5_2_uskncw.png" class="d-block mx-5" alt="Partner 4">
+                            <!-- <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_3_2_cnupbu.png" class="d-block mx-5" alt="Partner 3">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237625/unnamed_4_2_zyiezd.png" class="d-block mx-5" alt="Partner 4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/image_8_mtt5j1.png" class="d-block mx-5" alt="Partner 4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738237624/unnamed_6_1_j2cstz.png" class="d-block mx-5" alt="Partner 4"> -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -284,16 +308,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div class="text mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Investor
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="text" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                <div class="text mb-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                     OEM
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-4">
                 <div class="text">
                     <a href="{{route('career')}}"></a>
                     Solar Financing

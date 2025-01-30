@@ -961,8 +961,7 @@ header nav .offcanvas-header button i {
 }
 
 .trusted-partners img {
-    max-width: 150px;
-    margin: 0 50px;
+    max-width: 180px;
     opacity: 0.8;
     transition: opacity 0.3s ease;
 }
@@ -1155,6 +1154,12 @@ textarea:focus {
 .insights-section .card-body {
     padding: 35px 20px !important;
     height: 200px;
+}
+@media (max-width:1400px) {
+    .insights-section .card-body {
+        padding: 35px 20px !important;
+        height: auto !important;
+    }
 }
 
 .insights-section .card img {
@@ -1542,6 +1547,38 @@ textarea:focus {
     .Hello .float-end {
         display: none;
     }
+    .Pushing {
+    margin-top: -10px !important;
+}
+.Emmeting {
+    position: relative;
+    left: 05px !important;
+}
+.quote-card {
+    background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737620532/Energy/Group_48097674_mydhkx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -1px !important;
+    color: #000;
+    width: 100%;
+    border-radius: 1px;
+    height: auto !important;
+    padding: 50px 40px !important;
+}
+.Testimonials {
+    background-color: #F9F9F9;
+    padding: 50px 0 50px 0 !important;
+}
+.testimonial-card {
+margin-bottom: 30px;
+}
+.Story {
+    padding: 100px 0 100px 0px;
+    background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355394/Energy/Group_33_pvot15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -01px !important;
+}
 
     .align img {
         width: 80% !important;
