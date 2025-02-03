@@ -30,7 +30,7 @@
                 <button class="float-end">Speak to a Consultant</button>
             </div>
             <div class="col-lg-2">
-                <div class="align">
+                <div class="align" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737642199/Energy/Group_48097625_jhxflb.png" draggable="false" alt="">
                 </div>
             </div>
@@ -240,14 +240,14 @@
                 <div class="features mb-4">
                     <h1 class="font-bold">Warranty Protection</h1>
                     <p>
-                    Robust warranty protection on all equipment
+                        Robust warranty protection on all equipment
                     </p>
                     <ul>
                         <li>
                             <i class="bi bi-check2-square"></i> Battery: 5 Years
                         </li>
                         <li> <i class="bi bi-check2-square"></i>
-                        Inverter 5 years
+                            Inverter 5 years
                         </li>
                         <li>
                             <i class="bi bi-check2-square"></i>
@@ -260,4 +260,35 @@
         </div>
     </div>
 </section>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Residential Solution</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text
+                    ">
+                            <h1>
+                                3KVA
+                            </h1>
+                            <p>
+                                The 3 kVA smart home solution is ideal for families living in small homes and apartments
+                            </p>
+                            <a href="#">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737642199/Energy/Group_48097625_jhxflb.png" draggable="false" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

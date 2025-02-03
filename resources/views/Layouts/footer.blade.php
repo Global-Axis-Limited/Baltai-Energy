@@ -1,11 +1,11 @@
 <section class="footer">
-<!-- <div class="container Amen">
+    <div class="container Amen">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
                 <p>Subscribe to our Newsletter</p>
                 <h1>Stay informed on Industry trends</h1>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <form class="search-bar">
                     <div class="input-group">
                         <input type="text" class="form-control" name="email" placeholder="Your email Address" required>
@@ -14,7 +14,7 @@
                 </form>
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -61,18 +61,18 @@
                         <li>
                             <a href="{{route('about')}}">About Us</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#">Our Team</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="{{route('faqs')}}">FAQs</a>
                         </li>
                         <li>
                             <a href="{{route('partners')}}">Partners</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="{{route('solution')}}">Solution</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="#">Insights</a>
                         </li>
@@ -128,7 +128,7 @@
                             <a href="#">After Sales Service</a>
                         </li>
                     </ul>
-                    <h1>
+                    <!-- <h1>
                         Resources
                     </h1>
                     <ul>
@@ -138,7 +138,7 @@
                         <li>
                             <a href="#">Terms & Condition</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="col-lg-3">
@@ -162,10 +162,16 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="Last">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="last-fott text-center">
                     <h1>
-                        Copyright © {{ date('Y') }} <code>Global Baltai Energy</code>. All rights reserved
+                        Copyright © {{ date('Y') }} <b>Global Baltai Energy</b>. All rights reserved
                     </h1>
                 </div>
             </div>

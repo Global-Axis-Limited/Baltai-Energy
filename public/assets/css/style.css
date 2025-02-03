@@ -466,7 +466,7 @@ header nav .offcanvas-header button i {
 
 @media (max-width: 1400px) {
     .welcome-screen .carousel-item .banner-note {
-        width: 65%;
+        width: 60%;
         padding: 0 0 0 130px;
     }
 
@@ -483,6 +483,19 @@ header nav .offcanvas-header button i {
         display: flex;
         gap: 10px;
         font-size: 1.5rem;
+    }
+    .welcome-screen .carousel-item .banner-note h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-top: 10px;
+        line-height: 1.5;
+        padding-bottom: 10px;
+    }
+    
+    .welcome-screen .carousel-item .banner-note h1 span {
+    
+        font-weight: 500;
+        color: #FEC31C;
     }
 }
 
@@ -560,6 +573,37 @@ header nav .offcanvas-header button i {
     font-size: 14px;
     border: none;
     cursor: pointer;
+}
+
+.modal-title{
+    color: #F8861A;
+    font-style: italic;
+}
+
+.modal-body img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.modal-body h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    padding: 0 0 05px 0;
+}
+.modal-body p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+    padding: 0 0 10px 0;
+}
+.modal-body a{
+    color: #F8861A;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .Benefit .card {
@@ -653,6 +697,9 @@ header nav .offcanvas-header button i {
         object-fit: cover;
         /* top: 0;
        left: 20px; */
+    }
+    .Benefit .card {
+        margin-bottom: 80px;
     }
 }
 
@@ -766,9 +813,9 @@ header nav .offcanvas-header button i {
     padding: 0 0 30px 0;
 }
 
-.icon-text {
+/* .icon-text {
     text-align: left;
-}
+} */
 
 .icon-text p {
     line-height: 2;
@@ -856,6 +903,16 @@ header nav .offcanvas-header button i {
     .solutions-section {
         display: none;
     }
+    .icon-text {
+        display: block !important;
+        margin: auto !important;
+        width: 100% !important;
+    }
+    .icon-text img {
+    width: 50px;
+     display: block !important;
+    margin: auto !important;
+}
 
     .trusted-partners img {
         max-width: 150px;
@@ -1061,7 +1118,7 @@ header nav .offcanvas-header button i {
     background-color: #FEC31C !important;
     color: #000;
     border: none;
-    padding: 18px 20px !important;
+    padding: 18px 20px;
     border-radius: 5px 0 0 5px;
     border: none !important;
 }
@@ -1090,8 +1147,8 @@ textarea:focus {
 }
 
 .btn-primary {
-    background-color: #007bff;
-    border: none;
+    background: #000 !important;
+    border: none !important;
     padding: 18px 20px !important;
     border-radius: 5px;
     font-size: 1rem;
@@ -1100,7 +1157,7 @@ textarea:focus {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
 }
 
 .img-fluid {
@@ -1122,11 +1179,18 @@ textarea:focus {
 
     .Amen {
         margin-top: -150px !important;
-        text-align: center !important;
     }
 
     .search-bar {
         margin-top: 30px !important;
+    }
+    .input-group-text {
+        background-color: #FEC31C !important;
+        color: #000;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 5px 0 0 5px;
+        border: none !important;
     }
 
 }
@@ -1200,7 +1264,7 @@ textarea:focus {
 
 .Amen {
     background-color: #565052;
-    padding: 50px 50px 50px 50px !important;
+    padding: 50px 50px 50px 50px;
     border-radius: 10px;
     width: 100%;
     line-height: 1.5;
@@ -1261,7 +1325,7 @@ textarea:focus {
 .search-bar .form-control {
     display: block;
     width: 10%;
-    padding: 20px 30px 20px 30px;
+    padding: 30px 30px 30px 30px;
     font-size: 1rem;
     border-radius: 10px 0px 10px 10px;
     font-weight: 400;
@@ -1274,7 +1338,7 @@ textarea:focus {
 /**Footer**/
 .footer {
     padding: 50px 0px 0px 0px;
-    background-color: #000;
+    background-color: #061F1C;
     font-family: "Montserrat", serif;
 }
 
@@ -1384,6 +1448,14 @@ textarea:focus {
         width: 40%;
         padding: 40px 0 0 0 !important;
     }
+    .Amen {
+        background-color: #565052;
+        padding: 50px 10px 50px 10px !important;
+        border-radius: 10px;
+        width: 100%;
+        line-height: 1.5;
+        z-index: 10;
+    }
 }
 
 @media (max-width:768px) {
@@ -1417,7 +1489,7 @@ textarea:focus {
     }
 
     .footer .search-bar {
-        width: 80%;
+        width: 100%;
         display: block !important;
         margin: auto;
     }
@@ -1444,11 +1516,13 @@ textarea:focus {
     font-weight: 500;
 }
 
-.footer .last-fott {
-    padding: 20px 0 20px 0;
+.Last{
+    background-color: #082824;
+    padding: 10px 0 10px 0;
 }
 
-.footer .last-fott a {
+
+.Last .last-fott a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
@@ -1456,16 +1530,23 @@ textarea:focus {
     padding: 0 0 10px 0px;
 }
 
-.footer .last-fott h1 {
+.Last .last-fott h1 {
     padding: 5px 0 0 0;
     text-align: center;
     font-size: 13px;
     color: #fff;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
+}
+.Last .last-fott h1 b{
+    font-size: 13px;
+    color: #F8861A;
+    font-style: normal;
+    font-weight: 600;
 }
 
-.footer .last-fot a {
+
+.Last .last-fot a {
     text-decoration: none;
     color: #fff;
 }
@@ -1560,15 +1641,16 @@ textarea:focus {
     }
 
     .quote-card {
-        background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737620532/Energy/Group_48097674_mydhkx.png);
-        background-size: cover;
+        background: #fff;
+        background-image: url(,,) !important;
+        background-size: auto !important;
         background-repeat: no-repeat;
-        margin-bottom: -1px !important;
+        margin-bottom: -0px !important;
         color: #000;
         width: 100%;
         border-radius: 1px;
         height: auto !important;
-        padding: 50px 40px !important;
+        padding: 50px 10px !important;
     }
 
     .Testimonials {
@@ -1788,7 +1870,7 @@ textarea:focus {
 .join-us-section {
     background-color: #FFF8F1;
     text-align: center;
-    padding: 80px 0px;
+    padding: 80px 0px 140px 0;
 }
 
 .join-us-title {
@@ -1851,6 +1933,10 @@ textarea:focus {
 .communication {
     padding: 100px 0px 100px 0px;
     background-color: #FCFCFE;
+}
+
+.communication a{
+    text-decoration: none;
 }
 
 .communication .el-icon-message img {
@@ -2011,7 +2097,7 @@ textarea:focus {
 
 /* Components */
 .Components {
-    padding: 80px 0;
+    padding: 80px 0 140px 0;
     background: #F9F9F9;
 }
 
@@ -2185,7 +2271,7 @@ textarea:focus {
 
 .contact-section {
     background-color: #ffff;
-    padding: 80px 0;
+    padding: 80px 0 170px 0;
 }
 
 .contact-details {
@@ -2323,7 +2409,7 @@ textarea:focus {
 
 .Firsr {
     background: #F8861A;
-    padding: 80px 0;
+    padding: 80px 0 140px 0;
 }
 
 .requirement-box {
@@ -2577,4 +2663,75 @@ textarea:focus {
 
 .partner-card {
     transition: transform 0.3s ease-in-out;
+}
+
+.step {
+    display: none;
+}
+.step.active {
+    display: block;
+}
+.step-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.step-indicator div {
+    width: 30%;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+}
+.step-indicator .active {
+    background-color: #F8861A;
+    font-weight: bold;
+}
+
+.Multi{
+    padding: 80px 0;
+}
+.energy-calculator-section .Justt{
+    padding: 20px !important;
+}
+.Justiin label{
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 2;
+    color: #000;
+}
+.Justiin .input-group-text {
+    background-color: #F8861A !important;
+    color: #000;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    border: none !important;
+}
+
+.Justiin .input-group .form-control {
+    border: none;
+    background-color: #fff !important;
+    padding: 20px 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.Justiin .form-select {
+    border: none;
+    background-color: #fff !important;
+    padding: 18px 20px !important;
+    border-radius: 10px;
+}
+
+.Justiin .btn-primary {
+    background: #F8861A !important;
+    border: none !important;
+    padding: 18px 20px !important;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+}
+
+.Justiin .btn-primary:hover {
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
 }

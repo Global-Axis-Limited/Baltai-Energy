@@ -20,7 +20,7 @@
 <!-- Beadcrum Ends -->
 
 <!-- Communication -->
-<section class="communication" style="background: #fff;">
+<section class="communication" style="background: #fff; padding:80px 0 170px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">

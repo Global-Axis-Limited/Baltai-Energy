@@ -56,7 +56,7 @@
                     <p>
                         Transform your home with solar energy that’s reliable, cost-saving, and eco-friendly. Our robust array of tailored residential solutions ensure you enjoy reliable power while reducing your electricity bills and carbon footprint.
                     </p>
-                    <a href="#">
+                    <a href="{{route('residential')}}">
                         <button>
                             Discover More
                         </button>
@@ -78,7 +78,7 @@
                     <p>
                         Take your business to the next level with smart, sustainable solar power. Our solutions are designed to optimize your energy use, cut costs, and support your growth—all while staying green.
                     </p>
-                    <a href="#">
+                    <a href="{{route('business')}}">
                         <button>
                             Discover More
                         </button>
@@ -93,7 +93,7 @@
         </div>
     </div>
 </section>
-<section class="communication" style="background: #F9F9F9;">
+<section class="communication" style="background: #F9F9F9; padding:80px 0 170px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -109,7 +109,7 @@
                     <p>
                         Power your large-scale operations with high-performance solar systems built for efficiency and durability. Our industrial solutions are tailored to deliver dependable energy and long-term savings for your business needs.
                     </p>
-                    <a href="#">
+                    <a href="{{route('industrial')}}">
                         <button>
                             Discover More
                         </button>

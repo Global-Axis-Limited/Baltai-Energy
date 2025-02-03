@@ -25,12 +25,12 @@
                 <div class="contact-details">
                     <h2 class="">Reach Out to Us</h2>
                     <p>Fill in the contact form with the appropriate information to send us a message and we will get back to you in 24 hours.</p>
-                    <h5 class="mt-4">Contact Details</h5>
+                    <h5 class="mt-4 mb-3"><strong>Contact Details</strong></h5>
                     <p>652 Lagos-Abeokuta Express Way, Alagbado, Adura bus stop, Lagos.</p>
-                    <p><strong>Telephone:</strong><br>+234 913 714 8567<br>+234 913 713 1599</p>
-                    <p><strong>Email:</strong><br>info@baltaienergy.com<br>baltaienergy@gmail.com</p>
+                    <p class="mb-3"><strong>Telephone:</strong><br>+234 913 714 8567<br>+234 913 713 1599</p>
+                    <p class="mb-3"><strong>Email:</strong><br>info@baltaienergy.com<br>baltaienergy@gmail.com</p>
 
-                    <h5 class="mt-4">Social Media</h5>
+                    <h5 class="mt-4 mb-3"><strong>Social Media</strong></h5>
                     <div class="social-icons">
                         <a href="#"><i class="bi bi-instagram"></i></a>
                         <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -38,7 +38,7 @@
                         <a href="#"><i class="bi bi-x"></i></a>
                     </div>
 
-                    <h5 class="mt-4">Get In Touch</h5>
+                    <h5 class="mt-4 mb-3"><strong>Get In Touch</strong></h5>
                     <p>Do reach out to us, should you need any intel about waste solutions and management, and we’ll be happy to help you out.</p>
                 </div>
             </div>
