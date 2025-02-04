@@ -2735,3 +2735,26 @@ textarea:focus {
 .Justiin .btn-primary:hover {
     background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
 }
+.benefits-section{
+    padding: 80px 0 140px 0;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
+    text-align: center;
+    color: #fff;
+}
+.benefits-section h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.benefits-section p{
+    font-size: 1rem;
+    line-height: 2;
+}
+.benefit-icon img {
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.ABIDOO img{
+    width: 100%;
+}

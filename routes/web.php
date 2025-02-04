@@ -15,3 +15,4 @@ Route::get('/careers/career', [App\Http\Controllers\HomePageController::class, '
 Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');
+Route::get('/insight/our_insight', [App\Http\Controllers\HomePageController::class, 'our_insight'])->name('our_insight');

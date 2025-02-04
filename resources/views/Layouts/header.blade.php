@@ -96,7 +96,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link" class="routers">
+                                <a href="{{route('our_insight')}}" class="nav-link" class="routers">
                                     Insights
                                 </a>
                             </li>

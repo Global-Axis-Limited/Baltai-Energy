@@ -75,6 +75,12 @@ class HomePageController extends Controller
     {
         return view('Frontend.partners');
     }
+
+    public function our_insight()
+    {
+        return view('Frontend.insight.our_insight');
+    }
+    
     
     
 }

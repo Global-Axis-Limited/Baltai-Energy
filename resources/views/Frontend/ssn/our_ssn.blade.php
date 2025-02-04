@@ -1,4 +1,5 @@
 @extends('Layouts.connection')
+@section('page-content')
 <!-- Beadcrum -->
 <section class="Beadcrum" style=" background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738589779/Group_48097580_pkkyx8.png);">
     <div class="container">
@@ -15,12 +16,12 @@
     </div>
 </section>
 <!-- Beadcrum Ends -->
-<section class="energy-calculator-section">
+<section class="energy-calculator-section" style="background: #F8F6F5;">
     <div class="container">
         <div class="row align-items-center">
             <!-- Left: Form Section -->
             <div class="col-md-6">
-                <div class="calculator-form Justiin p-4 rounded" data-aos="zoom-out-right" style="background: #FEF9ED;">
+                <div class="calculator-form Justiin p-5" data-aos="zoom-out-right" style="background: #FEF9ED;">
                     <div class="step-indicator">
                         <div class="indicator active"></div>
                         <div class="indicator"></div>
@@ -31,7 +32,7 @@
                     <form class="step active">
                         <!-- What Appliances are critical for you? Bill -->
                         <div class="mb-4">
-                            <label for="electricity-bill" class="form-label text-black">What Appliances are critical for you?</label>
+                            <label for="electricity-bill" class="form-label text-black mb-4">What Appliances are critical for you?</label>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-check">
@@ -66,7 +67,7 @@
 
                         <!-- Hours of Electricity supply (Daily) -->
                         <div class="mb-4">
-                            <label for="electricity-supply" class="form-label text-black">Hours of Electricity supply (Daily)</label>
+                            <label for="electricity-supply" class="form-label text-black mb-4">Hours of Electricity supply (Daily)</label>
                             <select id="electricity-supply" class="form-select" required>
                                 <option selected>3-5</option>
                                 <option>6-8</option>
@@ -76,15 +77,15 @@
 
                         <!-- Monthly Cost on Fuel -->
                         <div class="mb-4">
-                            <label for="fuel-cost" class="form-label text-black">Monthly Electricity bill</label>
-                            <div class="input-group">
+                            <label for="fuel-cost" class="form-label text-black mb-4">Monthly Electricity bill</label>
+                            <div class="input-group mb-4">
                                 <span class="input-group-text">₦</span>
                                 <input type="text" class="form-control" id="fuel-cost" value="40,000" required />
                             </div>
                         </div>
 
                         <!-- Submit Button -->
-                        <div class="d-grid">
+                        <div class="d-grid mt-4">
                             <button type="submit" class="btn btn-primary fw-bold next-btn">
                                 Next
                             </button>
@@ -93,9 +94,9 @@
                     <form class="step">
                         <!-- What Appliances are critical for you? Bill -->
                         <div class="mb-4">
-                            <label for="electricity-bill" class="form-label text-black">AVERAGE HOURS OF ELECTRICITY PER DAY</label>
+                            <label for="electricity-bill" class="form-label text-black mb-4">AVERAGE HOURS OF ELECTRICITY PER DAY</label>
                             <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Monthly Electricity bill</label>
+                                <label for="fuel-cost" class="form-label text-black mb-4">Monthly Electricity bill</label>
                                 <div class="input-group">
                                     <span class="input-group-text">₦</span>
                                     <input type="text" class="form-control" id="fuel-cost" value="40,000" required />
@@ -104,7 +105,7 @@
                         </div>
 
                         <div class="mb-4">
-                            <label for="electricity-bill" class="form-label text-black">Do you use any of the following?</label>
+                            <label for="electricity-bill" class="form-label text-black mb-4">Do you use any of the following?</label>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-check">
@@ -121,7 +122,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                <div class="form-check">
+                                    <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="laptop">
                                         <label class="form-check-label text-dark ms-2" for="laptop" required>None</label>
                                     </div>
@@ -135,7 +136,7 @@
 
                         <!-- Type of Apartment -->
                         <div class="mb-4">
-                            <label for="electricity-supply" class="form-label text-black">Type of Apartment</label>
+                            <label for="electricity-supply" class="form-label text-black mb-4">Type of Apartment</label>
                             <select id="electricity-supply" class="form-select" required>
                                 <option selected>Duplex</option>
                                 <option>Duplex 2</option>
@@ -153,7 +154,7 @@
                     <form class="step">
                         <!-- What Appliances are critical for you? Bill -->
                         <div class="mb-4">
-                            <label for="electricity-bill" class="form-label text-black">What Appliances are critical for you?</label>
+                            <label for="electricity-bill" class="form-label text-black mb-4">What Appliances are critical for you?</label>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-check">
@@ -188,7 +189,7 @@
 
                         <!-- Hours of Electricity supply (Daily) -->
                         <div class="mb-4">
-                            <label for="electricity-supply" class="form-label text-black">Hours of Electricity supply (Daily)</label>
+                            <label for="electricity-supply" class="form-label text-black mb-4">Hours of Electricity supply (Daily)</label>
                             <select id="electricity-supply" class="form-select" required>
                                 <option selected>3-5</option>
                                 <option>6-8</option>
@@ -198,8 +199,8 @@
 
                         <!-- Monthly Cost on Fuel -->
                         <div class="mb-4">
-                            <label for="fuel-cost" class="form-label text-black">Monthly Electricity bill</label>
-                            <div class="input-group">
+                            <label for="fuel-cost" class="form-label text-black mb-4">Monthly Electricity bill</label>
+                            <div class="input-group mb-4">
                                 <span class="input-group-text">₦</span>
                                 <input type="text" class="form-control" id="fuel-cost" value="40,000" required />
                             </div>
@@ -207,7 +208,7 @@
 
                         <!-- Submit Button -->
                         <div class="d-grid">
-                        <button type="submit" class="btn btn-primary fw-bold next-btn">
+                            <button type="submit" class="btn btn-primary fw-bold next-btn">
                                 Saved
                             </button>
                         </div>
@@ -227,19 +228,48 @@
     </div>
 </section>
 
-
-
-<!-- Contact Us -->
-<section class="contact-section">
-
+<section class="benefits-section">
+    <div class="container">
+        <h2>Benefits of Our Solar Solution Network</h2>
+        <p>Save money, limit the environmental impact, and enjoy working with SolarTech & Co.</p>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_49_eeueia.png" draggable="false" alt="">
+                    </div>
+                    <h5>Cost Savings</h5>
+                    <p>Save up to 60% on energy bills.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_46_ei6h2o.png" draggable="false" alt=""></div>
+                    <h5>Easy Financing</h5>
+                    <p>Flexible payment plans to fit your budget.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_47_wh5pez.png" draggable="false" alt=""></div>
+                    <h5>Reliable Energy</h5>
+                    <p>24/7 uninterrupted power supply.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_487_doatlr.png" draggable="false" alt=""></div>
+                    <h5>Eco-Friendly</h5>
+                    <p>Reduce carbon emissions for a sustainable future.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<!-- Contact Us Ends -->
 
 <!-- Map -->
 
 <!-- Mapl Us Ends -->
-@section('page-content')
-
 @endsection
 <script>
     const steps = document.querySelectorAll(".step");
