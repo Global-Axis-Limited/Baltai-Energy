@@ -26,7 +26,7 @@
         <div class="row mt-5 justify-content-center">
             <!-- Option A -->
             <div class="col-md-4">
-                <div class="card shadow-sm border-0">
+                <div class="card shadow-sm border-0 mb-4">
                     <h3 class="fw-bold">Option A</h3>
                     <p class="text-muted">Per Month</p>
                     <ul class="list-unstyled">
@@ -40,7 +40,7 @@
 
             <!-- Option B (Highlighted) -->
             <div class="col-md-4">
-                <div class="card shadow-lg border-0 text-white" style="background: linear-gradient(180deg, #FFBF47, #E4A400);">
+                <div class="card shadow-lg border-0 text-white mb-4" style="background: linear-gradient(180deg, #FFBF47, #E4A400);">
                     <h3 class="fw-bold">Option B</h3>
                     <p>Per Month</p>
                     <ul class="list-unstyled">
@@ -54,7 +54,7 @@
 
             <!-- Option C -->
             <div class="col-md-4">
-                <div class="card shadow-sm border-0">
+                <div class="card shadow-sm border-0 mb-4">
                     <h3 class="fw-bold">Option C</h5>
                     <p class="text-muted">Per Month</p>
                     <ul class="list-unstyled">
