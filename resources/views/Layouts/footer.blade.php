@@ -61,9 +61,6 @@
                         <li>
                             <a href="{{route('about')}}">About Us</a>
                         </li>
-                        <!-- <li>
-                            <a href="#">Our Team</a>
-                        </li> -->
                         <li>
                             <a href="{{route('faqs')}}">FAQs</a>
                         </li>
@@ -74,7 +71,7 @@
                             <a href="{{route('solution')}}">Solution</a>
                         </li> -->
                         <li>
-                            <a href="#">Insights</a>
+                            <a href="{{route('our_insight')}}">Insights</a>
                         </li>
                         <li>
                             <a href="{{route('contact')}}">Contact Us</a>
@@ -89,7 +86,7 @@
                     </h1>
                     <ul>
                         <li>
-                            <a href="#">Financing</a>
+                            <a href="{{route('finance')}}">Financing</a>
                         </li>
                         <li>
                             <a href="#">Partnerships</a>
@@ -128,17 +125,6 @@
                             <a href="#">After Sales Service</a>
                         </li>
                     </ul>
-                    <!-- <h1>
-                        Resources
-                    </h1>
-                    <ul>
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms & Condition</a>
-                        </li>
-                    </ul> -->
                 </div>
             </div>
             <div class="col-lg-3">

@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-7 mb-4" data-aos="zoom-in-left">
+            <div class="col-lg-7 mb-4">
                 <p class="E">
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
                 </p>
@@ -86,9 +86,7 @@
             <div class="row g-2 mt-5">
                 <!-- Card 1 -->
                 <div class="col-md-3">
-                    <div class="card" data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                    <div class="card">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_438_fqtouq.png" alt="Reliability Icon">
@@ -107,8 +105,7 @@
 
                 <!-- Card 2 -->
                 <div class="col-md-3">
-                    <div class="card" data-aos="fade-up"
-                        data-aos-duration="3000">
+                    <div class="card">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_448_lijcit.png" alt="Cost Savings Icon">
@@ -127,9 +124,7 @@
 
                 <!-- Card 3 -->
                 <div class="col-md-3">
-                    <div class="card" data-aos="fade-down"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                    <div class="card">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4138_mkquu6.png" alt="Sustainability Icon">
@@ -148,9 +143,7 @@
 
                 <!-- Card 4 -->
                 <div class="col-md-3">
-                    <div class="card" data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                    <div class="card">
                         <div class="">
                             <div class="icon">
                                 <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736921408/Energy/Frame_4338_qq3uai.png" alt="Easy Process Icon">
@@ -252,20 +245,15 @@
                     industrial applications.
                 </p>
                 <div class="row mt-4">
-                    <div class="col-md-4 icon-text" data-aos="flip-left"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
+                    <div class="col-md-4 icon-text">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_18_psqrxy.png" class="effec-icon" alt="Sustainability Icon">
                         <p class="mt-2">Environmental <br> Sustainability</p>
                     </div>
-                    <div class="col-md-4 icon-text" data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom">
+                    <div class="col-md-4 icon-text">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_32_fae3my.png" alt="Personalized Solutions Icon">
                         <p class="mt-2">Personalized <br> Solutions</p>
                     </div>
-                    <div class="col-md-4 icon-text" data-aos="flip-right"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
+                    <div class="col-md-4 icon-text">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736931550/Energy/Rectangle_33_atqnrr.png" alt="High Performance Icon">
                         <p class="mt-2">High <br> Performance</p>
                     </div>
@@ -332,8 +320,8 @@
     <div class="container">
         <div class="row">
             <h2 class="text-left  wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
-                data-wow-delay="0s">Trusted Partners</h2>
-            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                data-wow-delay="0s">Our Trusted Partners</h2>
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
@@ -364,7 +352,9 @@
 <!-- Spotlight Section -->
 <section class="spotlight-section">
     <div class="container">
+    <h1 class="text-center fw-medium">Solar Solution Network</h1>
         <div class="spotlight-bg position-relative rounded">
+               
             <!-- Background Image -->
             <div class="spotlight-background rounded"></div>
 
@@ -387,7 +377,7 @@
                     <div class="row g-3">
                         <!-- Card 1 -->
                         <div class="col-md-4">
-                            <div class="bg-warning text-white p-4 rounded" data-aos="fade-down-right">
+                            <div class="AbiNah p-4 rounded" data-aos="fade-down-right">
                                 <h4 class="fw-bold">24/7 Reliable Power Starts Here!</h4>
                                 <p class="mt-2">
                                     Say goodbye to power outages and high bills. Enjoy uninterrupted electricity powered by the sun.
@@ -396,7 +386,7 @@
                         </div>
                         <!-- Card 2 -->
                         <div class="col-md-4">
-                            <div class="bg-white p-4 rounded" data-aos="fade-up-left">
+                            <div class="AbiNah p-4 rounded" data-aos="fade-up-left">
                                 <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
                                 <p class="mt-2">
                                     Discover how much you could save by switching to solar energy. It’s time to power your home.
@@ -405,7 +395,7 @@
                         </div>
                         <!-- Card 3 -->
                         <div class="col-md-4">
-                            <div class="bg-white p-4 rounded" data-aos="fade-down-left">
+                            <div class="AbiNah p-4 rounded" data-aos="fade-down-left">
                                 <h4 class="fw-bold">Solar for Every Budget!</h4>
                                 <p class="mt-2">
                                     With flexible financing plans, owning solar power has never been easier. Start today with no upfront cost.

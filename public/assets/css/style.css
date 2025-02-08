@@ -64,7 +64,6 @@ header nav {
     background-color: #fff;
     margin-top: 50px;
     padding: 05px 10px 05px 10px !important;
-    font-family: "Sora", serif;
 }
 
 .bg-dark p {
@@ -371,6 +370,7 @@ header nav .offcanvas-header button i {
 
 .welcome-screen .carousel-item .banner-note h1 {
     font-size: 3.5rem;
+    font-family: "Heebo", serif !important;
     font-weight: 100;
     padding-top: 10px;
     line-height: 1.5;
@@ -378,8 +378,8 @@ header nav .offcanvas-header button i {
 }
 
 .welcome-screen .carousel-item .banner-note h1 span {
-
-    font-weight: 500;
+    font-family: "Heebo", serif !important;
+    font-weight: 700;
     color: #FEC31C;
 }
 
@@ -707,7 +707,7 @@ header nav .offcanvas-header button i {
 
 .faqPage {
     width: 100%;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0px 0;
     font-family: "Montserrat", serif;
 
 }
@@ -1041,6 +1041,9 @@ header nav .offcanvas-header button i {
     padding: 50px 0px;
 }
 
+.spotlight-section h1{
+    padding: 0px 0 50px 0;
+}
 
 .spotlight-background {
     background:
@@ -1053,6 +1056,15 @@ header nav .offcanvas-header button i {
     left: 0;
     z-index: 1;
     border-radius: 15px;
+}
+.spotlight-section .AbiNah{
+    padding: 20px;
+    background: #fff !important;
+}
+
+.spotlight-section .AbiNah:hover{
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
+    color: #fff;
 }
 
 /* Content Overlay */
@@ -1094,7 +1106,7 @@ header nav .offcanvas-header button i {
 /* Energy Calculator Section */
 .energy-calculator-section {
     background-color: #fff;
-    padding: 80px 0px;
+    padding: 50px 0px;
     font-family: "Montserrat", serif;
 }
 
