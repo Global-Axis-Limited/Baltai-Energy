@@ -319,9 +319,8 @@
 <section class="trusted-partners">
     <div class="container">
         <div class="row">
-            <h2 class="text-left  wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
-                data-wow-delay="0s">Our Trusted Partners</h2>
-            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <h2 class="text-left wow animate__fadeInUp animate__animated" data-wow-duration="1.5s" data-wow-delay="0s">Our Trusted Partners</h2>
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"> <!-- Increased interval to 5000ms (5 seconds) -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
@@ -549,6 +548,14 @@
         indicator.addEventListener('click', () => {
             const carouselInstance = bootstrap.Carousel.getInstance(carousel);
             carouselInstance.to(index);
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var carousel = document.getElementById('imageCarousel');
+        var carouselInstance = new bootstrap.Carousel(carousel, {
+            pause: false // Disables pause on hover
         });
     });
 </script>

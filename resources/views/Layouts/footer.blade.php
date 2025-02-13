@@ -89,13 +89,13 @@
                             <a href="{{route('finance')}}">Financing</a>
                         </li>
                         <li>
-                            <a href="#">Partnerships</a>
+                            <a href="{{route('partners')}}">Partnerships</a>
                         </li>
                         <li>
-                            <a href="#">Energy Glossary</a>
+                            <a href="{{route('energy_glossary')}}">Energy Glossary</a>
                         </li>
                         <li>
-                            <a href="#">Energy Calculator</a>
+                            <a href="{{route('energy_calculator')}}">Energy Calculator</a>
                         </li>
                         <li>
                             <a href="#">Apply for SSN</a>

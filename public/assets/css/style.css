@@ -2770,3 +2770,100 @@ textarea:focus {
 .ABIDOO img{
     width: 100%;
 }
+
+#carouselExampleIndicators .carousel-item{
+    margin-top: 100px;
+    padding: 120px 0px 100px 0 !important;
+}
+#carouselExampleIndicators .carousel-item h1{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: 700;
+}
+#carouselExampleIndicators .carousel-item p{
+    color: #fff;
+}
+
+@media (max-width:584px) {
+    #carouselExampleIndicators .carousel-item h1{
+        color: #fff;
+        line-height: 1.5;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+
+.Glossary .search-bar {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.Glossary .search-bar input {
+    border-radius: 25px 0 0 25px;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    width: 80%;
+}
+.search-bar button {
+    border-radius: 0 25px 25px 0;
+    background-color: #f4b400;
+    border: 1px solid #f4b400;
+    color: white;
+    padding: 10px 20px;
+}
+.glossary-section {
+    margin: 30px auto;
+    max-width: 800px;
+}
+.glossary-card {
+    background-color: #fff8e5;
+    padding: 25px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.glossary-letter {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Glossary{
+    padding: 50px 0px 100px 0;
+}
+
+.Glossary h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.Glossary p{
+    line-height: 2;
+}
+
+.Glossary h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.Glossary .glossary-card p{
+    font-size: 16px;
+}
+
+.calculator-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.appliance-row img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

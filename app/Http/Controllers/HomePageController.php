@@ -81,6 +81,15 @@ class HomePageController extends Controller
         return view('Frontend.insight.our_insight');
     }
     
-    
+    public function energy_glossary()
+    {
+        return view('Frontend.energy_glossary');
+    }
+
+    public function energy_calculator()
+    {
+        return view('Frontend.energy_calculator');
+    }
+   
     
 }

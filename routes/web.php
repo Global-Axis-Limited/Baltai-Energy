@@ -16,3 +16,5 @@ Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, '
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');
 Route::get('/insight/our_insight', [App\Http\Controllers\HomePageController::class, 'our_insight'])->name('our_insight');
+Route::get('/energy_glossary', [App\Http\Controllers\HomePageController::class, 'energy_glossary'])->name('energy_glossary');
+Route::get('/energy_calculator', [App\Http\Controllers\HomePageController::class, 'energy_calculator'])->name('energy_calculator');
