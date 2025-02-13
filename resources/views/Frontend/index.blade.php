@@ -351,7 +351,10 @@
 <!-- Spotlight Section -->
 <section class="spotlight-section">
     <div class="container">
-    <h1 class="text-center fw-medium">Solar Solution Network</h1>
+    <div class="banner position-relative">
+            <span class="join-btn">JOIN US</span>
+            <h1>SOLAR SOLUTION NETWORK (SSN)</h1>
+        </div>
         <div class="spotlight-bg position-relative rounded">
                
             <!-- Background Image -->
@@ -362,7 +365,7 @@
                 <!-- Left Spotlight Card -->
                 <div class="col-md-6">
                     <div class="text-white">
-                        <h2 class="fw-bold">Spotlight on <strong>SSN</strong></h2>
+                        <h2 class="fw-bold Joiil">Spotlight on <strong>SSN</strong></h2>
                         <p class="mt-3">
                             Say goodbye to power outages and high bills. With Solar Solutions Network (SSN),
                             enjoy uninterrupted electricity powered by the sun.
