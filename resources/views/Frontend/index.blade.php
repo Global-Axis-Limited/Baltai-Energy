@@ -360,28 +360,23 @@
     <div class="container">
         <div class="row">
             <h2 class="text-left wow animate__fadeInUp animate__animated" data-wow-duration="1.5s" data-wow-delay="0s">Our Trusted Partners</h2>
-            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"> <!-- Increased interval to 5000ms (5 seconds) -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                        </div>
-                    </div>
+            <div class="logo-slider">
+                <div class="logo-set">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
+                </div>
+                <!-- Duplicate for seamless looping -->
+                <div class="logo-set">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                 </div>
             </div>
         </div>
@@ -391,12 +386,12 @@
 <!-- Spotlight Section -->
 <section class="spotlight-section">
     <div class="container">
-    <div class="bannerr position-relative">
+        <div class="bannerr position-relative">
             <span class="join-btn">JOIN US</span>
             <h1>SOLAR SOLUTION NETWORK (SSN)</h1>
         </div>
         <div class="spotlight-bg position-relative rounded">
-               
+
             <!-- Background Image -->
             <div class="spotlight-background rounded"></div>
 
@@ -558,7 +553,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Harnessing the Sun</h5>
                         <p class="card-text">Solar energy is more than just power—it's a step towards a sustainable and reliable future.</p>
-                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
+                        <a href="" class="btn">Read More →</a>
                     </div>
                 </div>
             </div>
@@ -595,7 +590,7 @@
     });
 </script>
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         var carousel = document.getElementById('imageCarousel');
         var carouselInstance = new bootstrap.Carousel(carousel, {
             pause: false // Disables pause on hover
