@@ -10,8 +10,8 @@
                     <h1>Powering Nigeria's Future with <span>Reliable Solar</span> Solutions</h1>
                     <p>Join 500,000 households transitioning to clean, reliable energy. Embrace solar power for uninterrupted energy, lower bills, and a greener planet!</p>
                     <div class="btn-div">
-                        <a class='btn-read' href='#'>Get Your Free Assessment</a>
-                        <a class='btn-contact' href='#'>Learn More About Solar</a>
+                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
                 <!-- Scroll Indicators -->
@@ -19,6 +19,8 @@
                     <span class="active" data-bs-slide-to="0">⚡</span>
                     <span class="inactive" data-bs-slide-to="1">⚡</span>
                     <span class="inactive" data-bs-slide-to="2">⚡</span>
+                    <span class="inactive" data-bs-slide-to="3">⚡</span>
+                    <span class="inactive" data-bs-slide-to="4">⚡</span>
                 </div>
             </div>
             <div class="carousel-item banner-two">
@@ -26,29 +28,67 @@
                     <h1>Uninterrupted Power for <span>Homes</span>, <span>Businesses</span>, and <span>Communities</span></h1>
                     <p>Achieve energy independence with Baltai Energy's accessible solar solutions tailored to your needs.</p>
                     <div class="btn-div">
-                        <a class='btn-read' href='#'>Get Your Free Assessment</a>
-                        <a class='btn-contact' href='#'>Learn More About Solar</a>
+                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
                 <div class="icon-group">
                     <span class="inactive" data-bs-slide-to="0">⚡</span>
                     <span class="active" data-bs-slide-to="1">⚡</span>
                     <span class="inactive" data-bs-slide-to="2">⚡</span>
+                    <span class="inactive" data-bs-slide-to="3">⚡</span>
+                    <span class="inactive" data-bs-slide-to="4">⚡</span>
                 </div>
             </div>
             <div class="carousel-item banner-three">
                 <div class="banner-note">
                     <h1><span>Powering</span> Your World with Reliable, Affordable, and <span>Clean Energy</span>.</h1>
-                    <p>Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family. </p>
+                    <p>Experience 24/7 energy independence, save on costs, and contribute to a sustainable future with Baltai Energy's innovative solar solutions.</p>
                     <div class="btn-div">
-                        <a class='btn-read' href='#'>Get Your Free Assessment</a>
-                        <a class='btn-contact' href='#'>Learn More About Solar</a>
+                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
                 <div class="icon-group">
                     <span class="inactive" data-bs-slide-to="0">⚡</span>
                     <span class="inactive" data-bs-slide-to="1">⚡</span>
                     <span class="active" data-bs-slide-to="2">⚡</span>
+                    <span class="inactive" data-bs-slide-to="3">⚡</span>
+                    <span class="inactive" data-bs-slide-to="4">⚡</span>
+                </div>
+            </div>
+            <div class="carousel-item banner-four">
+                <div class="banner-note">
+                    <h1>Your Path to <span>Sustainable Energy </span> Starts Here.</h1>
+                    <p>From lowering your bills to lighting your future, Baltai Energy makes going solar easy and impactful.</p>
+                    <div class="btn-div">
+                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
+                    </div>
+                </div>
+                <div class="icon-group">
+                    <span class="inactive" data-bs-slide-to="0">⚡</span>
+                    <span class="inactive" data-bs-slide-to="1">⚡</span>
+                    <span class="inactive" data-bs-slide-to="2">⚡</span>
+                    <span class="active" data-bs-slide-to="3">⚡</span>
+                    <span class="inactive" data-bs-slide-to="4">⚡</span>
+                </div>
+            </div>
+            <div class="carousel-item banner-five">
+                <div class="banner-note">
+                    <h1>Energy You Can <span>Trust</span>. Savings You Can See.</h1>
+                    <p>Experience 24/7 energy independence, save on costs, and contribute to a sustainable future with Baltai Energy's innovative solar solutions.</p>
+                    <div class="btn-div">
+                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
+                    </div>
+                </div>
+                <div class="icon-group">
+                    <span class="inactive" data-bs-slide-to="0">⚡</span>
+                    <span class="inactive" data-bs-slide-to="1">⚡</span>
+                    <span class="inactive" data-bs-slide-to="2">⚡</span>
+                    <span class="inactive" data-bs-slide-to="3">⚡</span>
+                    <span class="active" data-bs-slide-to="4">⚡</span>
                 </div>
             </div>
         </div>
@@ -80,7 +120,7 @@
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
                 </p>
                 <div class="my-4">
-                    <button class="btn text-white px-4 py-2">Request a free quote</button>
+                    <a href="{{route('contact')}}"><button class="btn text-white px-4 py-2">Request a free quote</button></a>
                 </div>
             </div>
             <div class="row g-2 mt-5">
@@ -288,7 +328,7 @@
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279428/Energy/3d-house_1_jdx07h.png" draggable="false" alt="">
                     <h5>Residential Solutions</h5>
                     <p>Reinvent your home with clean, reliable solar energy solutions, tailored, and carefully thought out to help uplift your living spaces while improving daily life. Enjoy uninterrupted power, lower utility bills, and a greener lifestyle for your family and the environment</p>
-                    <a href="#">Discover more</a>
+                    <a href="{{route('residential')}}">Discover more</a>
                 </div>
             </div>
             <!-- Business Solutions -->
@@ -298,7 +338,7 @@
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279428/Energy/3d-house_1_1_bxjurr.png" draggable="false" alt="">
                     <h5>Business Solutions</h5>
                     <p>Empower your business with sustainable energy solutions designed to optimize operations and cut costs. Our innovative solar systems provide reliable power designed to effectively meet your commercial needs.</p>
-                    <a href="#">Discover more</a>
+                    <a href="{{route('business')}}">Discover more</a>
                 </div>
             </div>
             <!-- Industrial Solutions -->
@@ -308,7 +348,7 @@
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737279427/Energy/3d-building_1_fiflbi.png" draggable="false" alt="">
                     <h5>Industrial Solutions</h5>
                     <p>Scale your operations sustainably with our high-capacity solar energy solutions... From powering industrial facilities to large-scale enterprises, our systems will help you achieve operational efficiency and long-term savings with significant years of peak utility for every use case.</p>
-                    <a href="#">Discover more</a>
+                    <a href="{{route('industrial')}}">Discover more</a>
                 </div>
             </div>
         </div>
@@ -351,7 +391,7 @@
 <!-- Spotlight Section -->
 <section class="spotlight-section">
     <div class="container">
-    <div class="banner position-relative">
+    <div class="bannerr position-relative">
             <span class="join-btn">JOIN US</span>
             <h1>SOLAR SOLUTION NETWORK (SSN)</h1>
         </div>
@@ -370,7 +410,7 @@
                             Say goodbye to power outages and high bills. With Solar Solutions Network (SSN),
                             enjoy uninterrupted electricity powered by the sun.
                         </p>
-                        <a href="#" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
+                        <a href="{{route('our_ssn')}}" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
                     </div>
                 </div>
                 <div class="col-md-6"></div>
@@ -493,7 +533,7 @@
                     <div class="card-body">
                         <h5 class="card-title">5 Reasons to Switch to Solar Today</h5>
                         <p class="card-text">From lower electricity bills to eco-friendliness, discover why solar power is the solution for you.</p>
-                        <a href="#" class="btn">Read More →</a>
+                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
                     </div>
                 </div>
             </div>
@@ -505,7 +545,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Sustainable Future with Solar</h5>
                         <p class="card-text">Solar technology continues to advance, offering more efficient and versatile energy solutions.</p>
-                        <a href="#" class="btn">Read More →</a>
+                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
                     </div>
                 </div>
             </div>
@@ -518,7 +558,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Harnessing the Sun</h5>
                         <p class="card-text">Solar energy is more than just power—it's a step towards a sustainable and reliable future.</p>
-                        <a href="#" class="btn">Read More →</a>
+                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
                     </div>
                 </div>
             </div>

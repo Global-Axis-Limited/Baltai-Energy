@@ -12,10 +12,10 @@
         <div class="bg-dark text-white pt-3 pb-3 fixed-top"  id="header-scroll">
             <div class="container d-flex justify-content-between ">
             <div class="">
-                <a href="#" class="text-white me-4"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="text-white me-4"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="text-white me-4"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/baltaienergy/" class="text-white me-4"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/baltai-energy/" class="text-white me-4"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/baltaienergy/" class="text-white me-4"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/BaltaiEnergy" class="text-white"><i class="bi bi-twitter-x"></i></a>
             </div>
 
             <!-- Contact Information -->

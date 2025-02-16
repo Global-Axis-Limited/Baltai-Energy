@@ -19,34 +19,17 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="quick">
-                    <ul>
-                        <li>
-                            <div class="force">
-                                <a href="{{route('index')}}">
-                                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737290216/Energy/Baltai_Energy_Logo_Agreed_2_1_stuhkw.png" draggable="false" alt="">
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            We are Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team and exclusive partnerships with top European and Asian Engineering OEMs
-                        </li>
-                    </ul>
-                    <h1>
-                        Follow Us
-                    </h1>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1677678779/OjaFunnel-Images/facebook_n5uvff.png" draggable="false" title="Follow" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1677678781/OjaFunnel-Images/twitter_kd7mew.png" draggable="false" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1677678783/OjaFunnel-Images/instagram_zf1kco.png" draggable="false" alt="">
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="force">
+                        <a href="{{route('index')}}">
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737290216/Energy/Baltai_Energy_Logo_Agreed_2_1_stuhkw.png" draggable="false" alt="">
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/baltaienergy/" class="icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/baltai-energy/" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/baltaienergy/" class="icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/BaltaiEnergy" class="icon"><i class="bi bi-twitter-x"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -106,7 +89,7 @@
             <div class="col-lg-2">
                 <div class="quick">
                     <h1>
-                        Our Services
+                        Quick Link
                     </h1>
                     <ul>
                         <li>

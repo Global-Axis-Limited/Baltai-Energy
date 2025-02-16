@@ -335,43 +335,54 @@ header nav .offcanvas-header button i {
 
 
 /* Welcome Screen */
-.welcome-screen {
+/* .welcome-screen {
     margin-top: 100px;
-}
+} */
 
 .welcome-screen .banner-one {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873828/Energy/p_1_fch0xz.jpg');
+    background-size: cover;
 
 }
 
 .welcome-screen .banner-two {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873832/Energy/o_1_vllvrl.jpg');
+    background-size: cover;
 }
 
 .welcome-screen .banner-three {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736874129/Energy/i_smqbvk.jpg');
+    background-size: cover;
+}
 
+.welcome-screen .banner-four {
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739701590/Energy/Group_48097670_wk0hwq.jpg');
+    background-size: cover;
+}
+
+.welcome-screen .banner-five {
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739701591/Energy/Group_48097671_lxlj91.jpg');
+    background-size: cover;
 }
 
 .welcome-screen .carousel-item {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding: 150px 10px 200px 10px;
     color: #fff;
-
+    padding: 150px 0 100px 0px;
 }
 
 .welcome-screen .carousel-item .banner-note {
-    width: 53%;
-    padding: 0 0 0 180px;
+    width: 48%;
+    padding: 80px 0 50px 180px;
 
 }
 
 .welcome-screen .carousel-item .banner-note h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: "Heebo", serif !important;
-    font-weight: 100;
+    font-weight: 100 !important;
     padding-top: 10px;
     line-height: 1.5;
     padding-bottom: 10px;
@@ -429,7 +440,7 @@ header nav .offcanvas-header button i {
 
 .icon-group {
     position: absolute;
-    bottom: 90px;
+    bottom: 50px;
     left: 15%;
     transform: translateX(-50%);
     display: flex;
@@ -913,6 +924,7 @@ header nav .offcanvas-header button i {
         margin: auto !important;
         width: 100% !important;
     }
+
     .icon-text p {
         text-align: center;
         line-height: 2;
@@ -1054,7 +1066,7 @@ header nav .offcanvas-header button i {
     padding: 50px 0px 0 0;
 }
 
-.banner {
+.bannerr {
     background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
     padding: 20px;
     border-radius: 10px 10px 0 0;
@@ -1062,7 +1074,7 @@ header nav .offcanvas-header button i {
     position: relative;
 }
 
-.banner h1 {
+.bannerr h1 {
     color: white;
     font-weight: bold;
 }
@@ -1109,7 +1121,8 @@ header nav .offcanvas-header button i {
     padding: 20px;
     background: #fff !important;
 }
-.spotlight-section .AbiNah p{
+
+.spotlight-section .AbiNah p {
     font-size: 16px;
     line-height: 2;
 }
@@ -1414,29 +1427,30 @@ textarea:focus {
 }
 
 .footer .quick {
-    padding: 60px 0 0 0;
+    padding: 80px 0 0 0;
     color: #fff !important;
 }
 
 .footer .quick a {
     text-decoration: none;
-    color: #fff;
+    color: #BDBDBD;
 }
 
 .footer .kit-font p {
     padding: 10px 0 0 0;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
 }
 
 .footer .quick h1 {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 0;
-    padding: 0 0 15px 0;
+    padding: 0 0 20px 0;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 600;
 }
+
 
 .footer .quick ul li img {
     width: 25px;
@@ -1444,26 +1458,43 @@ textarea:focus {
 }
 
 .force img {
-    width: 200px !important;
+    width: 300px;
+    display: block;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+.icon {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    background-color: white;
+    color: black;
 }
 
 .footer .quick ul li {
     list-style: none;
-    color: #fff;
-    line-height: 1.8;
-    font-size: 13px;
-    font-size: 20px;
-    margin-top: 0;
+    color: #BDBDBD;
+    line-height: 2;
+    font-size: 15px;
     padding: 0 0 20px 0;
-    margin-bottom: 0;
-}
-
-.footer .quick ul li {
-    list-style: none;
-    color: #fff;
-    font-size: 13px;
     margin-left: -30px;
-    padding: 0 0 8px;
 }
 
 @media (max-width:900px) {
@@ -2414,15 +2445,6 @@ textarea:focus {
     background-color: #b48845;
 }
 
-.social-icons a {
-    color: #ffffff;
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
-
-.social-icons a:hover {
-    color: #c99850;
-}
 
 .communication .thread-text .output {
     padding: 20px 0 0 0;
@@ -2838,10 +2860,6 @@ textarea:focus {
     width: 100%;
 }
 
-#carouselExampleIndicators .carousel-item {
-    margin-top: 100px;
-    padding: 120px 0px 100px 0 !important;
-}
 
 #carouselExampleIndicators .carousel-item h1 {
     color: #fff;
