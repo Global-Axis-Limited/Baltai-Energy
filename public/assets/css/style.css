@@ -477,18 +477,18 @@ header nav .offcanvas-header button i {
 
 @media (max-width: 1400px) {
     .welcome-screen .carousel-item .banner-note {
-        width: 60%;
-        padding: 0 0 0 130px;
+        width: 65%;
+        padding: 80px 0 50px 120px ;
     }
 
-    .welcome-screen .carousel-item {
+    /* .welcome-screen .carousel-item {
         padding: 100px 0px 130px 0px;
         color: #fff;
-    }
+    } */
 
     .icon-group {
         position: absolute;
-        bottom: 30px;
+        bottom: 50px;
         left: 15%;
         transform: translateX(-50%);
         display: flex;
@@ -668,10 +668,6 @@ header nav .offcanvas-header button i {
         padding: 0 0 0px 50px;
     }
 
-    .Benefit ul {
-        height: 170px;
-    }
-
     .faqPage {
         padding: 50px 0px;
     }
@@ -687,7 +683,7 @@ header nav .offcanvas-header button i {
     }
 
     .Benefit .card {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     .Benefit {
@@ -818,6 +814,14 @@ header nav .offcanvas-header button i {
     font-weight: 500;
     font-family: "Montserrat", serif;
     padding: 0 0 10px 0;
+}
+
+@media (max-width:1400px) {
+    .main-heading {
+        margin-top: -10px;
+        font-size: 30px;
+        
+    }
 }
 
 .custom-section p {
@@ -1458,21 +1462,22 @@ textarea:focus {
 }
 
 .force img {
-    width: 300px;
+    width: 170px;
     display: block;
+    margin: auto;
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding: 10px 0px;
+    gap: 10px;
+    padding: 13px 0px;
 }
 
 .icon {
     margin-top: 10px;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
@@ -1757,7 +1762,7 @@ textarea:focus {
     }
 
     .testimonial-card {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .Story {
@@ -1824,6 +1829,39 @@ textarea:focus {
     margin-top: -150px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3px;
+}
+@media (max-width: 768px) { /* For md screens */
+    .grid-container .card {
+       margin-top: -50px !important;
+    }
+}
+
+@media (max-width: 576px) { /* For sm screens */
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
+
+.LLL{
+    background: #fff;
+}
+
+.Pushing .card p{
+    line-height: 2;
+    font-size: 15px;
+}
+@media (max-width:1400px) {
+    .Pushing .card p{
+        line-height: 2;
+        font-size: 14px !important;
+    }
+}
+
 .Pushing .card:hover {
     background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
     color: #fff;
@@ -1838,7 +1876,8 @@ textarea:focus {
 .Just .Txt {
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737372105/Energy/Group_48097670_ugau4c.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    padding: 5px 0px;
 }
 
 .Just .Justing {
@@ -1856,14 +1895,36 @@ textarea:focus {
     font-size: 20px;
     color: #F8861A;
     font-weight: 500;
+    text-align: center;
 }
 
 .Story {
-    padding: 100px 0 100px 0px;
+    padding: 100px 0px;
     background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355394/Energy/Group_33_pvot15.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -50px;
+    background-position: center;
+    /* background-position-y: -50px; */
+}
+
+@media (max-width:1400px) {
+    
+.Story {
+    padding: 50px 0 10px 0px;
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355394/Energy/Group_33_pvot15.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Emmeting {
+    position: relative;
+    left: 160px !important;
+}
+}
+
+@media (max-width:1000px) {
+    .Story{
+        display: none;
+    }
 }
 
 .Story .Emmet h5 {
@@ -1879,8 +1940,9 @@ textarea:focus {
 }
 
 .Emmeting {
+    top: 50px;
     position: relative;
-    left: 230px;
+    left: 200px;
 }
 
 .Story .Emmeting h5 {
@@ -1896,7 +1958,7 @@ textarea:focus {
 }
 
 .Story .Emmeting img {
-    width: 70%;
+    width: 300px;
 }
 
 /* vISION */
@@ -1963,6 +2025,10 @@ textarea:focus {
 .Testimonials {
     background-color: #F9F9F9;
     padding: 200px 0 50px 0;
+}
+.testimonial-card p {
+    line-height: 2;
+    font-size: 14px !important;
 }
 
 .join-us-section {
@@ -2404,7 +2470,7 @@ textarea:focus {
 
 .contact-section p {
     font-size: 1rem;
-    line-height: 2;
+    line-height: 3;
 }
 
 .contact-section .form-control {
@@ -2750,6 +2816,7 @@ textarea:focus {
 .partner-logo {
     width: 100%;
 }
+
 
 .partner-card {
     transition: transform 0.3s ease-in-out;
@@ -3116,4 +3183,12 @@ textarea:focus {
         width: 100px;
         margin: 0 10px;
     }
+}
+
+
+.contact-section .Txt {
+    background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737372105/Energy/Group_48097670_ugau4c.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px 0px;
 }

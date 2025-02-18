@@ -125,7 +125,7 @@
             </div>
             <div class="row g-2 mt-5">
                 <!-- Card 1 -->
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="">
                             <div class="icon">
@@ -144,7 +144,7 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="">
                             <div class="icon">
@@ -163,7 +163,7 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="">
                             <div class="icon">
@@ -182,7 +182,7 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="">
                             <div class="icon">
@@ -371,7 +371,6 @@
                 </div>
                 <!-- Duplicate for seamless looping -->
                 <div class="logo-set">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
@@ -398,7 +397,7 @@
             <!-- Overlay Content -->
             <div class="row g-4 align-items-center position-relative z-2 p-4">
                 <!-- Left Spotlight Card -->
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="text-white">
                         <h2 class="fw-bold Joiil">Spotlight on <strong>SSN</strong></h2>
                         <p class="mt-3">
@@ -413,7 +412,7 @@
                 <div class="col-lg-12 mt-5">
                     <div class="row g-3">
                         <!-- Card 1 -->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-lg-6">
                             <div class="AbiNah p-4 rounded" data-aos="fade-down-right">
                                 <h4 class="fw-bold">24/7 Reliable Power Starts Here!</h4>
                                 <p class="mt-2">
@@ -422,7 +421,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-lg-6">
                             <div class="AbiNah p-4 rounded" data-aos="fade-up-left">
                                 <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
                                 <p class="mt-2">
@@ -431,7 +430,7 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-lg-12">
                             <div class="AbiNah p-4 rounded" data-aos="fade-down-left">
                                 <h4 class="fw-bold">Solar for Every Budget!</h4>
                                 <p class="mt-2">
@@ -450,7 +449,7 @@
     <div class="container">
         <div class="row align-items-center">
             <!-- Left: Form Section -->
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="calculator-form p-4 rounded" data-aos="zoom-out-right">
                     <h3 class="fw-bold text-white text-anime-wave">Quick Energy Calculator</h3>
                     <p class="text-white">Estimate Your Solar Savings</p>
@@ -504,7 +503,7 @@
             </div>
 
             <!-- Right: Images -->
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="d-flex flex-column gap-3" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
@@ -520,20 +519,20 @@
         <h2 class="text-center mb-5">Insights</h2>
         <div class="row mt-5">
             <!-- Card 1 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" draggable="false" class="card-img-top" alt="Solar Home">
                     <div class="card-body">
-                        <h5 class="card-title">5 Reasons to Switch to Solar Today</h5>
+                        <h5 class="card-title">5 Reasons to Switch to Solar</h5>
                         <p class="card-text">From lower electricity bills to eco-friendliness, discover why solar power is the solution for you.</p>
                         <a href="{{route('our_insight')}}" class="btn">Read More →</a>
                     </div>
                 </div>
             </div>
             <!-- Card 2 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-up"
                     data-aos-duration="3000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
@@ -545,7 +544,7 @@
                 </div>
             </div>
             <!-- Card 3 -->
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-4 col-md-12 mb-4">
                 <div class="card" data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">

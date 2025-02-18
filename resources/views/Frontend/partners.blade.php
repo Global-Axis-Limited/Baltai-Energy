@@ -81,8 +81,10 @@
         <div class="row align-items-center">
             <!-- Left Column -->
             <div class="col-lg-6 col-md-12">
-                <div class="contact-details" style="background:#FEF9ED; color:black;">
+                <div class="Txt">
                     <h6 style="color: #F8861A;">Collaborating for Greater Impact</h6>
+                </div>
+                <div style="background:#FEF9ED; color:black;">
                     <h2 class="">Strategic Partnerships</h2>
                     <p>As an organization we understand the philosophy of numbers.
                         That is, great things are not achieved alone, but as a team of like-minded entities with aligned values focused on achieving common mutual goals. </p>
@@ -99,6 +101,7 @@
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
                 <form class="Just" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
+                <h6 style="color: #F8861A;"  class="text-center"> JOIN US</h6>
                     <h2 class="text-black mb-4 text-center">Become a Partner</h2>
                     <div class="mb-4">
                         <label for="fullName" class="form-label mb-3">Full Name</label>

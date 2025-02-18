@@ -19,84 +19,62 @@
 <!-- Benefit -->
 <section class="Benefit Pushing">
     <div class="container">
-        <div class="row">
-            <div class="row">
-                <!-- Card 1 -->
-                <div class="col-md-3">
-                    <div class="card" data-aos="flip-left">
-                        <div class="">
-                            <div class="iconing">
-                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097669_wa4p7l.png" alt="Reliability iconing">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="fw-bold">Together</h5>
-                            <ul>
-                                <li>We can redefine power utility in Nigeria and change the status quo</li>
-                            </ul>
-                        </div>
+        <div class="grid-container">
+            <div class="card" data-aos="flip-left">
+                <div class="">
+                    <div class="iconing">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097669_wa4p7l.png" alt="Reliability iconing">
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="col-md-3">
-                    <div class="card" data-aos="flip-up">
-                        <div class="">
-                            <div class="iconing">
-                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370852/Energy/Group_48097670_gqdt7o.png" alt="Cost Savings iconing">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="fw-bold">Everyone</h5>
-                            <ul>
-                                <li>is a stakeholder, individuals and business alike striving for a better economic future</li>
-
-                            </ul>
-                        </div>
-
+                <div class="card-body">
+                    <h5 class="fw-bold">Together</h5>
+                    <p>
+                        We can redefine power utility in Nigeria and change the status quote
+                    </p>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-up">
+                <div class="">
+                    <div class="iconing">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370852/Energy/Group_48097670_gqdt7o.png" alt="Cost Savings iconing">
                     </div>
                 </div>
-
-                <!-- Card 3 -->
-                <div class="col-md-3">
-                    <div class="card" data-aos="flip-down">
-                        <div class="">
-                            <div class="iconing">
-                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097671_byicev.png" alt="Sustainability iconing">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="fw-bold">Achieving</h5>
-                            <ul>
-                                <li>24-Hours power supply is not a luxury but a daily necessity for individuals</li>
-
-                            </ul>
-                        </div>
+                <div class="card-body">
+                    <h5 class="fw-bold">Everyone</h5>
+                    <p>
+                        is a stakeholder, individuals and business alike striving for a better economic future
+                    </p>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-down">
+                <div class="">
+                    <div class="iconing">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097671_byicev.png" alt="Sustainability iconing">
                     </div>
                 </div>
-
-                <!-- Card 4 -->
-                <div class="col-md-3">
-                    <div class="card" data-aos="flip-right">
-                        <div class="">
-                            <div class="iconing">
-                                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097672_k88q7q.png" alt="Easy Process iconing">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="fw-bold">More</h5>
-                            <ul>
-                                <li>Capacity can be built with a stable power economy expanding our road to a brighter tomorrow.</li>
-
-                            </ul>
-                        </div>
+                <div class="card-body">
+                    <h5 class="fw-bold">Achieving</h5>
+                    <p>
+                        24-Hours power supply is not a luxury but a daily necessity for individuals
+                    </p>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-right">
+                <div class="">
+                    <div class="iconing">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097672_k88q7q.png" alt="Easy Process iconing">
                     </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-bold">More</h5>
+                    <p>
+                        Capacity can be built with a stable power economy expanding our road to a brighter tomorrow
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Benefit Ends -->
 
 <!-- Just -->
 <section class="Just">
@@ -109,10 +87,10 @@
             </div>
             <div class="col-lg-6"></div>
             <div class="col-lg-12">
-                <h5 class="Justing fw-bold mt-2" data-aos="fade-left">Just a little about us</h5>
+                <h5 class="Justing fw-bold mt-2" data-aos="fade-left">Hi, We’re Baltai Energy.</h5>
 
                 <p data-aos="fade-up">
-                    Baltai Energy is a Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team and exclusive partnerships with top European and Asian Engineering OEMs. We are committed to providing reliable, sustainable, and cost-effective energy solutions to our clients. Our goal is to redefine power utility in Nigeria and change the status quo. We believe that 24-Hours power supply is not a luxury but a daily necessity for individuals and businesses alike striving for a better economic future. We are convinced that capacity can be built with a stable power economy expanding our road to a brighter tomorrow.
+                    We are Solar Systems Solutions Provider based in Lagos, Nigeria; with an international team and exclusive partnerships with top European and Asian Engineering OEMs. We provide  Off-grid and On-grid solutions that cover every capacity or scale: from residential, to commercial, to industrial projects. With a commitment to quality and service delivery, we strive to provide solutions based services that are tailored to the specific needs of our clients. Our equipment are designed and manufactured with cutting edge solar technology and innovative features that not only solve energy problems but also provide great experiences that elevate the utility for every use case.
                 </p>
             </div>
         </div>
@@ -158,7 +136,7 @@
     <p class="text-center">Strategic objectives guiding our growth journey.</p>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="quote-card" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
@@ -166,7 +144,7 @@
                     <p>To be Nigeria's foremost provider of innovative, affordable, and reliable solar energy solutions, empowering communities and driving sustainable development.</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="quote-card" data-aos="fade-left"
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
@@ -179,7 +157,6 @@
     </div>
 </div>
 
-<!-- Testimonials Section -->
 <!-- Testimonials Section -->
 <section class="Testimonials">
     <div class="container my-5">
@@ -195,8 +172,8 @@
                                 <div class="mb-4">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Chloe Bailey</p>
+                                <p>Switching to Baltai Energy’s 5KVA Solar solution was the best decision we made for our home. Not only have we seen a significant reduction in our electricity bills but we also feel good knowing we are contributing to a cleaner environment. Highly recommend</p>
+                                <p class="fw-medium">Mr & Mrs Marvelous E.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -204,8 +181,8 @@
                                 <div class="mb-4">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Victor Dwae</p>
+                                <p>A friend of mine introduced me to Baltai Energy. From the initial consultation to the final installation, the process was seamless. My house is now powered with 24 hours electricity. The team’s expertise is truly commendable. Glad I took the opportunity... Next installment will be at my office.</p>
+                                <p class="fw-medium">Alhaji Idris M.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -213,8 +190,9 @@
                                 <div class="mb-4">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Victor Dwae</p>
+                                <p>Baltai Energy’s solar solution is more than just installing solar, It’s giving you value for your money. Our electricity bills have reduced immensely, and we enjoy 24 hours electricity.
+                                    The quality of the solar panels and solar inverters are top-notch. Definiely worth every penny!</p>
+                                <p class="fw-medium">Mrs Chinenye M.</p>
                             </div>
                         </div>
                     </div>
@@ -227,8 +205,8 @@
                                 <div class="mb-3">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Layi Wasabi</p>
+                                <p>We are thrilled with our decision to go solar with Baltai Energy. Installing the 30KVA solutions was a wise decision as we love knowing that we are reducing our carbon footprint. The installation process was smooth, and we highly recommend Baltai Energy to anyone looking to switch to solar power!</p>
+                                <p class="fw-medium">TRU Media</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -236,8 +214,8 @@
                                 <div class="mb-3">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Jason Freeman</p>
+                                <p>After installing 10KVA solar solutions at our office, we’ve seen remarkable difference in our energy consumption. Our employees are thrilled to be working in a more eco friendly environment. Thank you Baltai Energy!</p>
+                                <p class="fw-medium">Big Ben Furniture</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -245,8 +223,8 @@
                                 <div class="mb-3">
                                     <span class="text-success">★★★★★</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia leo eget turpis pretium elementum.</p>
-                                <p class="fw-bold">Jason Freeman</p>
+                                <p>I can’t say enough good things anout Baltai Energy. Their team was professional, and the quality of their solar panels are solid. With the 30KVA solutions, I no longer worry about diesel not being enough during productions1</p>
+                                <p class="fw-medium">Chief Akinmuyiwa B.</p>
                             </div>
                         </div>
                     </div>
@@ -264,38 +242,32 @@
         </div>
         <div class="trustpilot">
             <span class="text-success mb-5">★★★★★</span>
-            <p>4.7 out of 5 stars based on 3,562 reviews | showing our 4 and 5-star reviews</p>
+            <p>4.7 out of 5 stars based on 3, 562 reviews | showing our 4 and 5 star reviews</p>
         </div>
     </div>
 </section>
 
 <!-- Trusted Partners Section -->
 <section class="trusted-partners">
-    <div class="container">
+<div class="container">
         <div class="row">
             <h2 class="text-left">Partnerships</h2>
-            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                        </div>
-                    </div>
+            <div class="logo-slider">
+                <div class="logo-set">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
+                </div>
+                <!-- Duplicate for seamless looping -->
+                <div class="logo-set">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
                 </div>
             </div>
         </div>
