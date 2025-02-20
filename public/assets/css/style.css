@@ -577,7 +577,6 @@ header nav .offcanvas-header button i {
 .Benefit .E {
     font-size: 15px;
     line-height: 2;
-
 }
 
 .Benefit button {
@@ -1346,7 +1345,7 @@ textarea:focus {
 
 .Amen {
     background-color: #565052;
-    padding: 50px 50px 50px 50px;
+    padding: 30px 50px 40px 50px !important;
     border-radius: 10px;
     width: 100%;
     line-height: 1.5;
@@ -1355,12 +1354,12 @@ textarea:focus {
 }
 
 .Amen p {
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
 }
 
 .Amen h1 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #fff;
 }
@@ -1462,7 +1461,7 @@ textarea:focus {
 }
 
 .force img {
-    width: 170px;
+    width: 140px;
     display: block;
     margin: auto;
 }
@@ -1472,12 +1471,13 @@ textarea:focus {
     justify-content: center;
     gap: 10px;
     padding: 13px 0px;
+    font-size: 10px;
 }
 
 .icon {
     margin-top: 10px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
@@ -2237,7 +2237,7 @@ textarea:focus {
 
 .Hello {
     padding: 80px 0;
-    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
+    background-color: #F9F9F9;
 }
 
 .Hello .align img {
@@ -2245,18 +2245,25 @@ textarea:focus {
 }
 
 .Hello button {
-    margin-top: -30px;
+    margin-top: -50px;
     padding: 15px 30px 15px 30px;
     border: none;
-    background: #fff;
+    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
     border-radius: 50px;
     font-size: 15px;
-    color: #FEC31C;
+    color: #fff;
 }
 
-.Hello button:hover {
-    background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);
-    color: #fff;
+.Hello .carousel-item img{
+    width: 300px;
+}
+@media (max-width:548px) {
+    .Hello .carousel-item img{
+        width: 200px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
 }
 
 /* Components */
@@ -3191,4 +3198,23 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size: contain;
     padding: 5px 0px;
+}
+
+.Hello .custom-arrow {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+}
+.Hello .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 10px;
+    height: 20px;
+}
+.ALLL H1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2;
 }

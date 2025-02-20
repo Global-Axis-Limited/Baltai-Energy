@@ -453,13 +453,13 @@
                 <div class="calculator-form p-4 rounded" data-aos="zoom-out-right">
                     <h3 class="fw-bold text-white text-anime-wave">Quick Energy Calculator</h3>
                     <p class="text-white">Estimate Your Solar Savings</p>
-                    <form>
+                    <form id="savings-form">
                         <!-- Monthly Electricity Bill -->
                         <div class="mb-4">
                             <label for="electricity-bill" class="form-label text-white">Monthly Electricity Bill</label>
                             <div class="input-group">
                                 <span class="input-group-text">₦</span>
-                                <input type="text" class="form-control" id="electricity-bill" value="40,000" required />
+                                <input type="number" class="form-control" id="electricity-bill" value="40000" required />
                             </div>
                         </div>
 
@@ -468,7 +468,7 @@
                             <label for="fuel-cost" class="form-label text-white">Monthly Cost on Fuel (Generator)</label>
                             <div class="input-group">
                                 <span class="input-group-text">₦</span>
-                                <input type="text" class="form-control" id="fuel-cost" value="190,000" required />
+                                <input type="number" class="form-control" id="fuel-cost" value="190000" required />
                             </div>
                         </div>
 
@@ -479,6 +479,9 @@
                                 <option selected>3-5</option>
                                 <option>6-8</option>
                                 <option>9-12</option>
+                                <option>13-15</option>
+                                <option>16-18</option>
+                                <option>19-24</option>
                             </select>
                         </div>
 
@@ -489,18 +492,38 @@
                                 <option selected>Duplex</option>
                                 <option>Flat</option>
                                 <option>Bungalow</option>
+                                <option>Self-contained</option>
+                                <option>Mini-flat</option>
+                                <option>Terraced House</option>
+                                <option>Penthouse</option>
+                            </select>
+                        </div>
+
+                        <!-- Electricity Band -->
+                        <div class="mb-4">
+                            <label for="electricity-band" class="form-label text-white">Electricity Band</label>
+                            <select id="electricity-band" class="form-select" required>
+                                <option selected value="1.2">Band A</option>
+                                <option value="1.1">Band B</option>
+                                <option value="1.0">Band C</option>
+                                <option value="0.9">Band D</option>
+                                <option value="0.8">Band E</option>
                             </select>
                         </div>
 
                         <!-- Submit Button -->
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary fw-bold">
+                            <button type="button" class="btn btn-primary fw-bold" onclick="calculateSavings()">
                                 Calculate Savings Cost
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
+
+
+
+
 
             <!-- Right: Images -->
             <div class="col-lg-6 col-md-12">
@@ -562,6 +585,22 @@
 
 
 @endsection
+<!-- Modal -->
+<div class="modal fade" id="savingsModal" tabindex="-1" aria-labelledby="savingsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="savingsModalLabel">Estimated Solar Savings</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="savingsResult">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     const indicators = document.querySelectorAll('.icon-group span');
@@ -596,3 +635,45 @@
         });
     });
 </script>
+<script>
+function calculateSavings() {
+    let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
+    let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
+    let electricityBand = parseFloat(document.getElementById("electricity-band").value);
+    let electricitySupply = document.getElementById("electricity-supply").value;
+    let apartmentType = document.getElementById("apartment-type").value;
+    
+    if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
+        alert("Please enter valid numbers for electricity bill and fuel cost.");
+        return;
+    }
+    
+    let supplyFactor = {
+        "3-5": 0.7,
+        "6-8": 0.8,
+        "9-12": 0.9,
+        "13-15": 1.0,
+        "16-18": 1.1,
+        "19-24": 1.2
+    }[electricitySupply];
+    
+    let apartmentFactor = {
+        "Duplex": 1.3,
+        "Flat": 1.2,
+        "Bungalow": 1.1,
+        "Self-contained": 1.0,
+        "Mini-flat": 0.9,
+        "Terraced House": 1.15,
+        "Penthouse": 1.25
+    }[apartmentType];
+    
+    let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
+    document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>"
+    + "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>"
+    + "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
+    
+    var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
+    myModal.show();
+}
+</script>
+

@@ -100,35 +100,107 @@
 
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
-                <form class="Just" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
-                <h6 style="color: #F8861A;"  class="text-center"> JOIN US</h6>
+                <form class="Just" id="contactForm" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
+                    <h6 style="color: #F8861A;" class="text-center"> JOIN US</h6>
                     <h2 class="text-black mb-4 text-center">Become a Partner</h2>
                     <div class="mb-4">
-                        <label for="fullName" class="form-label mb-3">Full Name</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
+                        <label for="name" class="form-label mb-3">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your full name" required>
                     </div>
                     <div class="mb-4">
-                        <label for="emailAddress" class="form-label mb-3">Email Address</label>
-                        <input type="email" class="form-control" id="emailAddress" placeholder="Your email address" required>
+                        <label for="email" class="form-label mb-3">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your email address" required>
                     </div>
                     <div class="mb-4">
-                        <label for="phoneNumber" class="form-label mb-3">Type of Partner</label>
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="Type of Partner" required>
+                        <label for="type" class="form-label mb-3">Type of Partner</label>
+                        <input type="text" class="form-control" id="type" placeholder="Type of Partner" required>
                     </div>
                     <div class="mb-4">
                         <label for="phoneNumber" class="form-label mb-3">Phone Number (Optional)</label>
-                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number (Optional)" required>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number (Optional)">
                     </div>
                     <div class="mb-4">
                         <label for="message" class="form-label mb-3">Additional Information (Optional)</label>
-                        <textarea class="form-control" id="message" cols="30" rows="5" placeholder="Write your message here" required></textarea>
+                        <textarea class="form-control" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea>
                     </div>
-                    <div>
-                        <button type="submit" class="btn btn-submit mb-4 " style="width: 100%;" required>Submit</button>
-                    </div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
                 </form>
+
             </div>
         </div>
     </div>
 </section>
+<!-- Pop-up Modal -->
+<div id="popupModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="popupMessage"></p>
+    </div>
+</div>
 @endsection
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<!-- JavaScript Code -->
+<script>
+    // Initialize EmailJS
+    emailjs.init('7OTHPg9Z5xMdEA6I0'); // Replace with your actual EmailJS user ID
+
+    // Form submission event listener
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Get form values
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const type = document.getElementById('type').value;
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        const message = document.getElementById('message').value;
+
+        // EmailJS parameters
+        const emailParams = {
+            name: name,
+            email: email,
+            type: type,
+            phoneNumber: phoneNumber,
+            message: message
+        };
+
+        // Send the email using EmailJS
+        emailjs.send('service_gofp5t1', 'template_35xrlfe', emailParams)
+            .then(function(response) {
+                // Show success popup
+                showPopup('Message sent successfully!', 'success');
+                document.getElementById('contactForm').reset(); // Reset form
+            }, function(error) {
+                // Show error popup
+                showPopup('Failed to send message. Please try again.', 'error');
+            });
+    });
+
+    // Function to display the pop-up message
+    function showPopup(message, type) {
+        var modal = document.getElementById('popupModal');
+        var popupMessage = document.getElementById('popupMessage');
+
+        popupMessage.innerText = message; // Set message text
+
+        if (type === 'success') {
+            popupMessage.style.color = 'green';
+        } else {
+            popupMessage.style.color = 'red';
+        }
+
+        modal.style.display = 'block'; // Show modal
+
+        // Close the modal when clicking the close button
+        document.querySelector('.close').onclick = function() {
+            modal.style.display = 'none';
+        };
+
+        // Close the modal if the user clicks outside of it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        };
+    }
+</script>
