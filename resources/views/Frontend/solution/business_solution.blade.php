@@ -24,30 +24,22 @@
     <div class="container">
         <div class="row">
             <div class="justify-content mb-5">
-                <h1 class="text-white">
+                <h1 class="text-black">
                     Product Range
                 </h1>
                 <button class="float-end">Speak to a Consultant</button>
             </div>
-            <div class="col-lg-3">
-                <div class="align" data-aos="fade-left">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737874694/Energy/Frame_454_nkux3t.png" draggable="false" alt="">
-                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071923/9_xneof7.png" class="d-block w-100" draggable="false" alt="Product 5" data-bs-toggle="modal" data-bs-target="#modal9">
             </div>
-            <div class="col-lg-3">
-                <div class="align" data-aos="fade-up">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737874693/Energy/Frame_455_oxvfyf.png" draggable="false" alt="">
-                </div>
+            <div class="col-md-3 mb-4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071948/10_myute7.png" class="d-block w-100" draggable="false" alt="Product 6" data-bs-toggle="modal" data-bs-target="#modal10">
             </div>
-            <div class="col-lg-3" data-aos="fade-down">
-                <div class="align">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737874694/Energy/Frame_456_o92t2h.png" draggable="false" alt="">
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="align" data-aos="fade-right">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737874694/Energy/Frame_457_x6kz4t.png" draggable="false" alt="">
-                </div>
+            <div class="col-md-3 mb-4">
+                <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071963/11_vtvexh.png" class="d-block w-100" draggable="false" alt="Product 7" data-bs-toggle="modal" data-bs-target="#modal11">
             </div>
         </div>
     </div>
@@ -58,25 +50,82 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <div class="thread-text">
+                <div class="thread-text" style="color:#fff;">
                     <h2>
-                        10 KVA Solution: (Solution Name)
+                        BE Alpha
                     </h2>
-                    <p>
-                        The 10 kVA smart solution is ideal for businesses looking to run more efficient operations with reliable power while cutting cost on electricity bills and unsustainably expensive fuel for generators..
+                    <p style="color:#fff;">
+                        This solution is suitable for medium to large homes and mid sized businesses.
+                        (5 Bedroom bungalow, Duplex, Mid sized Office, Small Apartment Complex, Supermarket, etc)
                     </p>
-                    <a href="#">
+                    <a href="{{route('contact')}}">
                         <button style="background: #fff; color:#000;" class="mb-5">
                             Contact Us
                         </button>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="el-icon-message">
-                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737875133/Energy/image_r7zv6a.png" draggable="false" alt="">
+                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071923/9_xneof7.png" draggable="false" alt="">
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="communication" style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="el-icon-message">
+                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071948/10_myute7.png" draggable="false" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="thread-text" style="color:#fff;">
+                    <h2>
+                        BE Alpha Plus
+                    </h2>
+                    <p style="color:#fff;">
+                        This solution is suitable for medium to large homes and mid sized businesses.
+
+                        5 Bedroom bungalow, Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Small Factory Wing, etc
+                    </p>
+                    <a href="{{route('contact')}}">
+                        <button style="background: #fff; color:#000;" class="mb-5">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="communication" style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="thread-text" style="color:#fff;">
+                    <h2>
+                        BE Alpha Max
+                    </h2>
+                    <p style="color:#fff;">
+                        This solution is suitable for medium to large homes and mid sized businesses.
+
+                        ( Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Factory Wing, etc
+                    </p>
+                    <a href="{{route('contact')}}">
+                        <button style="background: #fff; color:#000;" class="mb-5">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                    <div class="el-icon-message">
+                        <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071963/11_vtvexh.png" draggable="false" alt="">
+                    </div>
+                </div>
         </div>
     </div>
 </section>
@@ -256,3 +305,78 @@
     </div>
 </section>
 @endsection
+<div class="modal fade" id="modal9" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Residential Solution</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ALLL">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>BE Alpha</h1>
+                        <p>This solution is suitable for medium to large homes and mid sized businesses.</p>
+                        <p><strong>5 Bedroom bungalow, Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Small Factory Wing, etc</strong></p>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">Discover More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071923/9_xneof7.png" class="w-100" draggable="false" alt="Product 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal10" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Business Solution</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ALLL">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>BE Alpha Plus</h1>
+                        <p>This solution is suitable for medium to large homes and mid sized businesses.</p>
+                        <p><strong>5 Bedroom bungalow, Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Small Factory Wing, etc</strong></p>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">Discover More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071948/10_myute7.png" class="w-100" draggable="false" alt="Product 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal11" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Business Solution</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ALLL">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>BE Alpha Max</h1>
+                        <p>This solution is suitable for medium to large homes and mid sized businesses.</p>
+                        <p><strong>( Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Factory Wing, etc</strong></p>
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">Discover More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071963/11_vtvexh.png" class="w-100" draggable="false" alt="Product 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

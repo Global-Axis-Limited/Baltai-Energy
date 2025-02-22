@@ -92,8 +92,6 @@
     </div>
 </section>
 
-
-
 <!-- Communication -->
 <section class="communication" style="background: #fff;">
     <div class="container">
@@ -101,13 +99,17 @@
             <div class="col-lg-7">
                 <div class="thread-text">
                     <h2>
-                        BE-Active: 3KVA Smart Home Solution
+                        BE Active: 3KVA Home Solution
                     </h2>
                     <p>
                         The 3 kVA smart home solution is ideal for families living in small homes and apartments who are looking to enjoy reliable power supply while saving significant cost on electricity and on fuel consumption from generators.
                     </p>
-                    <a href="#" class="mb-5">
-                        <button>
+                    <p>
+                        This solution is suitable for small homes that require a bit more power.
+                        (Mini Flat, 2 Bedroom Apartment, BQ, Micro businesses)
+                    </p>
+                    <a href="{{route('contact')}}">
+                        <button style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%); color:#fff;" class="mb-5">
                             Contact Us
                         </button>
                     </a>
@@ -115,7 +117,67 @@
             </div>
             <div class="col-lg-5">
                 <div class="el-icon-message">
-                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737642891/Energy/image_enffgj.png" draggable="false" alt="">
+                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071921/1_gxdhq8.png" draggable="false" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="communication" style="background: #f7f7f7;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="el-icon-message">
+                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071921/3_vogklg.png" draggable="false" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="thread-text">
+                    <h2>
+                        BE Active Plus: 3.3KVA Home Solution
+                    </h2>
+                    <p>
+                        The 3 kVA smart home solution is ideal for families living in small homes and apartments who are looking to enjoy reliable power supply while saving significant cost on electricity and on fuel consumption from generators.
+                    </p>
+                    <p>
+                        This solution is suitable for small homes that require a bit more power.
+                        (Mini Flat, 2 Bedroom Apartment, BQ, Micro businesses)
+                    </p>
+                    <a href="{{route('contact')}}">
+                        <button style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%); color:#fff;" class="mb-5">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="communication" style="background: #fff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="thread-text">
+                    <h2>
+                    BE Active Max: 3.3KVA Home Solution
+                    </h2>
+                    <p>
+                    The 3.3 kVA smart home solution is ideal for families living in small homes and apartments who are looking to enjoy reliable power supply while saving significant cost on electricity and on fuel consumption from generators.
+                    </p>
+                    <p>
+                    This solution is suitable for small homes that require a bit more power and more back up time.
+(Mini Flat, 2 Bedroom Apartment, BQ, Micro business)
+                    </p>
+                    <a href="{{route('contact')}}">
+                        <button style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%); color:#fff;" class="mb-5">
+                            Contact Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="el-icon-message">
+                    <img class="pulse" src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071921/3_vogklg.png" draggable="false" alt="">
                 </div>
             </div>
         </div>
@@ -542,31 +604,6 @@
                     <div class="col-md-6">
                         <div>
                             <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071923/9_xneof7.png" class="w-100" draggable="false" alt="Product 2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="modal10" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Business Solution</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body ALLL">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>BE Alpha Plus</h1>
-                        <p>This solution is suitable for medium to large homes and mid sized businesses.</p>
-                        <p><strong>5 Bedroom bungalow, Duplex, Mid sized Office, Small Apartment Complex, Supermarket, Small Factory Wing, etc</strong></p>
-                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">Discover More</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div>
-                            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1740071948/10_myute7.png" class="w-100" draggable="false" alt="Product 2">
                         </div>
                     </div>
                 </div>
