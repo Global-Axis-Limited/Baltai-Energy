@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="text">
-                    <h4>Our Career</h4>
+                    <h4>Baltai Energy</h4>
                     <h1>
-                        Career Page
+                    Careers
                     </h1>
                 </div>
             </div>

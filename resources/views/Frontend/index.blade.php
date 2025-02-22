@@ -10,7 +10,7 @@
                     <h1>Powering Nigeria's Future with <span>Reliable Solar</span> Solutions</h1>
                     <p>Join 500,000 households transitioning to clean, reliable energy. Embrace solar power for uninterrupted energy, lower bills, and a greener planet!</p>
                     <div class="btn-div">
-                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-read' href="{{route('energy_calculator')}}">Get Your Free Assessment</a>
                         <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                     <h1>Uninterrupted Power for <span>Homes</span>, <span>Businesses</span>, and <span>Communities</span></h1>
                     <p>Achieve energy independence with Baltai Energy's accessible solar solutions tailored to your needs.</p>
                     <div class="btn-div">
-                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-read' href="{{route('energy_calculator')}}">Get Your Free Assessment</a>
                         <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <h1><span>Powering</span> Your World with Reliable, Affordable, and <span>Clean Energy</span>.</h1>
                     <p>Experience 24/7 energy independence, save on costs, and contribute to a sustainable future with Baltai Energy's innovative solar solutions.</p>
                     <div class="btn-div">
-                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-read' href="{{route('energy_calculator')}}">Get Your Free Assessment</a>
                         <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     <h1>Energy You Can <span>Trust</span>. Savings You Can See.</h1>
                     <p>Experience 24/7 energy independence, save on costs, and contribute to a sustainable future with Baltai Energy's innovative solar solutions.</p>
                     <div class="btn-div">
-                        <a class='btn-read' href="{{route('about')}}">Get Your Free Assessment</a>
+                        <a class='btn-read' href="{{route('energy_calculator')}}">Get Your Free Assessment</a>
                         <a class='btn-contact' href="{{route('our_ssn')}}">Learn More About Solar</a>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                     Experience the power of sustainable living with Baltai Energy. Our cutting-edge solar solutions deliver reliable, cost-effective, and eco-friendly energy tailored to your needs. Make the switch today and illuminate your world!
                 </p>
                 <div class="my-4">
-                    <a href="{{route('contact')}}"><button class="btn text-white px-4 py-2">Request a free quote</button></a>
+                    <a href="{{route('business')}}"><button class="btn text-white px-4 py-2">Explore Our Solution</button></a>
                 </div>
             </div>
             <div class="row g-2 mt-5">
@@ -154,8 +154,8 @@
                         <div class="card-body">
                             <h5 class="fw-bold">Cost Savings</h5>
                             <ul>
+                                <li>Reduce Your Energy Bills</li>
                                 <li>Long-term savings with predictable costs</li>
-                                <li>Reduces cost on your energy bills</li>
                             </ul>
                         </div>
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924150/Energy/q_q8gdb7.png" draggable="false" alt="Cost Savings Image">
@@ -174,7 +174,7 @@
                             <h5 class="fw-bold">Sustainability</h5>
                             <ul>
                                 <li>Clean Energy for a Better Future</li>
-                                <li>Reduces your carbon footprint to a cleaner environment</li>
+                                <li>Reduce your carbon footprint</li>
                             </ul>
                         </div>
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736924150/Energy/i_gyhzqy.png" draggable="false" alt="Sustainability Image">
@@ -224,7 +224,7 @@
                         data-aos-duration="1000">
                         <summary>Best Quality Equipment?</summary>
                         <div class="faq-content">
-                            <p> We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish. </p>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
                         </div>
                     </details>
                     <details data-aos="fade-up"
@@ -362,21 +362,19 @@
             <h2 class="text-left wow animate__fadeInUp animate__animated" data-wow-duration="1.5s" data-wow-delay="0s">Our Trusted Partners</h2>
             <div class="logo-slider">
                 <div class="logo-set">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block" alt="Partner 1">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block" alt="Partner 2">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block" alt="Partner 3">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block" alt="Partner 4">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block" alt="Partner 4">
                 </div>
                 <!-- Duplicate for seamless looping -->
-                <div class="logo-set">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                </div>
             </div>
         </div>
     </div>
@@ -387,7 +385,7 @@
     <div class="container">
         <div class="bannerr position-relative">
             <span class="join-btn">JOIN US</span>
-            <h1>SOLAR SOLUTION NETWORK (SSN)</h1>
+            <h1>SOLAR SOLUTIONS NETWORK (SSN)</h1>
         </div>
         <div class="spotlight-bg position-relative rounded">
 
@@ -401,8 +399,7 @@
                     <div class="text-white">
                         <h2 class="fw-bold Joiil">Spotlight on <strong>SSN</strong></h2>
                         <p class="mt-3">
-                            Say goodbye to power outages and high bills. With Solar Solutions Network (SSN),
-                            enjoy uninterrupted electricity powered by the sun.
+                        Say goodbye to power outages and high bills. With Baltai Energy’s Solar Solutions Network (SSN), you can now enjoy uninterrupted electricity powered by the sunNote
                         </p>
                         <a href="{{route('our_ssn')}}" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
                     </div>
@@ -412,7 +409,7 @@
                 <div class="col-lg-12 mt-5">
                     <div class="row g-3">
                         <!-- Card 1 -->
-                        <div class="col-lg-4 col-lg-6">
+                        <div class="col-lg-4 col-md-12">
                             <div class="AbiNah p-4 rounded" data-aos="fade-down-right">
                                 <h4 class="fw-bold">24/7 Reliable Power Starts Here!</h4>
                                 <p class="mt-2">
@@ -421,7 +418,7 @@
                             </div>
                         </div>
                         <!-- Card 2 -->
-                        <div class="col-lg-4 col-lg-6">
+                        <div class="col-lg-4 col-md-12">
                             <div class="AbiNah p-4 rounded" data-aos="fade-up-left">
                                 <h4 class="fw-bold">Switch to Solar and Save Big!</h4>
                                 <p class="mt-2">
@@ -430,11 +427,11 @@
                             </div>
                         </div>
                         <!-- Card 3 -->
-                        <div class="col-lg-4 col-lg-12">
+                        <div class="col-lg-4 col-md-12">
                             <div class="AbiNah p-4 rounded" data-aos="fade-down-left">
                                 <h4 class="fw-bold">Solar for Every Budget!</h4>
                                 <p class="mt-2">
-                                    With flexible financing plans, owning solar power has never been easier. Start today with no upfront cost.
+                                    With flexible financing plans, owning a Solar Solution has never been easier. Start today with no upfront cost.
                                 </p>
                             </div>
                         </div>
@@ -520,11 +517,6 @@
                     </form>
                 </div>
             </div>
-
-
-
-
-
             <!-- Right: Images -->
             <div class="col-lg-6 col-md-12">
                 <div class="d-flex flex-column gap-3" data-aos="flip-left"

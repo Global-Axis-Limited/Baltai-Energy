@@ -21,7 +21,7 @@
     <div class="container">
         <h2 class="text-left mb-3">Kickstart your journey with Baltai Energy</h2>
         <p class="mb-4">
-            Complete each learning module and get equipped with the knowledge required to be effective as a <strong>‘Sales Relationship Manager’</strong> .
+            Complete each learning module and get equipped with the knowledge required to be effective as a <strong>‘Sales Relationship Manager (SRM)’</strong> .
         </p>
         <p class="mb-5">
             The Sales Relationship Manager Training Program is a comprehensive learning platform designed to equip you with the knowledge and skills to thrive in your role. From understanding solar technology to mastering customer acquisition strategies, this portal is your one-stop resource for success at Baltai Energy.

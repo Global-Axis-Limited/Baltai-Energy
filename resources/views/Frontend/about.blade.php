@@ -20,7 +20,7 @@
 <section class="Benefit Pushing">
     <div class="container">
         <div class="grid-container">
-            <div class="card" data-aos="flip-left">
+            <div class="card" data-aos="flip-left" style="background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%); color:#fff;">
                 <div class="">
                     <div class="iconing">
                         <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737370853/Energy/Group_48097669_wa4p7l.png" alt="Reliability iconing">
@@ -68,8 +68,7 @@
                 <div class="card-body">
                     <h5 class="fw-bold">More</h5>
                     <p>
-                        Capacity can be built with a stable power economy expanding our road to a brighter tomorrow
-                    </p>
+                        More capacity can be built, with a stable power-economy expanding our in-roads to a brighter future. </p>
                 </div>
             </div>
         </div>
@@ -109,10 +108,10 @@
                         Baltai Energy was born out of the need to make reliable power an accessible daily necessity rather than a remote luxury, because we believe in a future where energy is clean, affordable, and accessible to all Nigerians. 
                     </p>
                     <p class="mb-4">
-                        Having lived through decades of frustration from the days of ECN, to NEPA, to PHCN with little in the way of progress, while in the mist of an exploding population, we realised the immense potential Solar Energy and were Inspired to embark on the simple mission to harness the abundant power of the sun in order to transform Nigeria's energy landscape.
+                        Having lived through decades of frustration from the days of ECN, to NEPA, to PHCN with little in the way of progress, while in the mist of an exploding population, we realised the immense potential Solar Energy and we’re Inspired to embark on the simple mission to harness the abundant power of the sun in order to transform Nigeria's energy landscape.
                     </p>
-                    <p class="mb-4 float-end">
-                        Contact Us <i class="fas fa-phone"></i>
+                    <p class="mb-4 float-end" >
+                        <a href="{{route('contact')}}" style="color:#fff; text-underline:none;"> Contact Us <i class="fas fa-phone"></i></a>
                     </p>
                 </div>
             </div>
@@ -162,7 +161,7 @@
     <div class="container my-5">
         <h5 class="text-success">Testimonials</h5>
         <h3 class=" mb-5">What Our Customers Say?</h3>
-        <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
                 <!-- First Slide -->
                 <div class="carousel-item active">
@@ -231,11 +230,11 @@
                 </div>
             </div>
             <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -249,25 +248,24 @@
 
 <!-- Trusted Partners Section -->
 <section class="trusted-partners">
-<div class="container">
+    <div class="container">
         <div class="row">
             <h2 class="text-left">Partnerships</h2>
             <div class="logo-slider">
                 <div class="logo-set">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block mx-3" alt="Partner 1">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
-                </div>
-                <!-- Duplicate for seamless looping -->
-                <div class="logo-set">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block mx-3" alt="Partner 2">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block mx-3" alt="Partner 3">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block mx-3" alt="Partner 4">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block mx-3" alt="Partner 4">
+                    <div class="logo-set">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873120_awpr8o.png" class="d-block" alt="Partner 1">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block" alt="Partner 2">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block" alt="Partner 3">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block" alt="Partner 4">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block" alt="Partner 4">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block" alt="Partner 4">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873121_kin44y.png" class="d-block" alt="Partner 2">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873122_qdx9ld.png" class="d-block" alt="Partner 3">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243186/Frame_1618873124_cspjhz.png" class="d-block" alt="Partner 4">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243714/Frame_1618873123_1_pyntle.png" class="d-block" alt="Partner 4">
+                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738243191/Frame_1618873127_zpyf3i.png" class="d-block" alt="Partner 4">
+                    </div>
                 </div>
             </div>
         </div>

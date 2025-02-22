@@ -8,7 +8,7 @@
     background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-10">
                         <div class="text">
                             <h1>Enjoy Quality Time with your Family</h1>
                             <p>
@@ -24,7 +24,7 @@
     background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-10">
                         <div class="text">
                             
                             <h1>Your Journey to reliable Power Begins Here</h1>
@@ -41,7 +41,7 @@
     background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-10">
                         <div class="text">
                             
                             <h1>Sign Up to the SSN Programme</h1>
