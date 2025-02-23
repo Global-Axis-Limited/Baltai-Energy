@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Partners", link: "/partners" }
     ];
 
-    // Open search overlay when clicking search icon
+    // Open search overlay
     searchIcon.addEventListener("click", function () {
         searchOverlay.style.display = "flex";
         searchInput.focus();
@@ -181,21 +181,68 @@ document.addEventListener("DOMContentLoaded", function () {
         event.stopPropagation();
     });
 
-    // Fetch and search content from pages
+    // Highlight and scroll to found text on the current page
+    function highlightAndScrollTo(text) {
+        // Remove previous highlights
+        document.querySelectorAll(".highlight").forEach(el => {
+            el.outerHTML = el.innerText;
+        });
+
+        // Search for the text in visible elements
+        const bodyText = document.body.innerHTML;
+        const regex = new RegExp(`(${text})`, "gi");
+        document.body.innerHTML = bodyText.replace(regex, '<span class="highlight">$1</span>');
+
+        // Scroll to the first highlighted match
+        const firstMatch = document.querySelector(".highlight");
+        if (firstMatch) {
+            firstMatch.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+    }
+
+    // Search text on the current page
+    function searchOnPage(query) {
+        searchResults.innerHTML = "";
+        if (query.length === 0) return;
+
+        const bodyText = document.body.innerText.toLowerCase();
+        const lowerQuery = query.toLowerCase();
+        const index = bodyText.indexOf(lowerQuery);
+
+        if (index !== -1) {
+            const snippet = document.body.innerText.substring(Math.max(0, index - 30), index + 30);
+            const highlightedSnippet = snippet.replace(new RegExp(query, "gi"), match => `<mark>${match}</mark>`);
+
+            const resultItem = document.createElement("div");
+            resultItem.classList.add("search-item");
+            resultItem.innerHTML = `<p class="search-link">${highlightedSnippet}...</p>`;
+            resultItem.addEventListener("click", () => highlightAndScrollTo(query));
+            searchResults.appendChild(resultItem);
+        } else {
+            searchResults.innerHTML = "<p class='no-results'>No results found on this page</p>";
+        }
+    }
+
+    // Fetch and extract only visible text from a page (no scripts, no styles, no code)
     async function fetchPageContent(url) {
         try {
             const response = await fetch(url);
             const text = await response.text();
             const parser = new DOMParser();
             const doc = parser.parseFromString(text, "text/html");
-            return doc.body.innerText; // Extract visible text content
+
+            // Remove unwanted elements
+            doc.querySelectorAll("script, style, code, pre").forEach(el => el.remove());
+
+            return doc.body.innerText.trim();
         } catch (error) {
-            return ""; // Return empty string if error
+            return "";
         }
     }
 
+    // Search external pages if not found on the current page
     async function searchPages(query) {
-        searchResults.innerHTML = ""; // Clear previous results
+        searchResults.innerHTML = "";
         if (query.length === 0) return;
 
         let resultsFound = 0;
@@ -204,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const content = await fetchPageContent(page.link);
             const lowerContent = content.toLowerCase();
             const lowerQuery = query.toLowerCase();
-            
+
             const index = lowerContent.indexOf(lowerQuery);
             if (index !== -1) {
                 resultsFound++;
@@ -213,23 +260,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const resultItem = document.createElement("div");
                 resultItem.classList.add("search-item");
-                resultItem.innerHTML = `
-                    <a href="${page.link}"><strong>${page.title}</strong></a>
-                    <p>${highlightedSnippet}...</p>
-                `;
+                resultItem.innerHTML = `<a href="${page.link}"><strong>${page.title}</strong></a> <p>${highlightedSnippet}...</p>`;
                 searchResults.appendChild(resultItem);
             }
         }
 
-        if (resultsFound === 0) {
+        if (resultsFound === 0 && searchResults.innerHTML === "") {
             searchResults.innerHTML = "<p class='no-results'>No results found</p>";
         }
     }
 
-    // Search Functionality
+    // Listen for search input changes
     searchInput.addEventListener("input", function () {
+        searchOnPage(searchInput.value);
         searchPages(searchInput.value);
     });
+
+    // Highlight styling
+    const style = document.createElement("style");
+    style.innerHTML = `
+        .highlight { background: yellow; padding: 2px; border-radius: 4px; }
+        .search-link { cursor: pointer; color: blue; text-decoration: underline; }
+    `;
+    document.head.appendChild(style);
 });
 </script>
 
