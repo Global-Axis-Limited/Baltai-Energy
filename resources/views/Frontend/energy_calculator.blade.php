@@ -11,7 +11,7 @@
                         Energy Calculator
                     </h4>
                     <h1>
-                        Discover Your Energy Needs with Ease
+                        Get a free accessment with our Energy Calculator
                     </h1>
                     <p class="text-left" style="text-align: left;">
                         Use our Electricity Calculator to estimate your power usage and find the perfect solar solution for your home or business. No technician required—it's simple, fast, and accurate.
