@@ -400,7 +400,7 @@
                     <div class="text-white">
                         <h2 class="fw-bold Joiil">Spotlight on <strong>SSN</strong></h2>
                         <p class="mt-3">
-                        Say goodbye to power outages and high bills. With Baltai Energy’s Solar Solutions Network (SSN), you can now enjoy uninterrupted electricity powered by the sunNote
+                        Say goodbye to power outages and high bills. With Baltai Energy’s Solar Solutions Network (SSN), you can now enjoy uninterrupted electricity powered by the sun.
                         </p>
                         <a href="{{route('our_ssn')}}" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
                     </div>
