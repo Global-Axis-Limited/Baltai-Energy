@@ -279,15 +279,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Highlight styling
     const style = document.createElement("style");
     style.innerHTML = `
-        .highlight { background: yellow; padding: 2px; border-radius: 4px; }
+        .highlightt { background: yellow; padding: 2px; border-radius: 4px; }
         .search-link { cursor: pointer; color: blue; text-decoration: underline; }
     `;
     document.head.appendChild(style);
 });
 </script>
-
-
-
-
-
 </html>

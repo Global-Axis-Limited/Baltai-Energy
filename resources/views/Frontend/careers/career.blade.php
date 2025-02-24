@@ -27,7 +27,7 @@
             <div class="col-lg-7">
                 <div class="thread-text">
                     <h2 style="font-size: 30px;">
-                        Earn Up to N1 Million Monthly as a Sales Relationship Manager at Baltai Energy!
+                    Become an SRM and Earn Up to N1 Million Monthly as a Sales Relationship Manager at Baltai Energy!
                     </h2>
                     <p>
                         Join the Solar Revolution. Help households access reliable solar energy while earning exceptional commissions. Make a difference in your community and grow your income!
