@@ -222,37 +222,38 @@
                 <div class="faq-box">
                     <details data-aos="fade-up"
                         data-aos-duration="1000">
-                        <summary>Best Quality Equipment?</summary>
+                        <summary>Best Quality Equipment</summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p>We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish.</p>
                         </div>
                     </details>
                     <details data-aos="fade-up"
                         data-aos-duration="2000">
-                        <summary>Professional Expertise?</summary>
+                        <summary>Professional Expertise</summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> From consultation down to final installation, our team of knowledgeable, well-trained expert solar technicians are able to execute your power solution to deliver optimal energy production so you can enjoy an atmosphere of productivity and safety. Our technicians are a cohort of certified professionals with great work ethic, and take pride in delivering the neatest and most efficient installations with minimal peripherals.</p>
                         </div>
                     </details>
                     <details data-aos="fade-up"
                         data-aos-duration="3000">
                         <summary> Tailor-Made Solutions </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p>Our services are solutions oriented, as our aim is to provide complete solar power systems that sustainably caters to the specific needs of our esteemed customers. This minimizes or completely eliminates potentially costly incidents of capacity overload, or under power where a higher expenditure has been incurred than necessary.</p>
                         </div>
                     </details>
                     <details data-aos="fade-up"
                         data-aos-duration="3000">
-                        <summary> Why Choose Baltai Energy? </summary>
+                        <summary> Excellent Customer / After Sales Service</summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> You as the customer are our most important asset. To this effect we offer great online and offline After Sales & Customer Support. In the event of the unexpected, if at all, we make our qualified technicians available to you on-site and on time when required. </p>
                         </div>
                     </details>
                     <details data-aos="fade-up"
                         data-aos-duration="1000">
-                        <summary> Tailor-Made Solutions </summary>
+                        <summary> Unmatched Warranties </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> We offer the best warranties in the business for our Panels, Batteries and Inverters which are unmatched by other operators. You can be rest assured that handing the powering of your precious homes and burgeoning businesses to Baltai Energy is the safest best.
+ </p>
                         </div>
                     </details>
                 </div>
