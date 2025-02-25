@@ -70,7 +70,7 @@
                                     Solution
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{route('residential')}}" class="dropdown-item"><i class="bi bi-house"></i> Residential Solutions</a></li>
+                                    <li><a href="{{route('product')}}" class="dropdown-item"><i class="bi bi-house"></i> Residential Solutions</a></li>
                                     <li><a href="{{route('business')}}" class="dropdown-item"><i class="bi bi-house-heart"></i> Business Solutions</a></li>
                                     <li><a href="{{route('industrial')}}" class="dropdown-item"><i class="bi bi-houses"></i> Industrial Solutions</a></li>
                                 </ul>

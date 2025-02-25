@@ -32,63 +32,133 @@
             <div class="col-lg-10">
                 <div class="faq-box">
                     <details>
-                        <summary>Best Quality Equipment?</summary>
+                        <summary>Will solar power save me money?</summary>
                         <div class="faq-content">
-                            <p> We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish. </p>
+                            <p> Yes, solar power will save you money. Solar energy is a long-term investment, and it works like prepaying your electricity costs all upfront and then reaping the benefits for years to come.</p>
                         </div>
                     </details>
                     <details>
-                        <summary>Professional Expertise?</summary>
+                        <summary>Will Solar Power Get Cheaper?</summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Solar power pricing has been on a steady decline for the last few years. However, most experts agree that the decreasing prices are on hold for now.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Tailor-Made Solutions </summary>
+                        <summary> Can Solar Power Be Stored?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Solar power can be stored in batteries. This is done in systems that are grid-tied with battery backups and in off-grid solar systems. </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Why Choose Baltai Energy? </summary>
+                        <summary> Can Solar Power My Whole House?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Yes, one of the common misconceptions about solar power is that you run only certain items with the power that is produced. While this may be the case with off-grid systems, grid-tied systems do not provide power to specific devices. Instead, it simply provides a percentage of the electricity that your entire house uses.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Tailor-Made Solutions </summary>
+                        <summary> What are Solar Power Advantages?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Solar power has grown massively in popularity in recent years, but it still has a long way to go before the majority of people are familiar with it. Some of the advantages of solar power are avoiding rising utility rates, tax benefits, helping the environment and independence.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary>Best Quality Equipment?</summary>
+                        <summary>How do solar panels save money?
+                        </summary>
                         <div class="faq-content">
-                            <p> We deploy only best-in-class products with EU standards of compliance, and our solutions are tailored to adequately meet your commercial and domestic capacity needs hassle-free. You’ll find that our installation set-ups with specified panel-inverter-Battery combinations are unique, easy to install, and come with an aesthetically pleasing industrial finish. </p>
+                            <p> Solar panels save money by reducing electricity costs, avoiding future price increases and potentially increasing property value.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary>Professional Expertise?</summary>
+                        <summary>Can solar power my whole house?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Yes, solar panels can power your entire house, and they can even produce excess energy that can be sold back to the grid. Factories and Cities can be powered with Solar Energy.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Tailor-Made Solutions </summary>
+                        <summary> How long do solar panels last?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Solar panels can last for 25 years or more.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Why Choose Baltai Energy? </summary>
+                        <summary>Are solar panels worth it?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Solar panels are worth it for many people due to their financial and environmental benefits. However, the cost of solar panels and their effectiveness vary by location and other factors.
+                            </p>
                         </div>
                     </details>
                     <details>
-                        <summary> Tailor-Made Solutions </summary>
+                        <summary> Can solar panels be recycled?
+                        </summary>
                         <div class="faq-content">
-                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis adipisci aliquid id atque repudiandae ullam molestias quibusdam impedit. Nemo iste repellat obcaecati iure ad nobis. Nemo cum sunt rem. Recusandae beatae autem animi tenetur, vitae harum. Consequuntur itaque quod dicta unde totam quas pariatur? Dolores, tempore. Fugit magni ex vel. </p>
+                            <p> Yes, retired solar panels can be recycled to reduce electronic waste and recover valuable materials.
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> What are the different types of solar batteries?
+
+                        </summary>
+                        <div class="faq-content">
+                            <p> Solar batteries can be divided into six categories based on their chemical composition: Lithium-ion, lithium iron phosphate (LFP), lead-acid, flow, saltwater, and nickel-cadmium.
+
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> How do solar batteries work?
+                        </summary>
+                        <div class="faq-content">
+                            <p> Solar batteries store electrical energy generated by photovoltaic panels. When solar panels generate more electricity than the electrical system demands, the excess is used to charge the batteries. Batteries transform the electrical energy they receive from photovoltaic modules into chemical energy.
+
+
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> What is the lifespan of a solar battery?
+
+                        </summary>
+                        <div class="faq-content">
+                            <p> The useful life of a battery for solar installations is usually around ten years. However, their useful life plummets if frequent deep discharges (> 50%) are made. Therefore, it is advisable to install enough capacity so that 50% of the discharge is not exceeded.
+
+
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> What type of battery is best for solar?</summary>
+                        <div class="faq-content">
+                            <p> Lithium-ion
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> What is a solar inverter?</summary>
+                        <div class="faq-content">
+                            <p> Solar inverters convert DC power input and turn it into AC power. They also act as the primary connection between the panels and the electrical distribution panel in the house.
+
+                            </p>
+                        </div>
+                    </details>
+                    <details>
+                        <summary> How does a solar inverter work?
+                        </summary>
+                        <div class="faq-content">
+                            <p> A solar inverter is essential for your solar panel system to convert DC electricity into AC electricity for everyday use. The process begins with sunlight striking the photovoltaic cells of solar panels, creating a flow of DC electricity. However, since most homes and electrical grids use AC electricity, the DC electricity generated by solar panels needs to be converted. This is where the solar inverter steps in. Its main task is to convert the DC electricity into AC electricity with the appropriate voltage, frequency and phase, making it suitable for powering household appliances and feeding excess energy into the electrical grid.
+                            </p>
                         </div>
                     </details>
                 </div>
@@ -119,11 +189,12 @@
                         <input type="email" class="form-control mb-4" placeholder="Your email address" required />
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </div>
-
                 </form>
             </div>
         </div>
+    </div>
 </section>
+<section class="SeNDING"></section>
 
 <!-- SeNDING  Ends-->
 @endsection

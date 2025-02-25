@@ -41,6 +41,12 @@ class HomePageController extends Controller
         return view('Frontend.solution.industrial_solutions');
     }
 
+    public function product()
+    {
+        return view('Frontend.solution.product_range');
+    }
+
+
     public function faqs()
     {
         return view('Frontend.faqs');

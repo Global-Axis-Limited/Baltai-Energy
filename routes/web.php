@@ -9,6 +9,7 @@ Route::get('/solution', [App\Http\Controllers\HomePageController::class, 'soluti
 Route::get('/solution/residential', [App\Http\Controllers\HomePageController::class, 'residential'])->name('residential');
 Route::get('/solution/business', [App\Http\Controllers\HomePageController::class, 'business'])->name('business');
 Route::get('/solution/industrial', [App\Http\Controllers\HomePageController::class, 'industrial'])->name('industrial');
+Route::get('/solution/product', [App\Http\Controllers\HomePageController::class, 'product'])->name('product');
 Route::get('/faqs', [App\Http\Controllers\HomePageController::class, 'faqs'])->name('faqs');
 Route::get('/contact', [App\Http\Controllers\HomePageController::class, 'contact'])->name('contact');
 Route::get('/ssn/our_ssn', [App\Http\Controllers\HomePageController::class, 'our_ssn'])->name('our_ssn');

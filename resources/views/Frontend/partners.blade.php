@@ -81,11 +81,16 @@
         <div class="row align-items-center">
             <!-- Left Column -->
             <div class="col-lg-6 col-md-12">
-                <div class="Txt">
-                    <h6 style="color: #F8861A;">Collaborating for Greater Impact</h6>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="Txt">
+                            <h6 style="color: #F8861A; text-align:center;">Collaborating for Greater Impact</h6>
+                        </div>
+                        <h2 class="">Strategic Partnerships</h2>
+                    </div>
+                    <div class="col-lg-4"></div>
                 </div>
                 <div style="background:#FEF9ED; color:black;">
-                    <h2 class="">Strategic Partnerships</h2>
                     <p>As an organization we understand the philosophy of numbers.
                         That is, great things are not achieved alone, but as a team of like-minded entities with aligned values focused on achieving common mutual goals. </p>
 
@@ -99,7 +104,7 @@
             </div>
 
             <!-- Right Column -->
-            <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
+            <div class="col-lg-6 col-md-12 mt-lg-0">
                 <form class="Just" id="contactForm" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
                     <h6 style="color: #F8861A;" class="text-center"> JOIN US</h6>
                     <h2 class="text-black mb-4 text-center">Become a Partner</h2>
@@ -121,7 +126,7 @@
                     </div>
                     <div class="mb-4">
                         <label for="message" class="form-label mb-3">Additional Information (Optional)</label>
-                        <textarea class="form-control" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea>
+                        <textarea class="form-control" id="message" cols="30" rows="3" placeholder="Write your message here"></textarea>
                     </div>
                     <button type="submit" class="btn btn-submit">Submit</button>
                 </form>

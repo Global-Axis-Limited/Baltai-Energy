@@ -26,6 +26,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="thread-text">
+                    <small><b>Sales Relationship Manager (SRM)</b></small>
                     <h2 style="font-size: 30px;">
                     Become an SRM and Earn Up to N1 Million Monthly as a Sales Relationship Manager at Baltai Energy!
                     </h2>
