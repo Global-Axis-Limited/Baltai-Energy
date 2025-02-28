@@ -245,7 +245,6 @@
         </div>
     </div>
 </section>
-
 <!-- Trusted Partners Section -->
 <section class="trusted-partners">
     <div class="container">
