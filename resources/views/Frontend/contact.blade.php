@@ -69,8 +69,8 @@
                         </div>
                     </div>
                     <button type="submit" class="btn btn-submit">Send Message</button>
+                    <div id="loader" class="loader"></div>
                 </form>
-
                 <p id="responseMessage" style="margin-top: 15px; color: green;"></p>
             </div>
 
@@ -90,11 +90,15 @@
 
 <script>
     // Initialize EmailJS
-    emailjs.init('7OTHPg9Z5xMdEA6I0');  // Replace with your actual EmailJS user ID
+    emailjs.init('7OTHPg9Z5xMdEA6I0'); // Replace with your actual EmailJS user ID
 
-    // Form submission event listener
     document.getElementById('contactFForm').addEventListener('submit', function (event) {
         event.preventDefault();
+
+        // Hide the submit button and show the loader
+        document.getElementById("submitBtn").style.display = "none";
+        document.getElementById("loader").style.display = "inline-block";
+
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const phoneNumber = document.getElementById('phoneNumber').value;
@@ -110,11 +114,28 @@
         // Send the email using EmailJS
         emailjs.send('service_gofp5t1', 'template_hb06axz', emailParams)
             .then(function (response) {
-                // Success callback
-                document.getElementById('responseMessage').innerText = 'Message sent successfully!';
-            }, function (error) {
-                // Error callback
-                document.getElementById('responseMessage').innerText = 'Failed to send message. Please try again.';
+                showResponseMessage("✅ Message sent successfully!", "success");
+                document.getElementById('contactFForm').reset(); // Reset form
+            })
+            .catch(function (error) {
+                showResponseMessage("❌ Failed to send message. Please try again.", "error");
+                console.error("Email sending failed:", error);
+            })
+            .finally(() => {
+                // Hide the loader and show submit button again
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("submitBtn").style.display = "inline-block";
             });
     });
+
+    function showResponseMessage(message, type) {
+        const responseMessage = document.getElementById("responseMessage");
+        responseMessage.innerText = message;
+        responseMessage.style.display = "block";
+        responseMessage.className = type === "success" ? "success-message" : "error-message";
+
+        setTimeout(() => {
+            responseMessage.style.display = "none";
+        }, 4000);
+    }
 </script>

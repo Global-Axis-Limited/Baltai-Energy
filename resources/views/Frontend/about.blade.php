@@ -110,7 +110,7 @@
                     <p class="mb-4">
                         Having lived through decades of frustration from the days of ECN, to NEPA, to PHCN with little in the way of progress, while in the mist of an exploding population, we realised the immense potential Solar Energy and we’re Inspired to embark on the simple mission to harness the abundant power of the sun in order to transform Nigeria's energy landscape.
                     </p>
-                    <p class="mb-4 float-end" >
+                    <p class="mb-4 float-end">
                         <a href="{{route('contact')}}" style="color:#fff; text-underline:none;"> Contact Us <i class="fas fa-phone"></i></a>
                     </p>
                 </div>
@@ -305,14 +305,14 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Investor Form</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="">
+            <form action="" id="contact-form" onsubmit="sendEmail(event)">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="mb-4 mt-2">
                                 <label for="fuel-cost" class="form-label text-black">Full Name</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" required />
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Email Address</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" required />
+                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
                                 </div>
                             </div>
                         </div>
@@ -328,7 +328,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Phone Number</label>
                                 <div class="input-group">
-                                    <input type="tel" class="form-control" placeholder="Enter phone number" required />
+                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
                                 </div>
                             </div>
                         </div>
@@ -336,7 +336,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Message</label>
                                 <div class="input-group">
-                                    <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -344,7 +344,12 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
+                    <div id="loader" class="loader"></div>
+                </div>
+                <!-- Success Message -->
+                <div id="successMessage" class="success-message">
+                    ✅ Your message has been sent successfully!
                 </div>
             </form>
         </div>
@@ -357,14 +362,14 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">OEM Form</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="">
+            <form action="" id="contact-form" onsubmit="sendEmail(event)">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="mb-4 mt-2">
                                 <label for="fuel-cost" class="form-label text-black">Full Name</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" required />
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
                                 </div>
                             </div>
                         </div>
@@ -372,7 +377,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Email Address</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" required />
+                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
                                 </div>
                             </div>
                         </div>
@@ -380,7 +385,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Phone Number</label>
                                 <div class="input-group">
-                                    <input type="tel" class="form-control" placeholder="Enter phone number" required />
+                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
                                 </div>
                             </div>
                         </div>
@@ -388,7 +393,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Message</label>
                                 <div class="input-group">
-                                    <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -396,7 +401,12 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
+                    <div id="loader" class="loader"></div>
+                </div>
+                <!-- Success Message -->
+                <div id="successMessage" class="success-message">
+                    ✅ Your message has been sent successfully!
                 </div>
             </form>
         </div>
@@ -410,14 +420,14 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Solar Financier</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="">
+            <form action="" id="contact-form" onsubmit="sendEmail(event)">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="mb-4 mt-2">
                                 <label for="fuel-cost" class="form-label text-black">Full Name</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" required />
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
                                 </div>
                             </div>
                         </div>
@@ -425,7 +435,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Email Address</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" required />
+                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
                                 </div>
                             </div>
                         </div>
@@ -433,7 +443,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Phone Number</label>
                                 <div class="input-group">
-                                    <input type="tel" class="form-control" placeholder="Enter phone number" required />
+                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
                                 </div>
                             </div>
                         </div>
@@ -441,7 +451,7 @@
                             <div class="mb-4">
                                 <label for="fuel-cost" class="form-label text-black">Message</label>
                                 <div class="input-group">
-                                    <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -449,11 +459,58 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
+                    <div id="loader" class="loader"></div>
+                </div>
+                <!-- Success Message -->
+                <div id="successMessage" class="success-message">
+                    ✅ Your message has been sent successfully!
                 </div>
             </form>
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("7OTHPg9Z5xMdEA6I0"); // Initialize EmailJS
+    })();
 
+    function sendEmail(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Show loader & disable submit button
+        document.getElementById("submitBtn").style.display = "none";
+        document.getElementById("loader").style.display = "inline-block";
+
+        let formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            phone: document.getElementById("phone").value,
+            message: document.getElementById("message").value
+        };
+
+        emailjs.send("service_gofp5t1", "template_35xrlfe", formData)
+            .then(response => {
+                showSuccessMessage();
+                document.getElementById("contact-form").reset(); // Reset form
+            })
+            .catch(error => {
+                alert("Failed to send message.");
+                console.error("Email sending failed:", error);
+            })
+            .finally(() => {
+                // Hide loader & show submit button again
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("submitBtn").style.display = "inline-block";
+            });
+    }
+
+    function showSuccessMessage() {
+        document.getElementById("successMessage").style.display = "block";
+        setTimeout(() => {
+            document.getElementById("successMessage").style.display = "none";
+        }, 4000);
+    }
+</script>
 @endsection
