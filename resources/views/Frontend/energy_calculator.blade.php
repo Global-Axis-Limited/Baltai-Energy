@@ -33,47 +33,22 @@
         <div class="alert text-black alert-warning text-center mb-4" role="alert">
             Use our 'Energy Audit' calculator below to calculate how much electricity you use (in kWh) daily and determine your maximum power usage (in kW). Simply enter your appliance details and usage to get started.
         </div>
-        <div id="appliance-container">
-            <div class="custom-card">
-                <div class="row">
-                    <div class="col-md-3">
-                        <label>Appliance</label>
-                        <select class="form-select">
-                            <option>Air Conditioner</option>
-                            <option>Refrigerator</option>
-                            <option>Washing Machine</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <label>Power Rating (Watts)</label>
-                        <input type="number" class="form-control" value="3500">
-                    </div>
-                    <div class="col-md-3">
-                        <label>Average Daily Usage (Hours)</label>
-                        <input type="number" class="form-control" value="8.00">
-                    </div>
-                    <div class="col-md-3">
-                        <label>Quantity</label>
-                        <input type="number" class="form-control" value="0">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="appliance-container"></div>
         <div class="mt-4 d-flex justify-content-center gap-3">
-            <button class="btn btn-danger">Remove</button>
-            <button class="btn btn-success" onclick="addAppliance()">Add more appliances</button>
+            <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
+            <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
         </div>
         <div class="row mt-5">
             <div class="col-md-6">
                 <div class="result-box">
                     <h5>Total Power Usage (kW):</h5>
-                    <h3>0.00 kW</h3>
+                    <h3 id="totalPower">0.00 kW</h3>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="result-box">
                     <h5>Total Energy Usage (kWh):</h5>
-                    <h3>0.00 kWh</h3>
+                    <h3 id="totalEnergy">0.00 kWh</h3>
                 </div>
             </div>
         </div>
@@ -134,42 +109,113 @@
 
 </section>
 <script>
+    // Appliance power rating list
+    const appliances = {
+        "Plasma TV": 250,
+        "LED TV": 100,
+        "Laptop": 45,
+        "Game Console": 200,
+        "Projector": 350,
+        "Sound System": 150,
+        "Satelite Dish": 20,
+        "Bluray player": 15,
+        "Central AC": 2500,
+        "Desktop": 150,
+        "LED Light Bulbs": 10,
+        "Incandescent Light Bulbs(Yellow)": 60,
+        "Router": 20,
+        "Printer": 45,
+        "Photocopier": 300,
+        "Scanner": 25,
+        "LCD Monitor": 40,
+        "Modem": 15,
+        "Smartphone Charger": 6,
+        "Vacuum Cleaner": 1250,
+        "CCTV": 15,
+        "Sewing Machine": 750,
+        "Drill": 720,
+        "Pressing Iron": 1000,
+        "Air Conditioner": 1500,
+        "Water Heater": 2000,
+        "Ceiling Fan": 75,
+        "Standing Fan": 100,
+        "Rice Cooker": 400,
+        "Electric Kettle": 1500,
+        "Electric Oven": 1500,
+        "Toaster": 1500,
+        "Microwave": 1000,
+        "Refrigerator": 1000,
+        "Freezer": 1000,
+        "Blender": 750
+    };
+
     function addAppliance() {
         const container = document.getElementById("appliance-container");
-        const newAppliance = document.createElement("div");
-        newAppliance.classList.add("custom-card", "mt-3");
-        newAppliance.innerHTML = `
-                <div class="row text-center">
-                    <div class="col-md-3">
-                        <label>Appliance</label>
-                        <select class="form-select">
-                            <option>Air Conditioner</option>
-                            <option>Refrigerator</option>
-                            <option>Washing Machine</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <label>Power Rating (Watts)</label>
-                        <input type="number" class="form-control" value="3500">
-                    </div>
-                    <div class="col-md-3">
-                        <label>Average Daily Usage (Hours)</label>
-                        <input type="number" class="form-control" value="8.00">
-                    </div>
-                    <div class="col-md-3">
-                        <label>Quantity</label>
-                        <input type="number" class="form-control" value="0">
-                    </div>
+
+        const div = document.createElement("div");
+        div.classList.add("custom-card", "mt-3");
+        div.innerHTML = `
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <label>Appliance</label>
+                    <select class="form-select appliance">
+                        <option value="">-- Select Appliance --</option>
+                        ${Object.keys(appliances).map(appliance => `<option value="${appliance}">${appliance}</option>`).join("")}
+                    </select>
                 </div>
-                <div class="mt-2 text-center">
-                    <button class="btn btn-danger" onclick="removeAppliance(this)">Remove</button>
+                <div class="col-md-3">
+                    <label>Power Rating (Watts)</label>
+                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" readonly>
                 </div>
-            `;
-        container.appendChild(newAppliance);
+                <div class="col-md-3">
+                    <label>Average Daily Usage (Hours)</label>
+                    <input type="number" class="form-control usage" value="0">
+                </div>
+                <div class="col-md-3">
+                    <label>Quantity</label>
+                    <input type="number" class="form-control quantity" value="1">
+                </div>
+            </div>
+            <div class="mt-2 text-center">
+                <button class="btn btn-danger" onclick="removeAppliance(this)">Remove</button>
+            </div>
+        `;
+
+        container.appendChild(div);
+
+        // Attach event listener for auto-filling power rating
+        div.querySelector(".appliance").addEventListener("change", updatePowerRating);
     }
 
     function removeAppliance(button) {
-        button.parentElement.parentElement.remove();
+        button.closest(".custom-card").remove();
+        calculateTotals(); // Recalculate immediately when an appliance is removed
     }
+
+    function updatePowerRating(event) {
+        const selectedAppliance = event.target.value;
+        const powerInput = event.target.closest(".custom-card").querySelector(".power-rating");
+        powerInput.value = appliances[selectedAppliance] || "";
+    }
+
+    function calculateTotals() {
+        let totalPower = 0;
+        let totalEnergy = 0;
+
+        document.querySelectorAll(".custom-card").forEach(card => {
+            const power = parseFloat(card.querySelector(".power-rating").value) || 0;
+            const usage = parseFloat(card.querySelector(".usage").value) || 0;
+            const quantity = parseFloat(card.querySelector(".quantity").value) || 0;
+
+            totalPower += (power * quantity) / 1000; // Convert Watts to kW
+            totalEnergy += (power * usage * quantity) / 1000; // Convert Watts to kWh
+        });
+
+        document.getElementById("totalPower").textContent = `${totalPower.toFixed(2)} kW`;
+        document.getElementById("totalEnergy").textContent = `${totalEnergy.toFixed(2)} kWh`;
+    }
+
+    // Add the first appliance row on page load
+    addAppliance();
 </script>
 @endsection
