@@ -33,10 +33,15 @@
         <div class="alert text-black alert-warning text-center mb-4" role="alert">
             Use our 'Energy Audit' calculator below to calculate how much electricity you use (in kWh) daily and determine your maximum power usage (in kW). Simply enter your appliance details and usage to get started.
         </div>
-        <div id="appliance-container"></div>
-        <div class="mt-4 d-flex justify-content-center gap-3">
-            <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
-            <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
+        <div class="row">
+            <div class="col-lg-10">
+                <div id="appliance-container"></div>
+                <div class="mt-2 d-flex justify-content-center gap-2">
+                    <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
+                    <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
         </div>
         <div class="row mt-5">
             <div class="col-md-6">
@@ -153,9 +158,9 @@
         const container = document.getElementById("appliance-container");
 
         const div = document.createElement("div");
-        div.classList.add("custom-card", "mt-3");
+        div.classList.add("custom-card", "mt-1");
         div.innerHTML = `
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-3">
                     <label>Appliance</label>
                     <select class="form-select appliance">
@@ -165,19 +170,19 @@
                 </div>
                 <div class="col-md-3">
                     <label>Power Rating (Watts)</label>
-                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" readonly>
+                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" >
                 </div>
                 <div class="col-md-3">
-                    <label>Average Daily Usage (Hours)</label>
+                    <label>Average Daily Usage</label>
                     <input type="number" class="form-control usage" value="0">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <label>Quantity</label>
                     <input type="number" class="form-control quantity" value="1">
                 </div>
-            </div>
-            <div class="mt-2 text-center">
-                <button class="btn btn-danger" onclick="removeAppliance(this)">Remove</button>
+                <div class="col-md-1 mt-5">
+                <button class="btn btn-danger mt-3" onclick="removeAppliance(this)">X</button>
+                </div>
             </div>
         `;
 

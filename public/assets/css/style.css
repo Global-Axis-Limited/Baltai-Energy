@@ -3116,7 +3116,7 @@ textarea:focus {
 .custom-card {
     background: #565052;
     color: white;
-    padding: 30px;
+    padding: 2px 20px 20px 20px;
     border-radius: 10px;
 }
 
@@ -3128,7 +3128,7 @@ textarea:focus {
     border: none;
     background-color: #6E696A !important;
     color: #fff;
-    padding: 30px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 
@@ -3136,7 +3136,7 @@ textarea:focus {
     border: none;
     background-color: #6E696A !important;
     color: #fff;
-    padding: 30px 20px;
+    padding: 13px 10px !important;
     border-radius: 5px;
 }
 
@@ -3156,7 +3156,7 @@ textarea:focus {
 }
 
 .calculator .btn-danger {
-    padding: 8px 30px !important;
+    padding: 8px 20px !important;
     font-size: 15px;
 }
 
