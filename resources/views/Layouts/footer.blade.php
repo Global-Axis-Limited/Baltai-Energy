@@ -54,7 +54,7 @@
                             <a href="{{route('solution')}}">Solution</a>
                         </li> -->
                         <li>
-                            <a href="{{route('our_insight')}}">Insights</a>
+                            <a href="https://blog.baltaienergy.com/">Insights</a>
                         </li>
                         <li>
                             <a href="{{route('contact')}}">Contact Us</a>
