@@ -96,7 +96,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('our_insight')}}" class="nav-link" class="routers">
+                                <a href="https://blog.baltaienergy.com/" class="nav-link" class="routers">
                                     Insights
                                 </a>
                             </li>
