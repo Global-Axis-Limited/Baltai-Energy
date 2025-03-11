@@ -91,8 +91,8 @@
                                     Careers
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{route('baltai')}}" class="dropdown-item">Baltai Learning</a></li>
                                     <li><a href="{{route('career')}}" class="dropdown-item">SRM</a></li>
+                                    <li><a href="{{route('baltai')}}" class="dropdown-item">Baltai Learning</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
