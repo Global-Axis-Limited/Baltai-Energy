@@ -96,6 +96,15 @@ class HomePageController extends Controller
     {
         return view('Frontend.energy_calculator');
     }
-   
+
+    public function courses_details()
+    {
+        return view('Frontend.careers.courses_details');
+    }  
+
+    public function login()
+    {
+        return view('Frontend.auth.login');
+    }  
     
 }

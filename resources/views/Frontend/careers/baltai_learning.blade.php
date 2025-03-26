@@ -38,6 +38,9 @@
                         <h5 class="card-title">Onboarding and Solar Basics</h5>
                         <p class="card-text">Provide new SRMs with foundational knowledge about Baltai Energy, the SSN campaign, and the basics of solar technology.</p>
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -50,6 +53,9 @@
                         <p class="card-text">Equip SRMs with effective strategies to identify, target, and acquire customers for solar solutions.</p>
 
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -62,7 +68,11 @@
                         <h5 class="card-title">Solar Products and Financing Options</h5>
                         <p class="card-text">Deepen SRMs’ understanding of Baltai Energy’s product line and financing solutions to better cater to customer needs.</p>
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
+
             </div>
             <!-- Card 4 -->
             <div class="col-md-4 mb-4">
@@ -74,6 +84,9 @@
                         <h5 class="card-title">Customer Relationship Management</h5>
                         <p class="card-text">Train SRMs to build and maintain strong relationships with customers, ensuring satisfaction and retention.</p>
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -86,6 +99,9 @@
                         <p class="card-text">Provide technical knowledge necessary to explain solar system operations and address basic customer concerns.</p>
 
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -98,6 +114,9 @@
                         <h5 class="card-title">Compliance and Ethical Standards</h5>
                         <p class="card-text">Ensure SRMs operate within regulatory and ethical boundaries while promoting solar adoption responsibly.</p>
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 7 -->
@@ -110,6 +129,9 @@
                         <p class="card-text">Teach SRMs to leverage digital tools for efficient sales management and customer engagement.</p>
 
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 8 -->
@@ -122,12 +144,27 @@
                         <h5 class="card-title">Soft Skills and Personal Development</h5>
                         <p class="card-text">Develop interpersonal and professional skills that enhance SRMs’ effectiveness and resilience in the field.</p>
                     </div>
+                    <a href="{{route('courses_details')}}">
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- Mapl Us Ends -->
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function () {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>
+
 @section('page-content')
 
 @endsection
