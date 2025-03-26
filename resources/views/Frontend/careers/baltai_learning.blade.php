@@ -38,8 +38,8 @@
                         <h5 class="card-title">Onboarding and Solar Basics</h5>
                         <p class="card-text">Provide new SRMs with foundational knowledge about Baltai Energy, the SSN campaign, and the basics of solar technology.</p>
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -53,8 +53,8 @@
                         <p class="card-text">Equip SRMs with effective strategies to identify, target, and acquire customers for solar solutions.</p>
 
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -68,8 +68,8 @@
                         <h5 class="card-title">Solar Products and Financing Options</h5>
                         <p class="card-text">Deepen SRMs’ understanding of Baltai Energy’s product line and financing solutions to better cater to customer needs.</p>
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
 
@@ -84,8 +84,8 @@
                         <h5 class="card-title">Customer Relationship Management</h5>
                         <p class="card-text">Train SRMs to build and maintain strong relationships with customers, ensuring satisfaction and retention.</p>
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -99,8 +99,8 @@
                         <p class="card-text">Provide technical knowledge necessary to explain solar system operations and address basic customer concerns.</p>
 
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -114,8 +114,8 @@
                         <h5 class="card-title">Compliance and Ethical Standards</h5>
                         <p class="card-text">Ensure SRMs operate within regulatory and ethical boundaries while promoting solar adoption responsibly.</p>
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -129,8 +129,8 @@
                         <p class="card-text">Teach SRMs to leverage digital tools for efficient sales management and customer engagement.</p>
 
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
@@ -144,8 +144,8 @@
                         <h5 class="card-title">Soft Skills and Personal Development</h5>
                         <p class="card-text">Develop interpersonal and professional skills that enhance SRMs’ effectiveness and resilience in the field.</p>
                     </div>
-                    <a href="{{route('courses_details')}}">
-                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    <a href="{{route('courses')}}">
+                        <button class="btn btn-primary enroll-btn">View Courses</button>
                     </a>
                 </div>
             </div>
