@@ -3463,7 +3463,7 @@ mark {
 /* Hero Section Styling */
 .hero-section {
     position: relative;
-    background: linear-gradient(to right, #093a98 0%, rgba(9, 58, 152, 0.7)), url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1742997509/AoStyle/638530_custom_site_themes_id_eZ5KDceESmuLSFObPK1k_BRM_Course_Homepage_kf3uyb.jpg');
+    background: linear-gradient(to right, #093a98 0%, rgba(9, 58, 152, 0.7)), url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873828/Energy/p_1_fch0xz.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -3638,6 +3638,10 @@ mark {
     transform: translateY(-50%);
     color: gray;
     cursor: pointer;
+}
+.Courses a {
+    text-decoration: none;
+    color: #000;
 }
 
 .Courses .course-card {

@@ -39,7 +39,7 @@
                         <p class="card-text">Provide new SRMs with foundational knowledge about Baltai Energy, the SSN campaign, and the basics of solar technology.</p>
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -54,7 +54,7 @@
 
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         <p class="card-text">Deepen SRMs’ understanding of Baltai Energy’s product line and financing solutions to better cater to customer needs.</p>
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
 
@@ -85,7 +85,7 @@
                         <p class="card-text">Train SRMs to build and maintain strong relationships with customers, ensuring satisfaction and retention.</p>
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         <p class="card-text">Ensure SRMs operate within regulatory and ethical boundaries while promoting solar adoption responsibly.</p>
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -130,7 +130,7 @@
 
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                         <p class="card-text">Develop interpersonal and professional skills that enhance SRMs’ effectiveness and resilience in the field.</p>
                     </div>
                     <a href="{{route('courses')}}">
-                        <button class="btn btn-primary enroll-btn">View Courses</button>
+                        <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
             </div>

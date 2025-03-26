@@ -8,8 +8,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 hero-content">
-                <h1 class="hero-title">Protecting Accounts With Moniepoint Two Factor Authentication</h1>
-                <p class="hero-text">In this course, you will learn about the core values of Moniepoint.</p>
+                <h1 class="hero-title">Sales Techniques and Customer Acquisition</h1>
+                <p class="hero-text">In this course, you will learn about the core values of Baltai Energy.</p>
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
 
             <div class="col-md-4">
                 <div class="course-info-card">
-                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1743007042/AoStyle/NdPr3DXvQa2KEYBXWNjM_The_Moniepoint_Core_Values_d7jhxo.jpg" class="img-fluid rounded" alt="Course Image">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" class="img-fluid rounded" alt="Course Image">
                     <h5 class="mt-3">About this course</h5>
                     <hr>
                     <p class="icon-text"><i class="fas fa-tag"></i> Free</p>
@@ -127,13 +127,73 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="cta-text">Kickstart your journey with Baltai Energy </h2>
-            <a href="{{route('login')}}">
-                <button class="cta-button">Start Now</button>
-            </a>
+            <button class="cta-button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Start Now</button>
+            <!-- <a href="{{route('login')}}">
+                
+            </a> -->
         </div>
     </div>
 </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Register Form</h1>
+               
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p class="text-center text-muted mt-3">Create a new account to access the modules</p>
+            <form action="" id="contact-form" onsubmit="sendEmail(event)">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mb-4 mt-2">
+                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
+                                <div class="input-group">
+                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-12">
+                            <div class="mb-4">
+                                <label for="fuel-cost" class="form-label text-black">Message</label>
+                                <div class="input-group">
+                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
+                    <div id="loader" class="loader"></div>
+                </div>
+                <!-- Success Message -->
+                <div id="successMessage" class="success-message">
+                    ✅ Your message has been sent successfully!
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <!-- <div class="dividerr"></div> -->
 @endsection
