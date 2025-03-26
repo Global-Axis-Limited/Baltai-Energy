@@ -3452,6 +3452,7 @@ mark {
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: white;
 }
 
 .insights-section .card:hover .enroll-btn,
