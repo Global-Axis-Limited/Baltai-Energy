@@ -111,7 +111,7 @@
 
             <div class="col-md-4">
                 <div class="course-info-card">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" class="img-fluid rounded" alt="Course Image">
+                    <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743517/freepik__the-style-is-candid-image-photography-with-natural__75552_qxdeif.jpg" class="img-fluid rounded" alt="Course Image">
                     <h5 class="mt-3">About this course</h5>
                     <hr>
                     <p class="icon-text"><i class="fas fa-tag"></i> Free</p>
@@ -127,10 +127,10 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="cta-text">Kickstart your journey with Baltai Energy </h2>
-            <button class="cta-button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Start Now</button>
-            <!-- <a href="{{route('login')}}">
-                
-            </a> -->
+
+            <a href="{{route('kick_start')}}">
+                <button class="cta-button" class="btn btn-primary">Start Now</button>
+            </a>
         </div>
     </div>
 </div>

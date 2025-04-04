@@ -1,7 +1,7 @@
 @extends('Layouts.connection')
 @section('page-content')
 <!-- Beadcrum -->
-<section class="Beadcrum" style=" background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737877658/Energy/Group_48097580_pohesc.jpg);">
+<section class="Beadcrum" style=" background-image: url(https://res.cloudinary.com/diqa0sakr/image/upload/v1743743515/freepik__the-style-is-candid-image-photography-with-natural__75559_k6ar1n.jpg); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -36,7 +36,7 @@
             <div class="col-md-3 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" class="card-img-top" alt="Working Better Together">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743518/freepik__the-style-is-candid-image-photography-with-natural__75554_hfgerl.jpg" class="card-img-top" alt="Working Better Together">
                         <div class="card-body">
                             <h5 class="card-title">Sales Techniques and Customer Acquisition</h5>
                             <p class="card-text">This course teaches BRMs a simple system to build trust and improve communication.</p>
@@ -48,7 +48,7 @@
             <div class="col-md-3 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" class="card-img-top" alt="Data Privacy">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743517/freepik__the-style-is-candid-image-photography-with-natural__75551_f9u0j2.jpg" class="card-img-top" alt="Data Privacy">
                         <div class="card-body">
                             <h5 class="card-title">Solar Products and Financing Options
                             </h5>
@@ -61,7 +61,7 @@
             <div class="col-md-3 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" class="card-img-top" alt="Fintech Solutions">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743515/freepik__the-style-is-candid-image-photography-with-natural__75556_mc4dpb.jpg" class="card-img-top" alt="Fintech Solutions">
                         <div class="card-body">
                             <h5 class="card-title">Customer Relationship Management
                             </h5>
@@ -75,7 +75,7 @@
             <div class="col-md-3 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" class="card-img-top" alt="Cash Out Limit">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743514/freepik__the-style-is-candid-image-photography-with-natural__75563_igcwk5.jpg" class="card-img-top" alt="Cash Out Limit">
                         <div class="card-body">
                             <h5 class="card-title">Soft Skills and Personal Development
                             </h5>
@@ -88,7 +88,7 @@
             <div class="col-md-4 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" class="card-img-top" alt="Communication">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743513/freepik__the-style-is-candid-image-photography-with-natural__75562_i7tt7q.jpg" class="card-img-top" alt="Communication">
                         <div class="card-body">
                             <h5 class="card-title">Compliance and Ethical Standards
                             </h5>
@@ -101,7 +101,7 @@
             <div class="col-md-4 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" class="card-img-top" alt="Cash Out Limit">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743513/freepik__the-style-is-candid-image-photography-with-natural__75557_aejojs.jpg" class="card-img-top" alt="Cash Out Limit">
                         <div class="card-body">
                             <h5 class="card-title">Digital Tools and Technology</h5>
                             <p class="card-text">Understand cash-out limits and regulations for agency banking.</p>
@@ -113,7 +113,7 @@
             <div class="col-md-4 mb-4 course-item">
                 <a href="{{route('courses_details')}}">
                     <div class="card course-card">
-                        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" class="card-img-top" alt="Consumer Protection">
+                        <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743512/freepik__the-style-is-candid-image-photography-with-natural__75566_wtrx10.jpg" class="card-img-top" alt="Consumer Protection">
                         <div class="card-body">
                             <h5 class="card-title">Technical Knowledge for SRMs
                             </h5>

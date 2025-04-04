@@ -2542,6 +2542,13 @@ textarea:focus {
     height: auto !important;
 }
 
+.contact-section .form-control:focus {
+    border: 1px solid #F8861A;
+    background-color: #FFF;
+    padding: 20px 20px !important;
+    border-radius: 5px;
+}
+
 .contact-section .form-controll {
     border: 1px solid #F4F4F4;
     background-color: #FFF;
@@ -3464,7 +3471,8 @@ mark {
 /* Hero Section Styling */
 .hero-section {
     position: relative;
-    background: linear-gradient(to right, #093a98 0%, rgba(9, 58, 152, 0.7)), url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1736873828/Energy/p_1_fch0xz.jpg');
+    background: url('https://res.cloudinary.com/diqa0sakr/image/upload/v1743743520/freepik__the-style-is-candid-image-photography-with-natural__75558_ze5bgj.jpg');
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
     background-size: cover;
     background-position: center;
     color: white;
@@ -3516,7 +3524,7 @@ mark {
 
 .accordion-button {
     background: none;
-    color: #0a2472;
+    color: #e58e26;
     font-weight: 500;
     border: none;
     box-shadow: none;
@@ -3524,7 +3532,7 @@ mark {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #0a2472;
+    color: #e58e26 !important;
     background: none !important;
     box-shadow: none;
     padding: 20px 0;
@@ -3542,7 +3550,7 @@ mark {
 
 .accordion-item .accordion-header {
     background: none;
-    color: #0a2472;
+    color: #e58e26;
     font-weight: 400;
     font-size: 16px;
     border: none;
@@ -3643,6 +3651,10 @@ mark {
 .Courses a {
     text-decoration: none;
     color: #000;
+}
+.Courses a:hover {
+    text-decoration: none;
+    color: #F8861A;
 }
 
 .Courses .course-card {

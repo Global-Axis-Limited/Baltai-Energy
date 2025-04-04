@@ -107,6 +107,11 @@ class HomePageController extends Controller
         return view('Frontend.careers.courses');
     } 
 
+    public function kick_start()
+    {
+        return view('Frontend.careers.kick_start');
+    } 
+
     public function login()
     {
         return view('Frontend.auth.login');
