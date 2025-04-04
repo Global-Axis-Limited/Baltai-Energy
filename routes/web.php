@@ -22,5 +22,6 @@ Route::get('/energy_glossary', [App\Http\Controllers\HomePageController::class, 
 Route::get('/energy_calculator', [App\Http\Controllers\HomePageController::class, 'energy_calculator'])->name('energy_calculator');
 Route::get('/courses', [App\Http\Controllers\HomePageController::class, 'courses'])->name('courses');
 Route::get('/courses_details', [App\Http\Controllers\HomePageController::class, 'courses_details'])->name('courses_details');
+Route::get('/courses_two', [App\Http\Controllers\HomePageController::class, 'courses_two'])->name('courses_two');
 Route::get('/kick_start', [App\Http\Controllers\HomePageController::class, 'kick_start'])->name('kick_start');
 Route::get('/login', [App\Http\Controllers\HomePageController::class, 'login'])->name('login');

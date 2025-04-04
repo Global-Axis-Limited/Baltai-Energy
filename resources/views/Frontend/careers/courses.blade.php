@@ -46,7 +46,7 @@
             </div>
 
             <div class="col-md-3 mb-4 course-item">
-                <a href="{{route('courses_details')}}">
+                <a href="{{route('courses_two')}}">
                     <div class="card course-card">
                         <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1743743517/freepik__the-style-is-candid-image-photography-with-natural__75551_f9u0j2.jpg" class="card-img-top" alt="Data Privacy">
                         <div class="card-body">
