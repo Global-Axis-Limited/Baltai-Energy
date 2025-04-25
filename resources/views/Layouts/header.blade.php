@@ -21,16 +21,13 @@
                 <!-- Contact Information -->
                 <div class="All">
 
-
                 </div>
 
                 <div class="text-end">
                     <p class="mb-0">info@baltaienergy.com</p>
                 </div>
                 <div class="text-end">
-
                     <p class="mb-0">+234 913 714 8567</p>
-
                 </div>
                 <div class="text-end">
 

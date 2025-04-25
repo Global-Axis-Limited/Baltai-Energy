@@ -121,5 +121,11 @@ class HomePageController extends Controller
     {
         return view('Frontend.auth.login');
     }  
+
+    // Onboarding And Solar Basics Routes
     
+    public function solar_basics()
+    {
+        return view('Frontend.careers.Onboarding.solar_basics');
+    }
 }

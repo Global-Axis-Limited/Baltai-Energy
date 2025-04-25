@@ -1341,6 +1341,18 @@ textarea:focus {
     border-radius: 0px 0px 10px 10px !important;
 }
 
+.insights-section .card-bodyy {
+    padding: 35px 20px !important;
+    height: 280px;
+}
+
+@media (max-width:1400px) {
+    .insights-section .card-bodyy {
+        padding: 35px 20px !important;
+        height: auto !important;
+    }
+}
+
 .insights-section .card-body {
     padding: 35px 20px !important;
     height: 200px;
