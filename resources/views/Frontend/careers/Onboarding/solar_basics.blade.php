@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="text">
                     <p>
-                    Home>> Baltai Learning>>Onboarding and Solar Basics
+                   <a href="{{route('index')}}">Home</a> >> <a href="{{route('baltai')}}">Baltai Learning</a> >> Onboarding and Solar Basics
                     </p>
                 </div>
             </div>

@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="text">
                     <p>
-                        Home>> Baltai Learning>>Sales Techniques and Customer Acquisition
+                       <a href="{{route('index')}}">Home</a> >> <a href="{{route('baltai')}}">Baltai Learning</a> >> Sales Techniques and Customer Acquisition
                     </p>
                 </div>
             </div>

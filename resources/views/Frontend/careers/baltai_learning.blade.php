@@ -114,7 +114,7 @@
                         <h5 class="card-title">Compliance and Ethical Standards</h5>
                         <p class="card-text">Ensure SRMs operate within regulatory and ethical boundaries while promoting solar adoption responsibly.</p>
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('compliance')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -129,7 +129,7 @@
                         <p class="card-text">Teach SRMs to leverage digital tools for efficient sales management and customer engagement.</p>
 
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('digital_tools')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -144,7 +144,7 @@
                         <h5 class="card-title">Soft Skills and Personal Development</h5>
                         <p class="card-text">Develop interpersonal and professional skills that enhance SRMs’ effectiveness and resilience in the field.</p>
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('soft_skills')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>

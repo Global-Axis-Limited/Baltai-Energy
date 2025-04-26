@@ -1776,6 +1776,16 @@ textarea:focus {
     color: #fff;
 }
 
+.Beadcrumm a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.Beadcrumm a:hover {
+    color: #ffa500 !important;
+    text-decoration: underline;
+}
+
 .Beadcrum {
     padding: 250px 0px 120px 0px;
     background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355408/Energy/Group_48097580_r4eaky.jpg);

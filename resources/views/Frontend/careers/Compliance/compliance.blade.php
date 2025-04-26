@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="text">
                     <p>
-                    Home>> Baltai Learning>>Compliance and Ethical Standards
+                   <a href="{{route('index')}}">Home</a> >> <a href="{{route('baltai')}}">Baltai Learning</a> >> Compliance and Ethical Standards
                     </p>
                 </div>
             </div>
