@@ -151,9 +151,31 @@ class HomePageController extends Controller
     }
 
     // Technical Knowledge for SRMs Routes
-    
+
     public function technical_knowledge()
     {
         return view('Frontend.careers.Technical.technical_knowledge');
     }
+
+    // Compliance and Ethical Standards Routes
+
+    public function compliance()
+    {
+        return view('Frontend.careers.Compliance.compliance');
+    }
+
+    // Digital Tools and Technology Routes
+
+    public function digital_tools()
+    {
+        return view('Frontend.careers.Digital.digital_tools');
+    }
+
+    // Soft Skills and Personal Development Routes
+    
+    public function soft_skills()
+    {
+        return view('Frontend.careers.Soft.soft_skills');
+    }
+
 }

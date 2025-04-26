@@ -38,7 +38,7 @@
                         <h5 class="card-title">Onboarding and Solar Basics</h5>
                         <p class="card-text">Provide new SRMs with foundational knowledge about Baltai Energy, the SSN campaign, and the basics of solar technology.</p>
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('solar_basics')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                         <p class="card-text">Equip SRMs with effective strategies to identify, target, and acquire customers for solar solutions.</p>
 
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('customer_acquisition')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -68,7 +68,7 @@
                         <h5 class="card-title">Solar Products and Financing Options</h5>
                         <p class="card-text">Deepen SRMs’ understanding of Baltai Energy’s product line and financing solutions to better cater to customer needs.</p>
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('financing_options')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -84,7 +84,7 @@
                         <h5 class="card-title">Customer Relationship Management</h5>
                         <p class="card-text">Train SRMs to build and maintain strong relationships with customers, ensuring satisfaction and retention.</p>
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('relationship_management')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>
@@ -99,7 +99,7 @@
                         <p class="card-text">Provide technical knowledge necessary to explain solar system operations and address basic customer concerns.</p>
 
                     </div>
-                    <a href="{{route('courses')}}">
+                    <a href="{{route('technical_knowledge')}}">
                         <button class="btn btn-primary enroll-btn">View modules</button>
                     </a>
                 </div>

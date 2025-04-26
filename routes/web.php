@@ -32,6 +32,15 @@ Route::get('/learning/relationship_management', [App\Http\Controllers\HomePageCo
 // Technical Knowledge for SRMs Rourtes
 Route::get('/learning/technical_knowledge', [App\Http\Controllers\HomePageController::class, 'technical_knowledge'])->name('technical_knowledge');
 
+// Compliance and Ethical Standards Routes
+Route::get('/learning/compliance', [App\Http\Controllers\HomePageController::class, 'compliance'])->name('compliance');
+
+// Digital Tools and Technology Routes
+Route::get('/learning/digital_tools', [App\Http\Controllers\HomePageController::class, 'digital_tools'])->name('digital_tools');
+
+// Soft Skills and Personal Development Routes
+Route::get('/learning/soft_skills', [App\Http\Controllers\HomePageController::class, 'soft_skills'])->name('soft_skills');
+
 
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');
