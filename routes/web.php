@@ -18,6 +18,21 @@ Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, '
 // Onboarding And Solar Basics Routes
 Route::get('/learning/solar-basics', [App\Http\Controllers\HomePageController::class, 'solar_basics'])->name('solar_basics');
 
+// Sales Techniques and Customer Acquisition Routes
+Route::get('/learning/customer_acquisition', [App\Http\Controllers\HomePageController::class, 'customer_acquisition'])->name('customer_acquisition');
+
+// Solar Products and Financing Options Routes
+
+Route::get('/learning/financing_options', [App\Http\Controllers\HomePageController::class, 'financing_options'])->name('financing_options');
+
+// Customer Relationship Management Routes
+ 
+Route::get('/learning/relationship_management', [App\Http\Controllers\HomePageController::class, 'relationship_management'])->name('relationship_management');
+
+// Technical Knowledge for SRMs Rourtes
+Route::get('/learning/technical_knowledge', [App\Http\Controllers\HomePageController::class, 'technical_knowledge'])->name('technical_knowledge');
+
+
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');
 Route::get('/insight/our_insight', [App\Http\Controllers\HomePageController::class, 'our_insight'])->name('our_insight');

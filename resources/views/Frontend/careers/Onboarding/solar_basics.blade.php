@@ -1,14 +1,13 @@
 @extends('Layouts.connection')
 <!-- Beadcrum -->
-<section class="Beadcrum" style=" background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737877658/Energy/Group_48097580_pohesc.jpg);">
+<section class="Beadcrumm">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="text">
-                    <h4>Baltai_Learning</h4>
-                    <h1>
-                        Baltai Learning
-                    </h1>
+                    <p>
+                    Home>> Baltai Learning>>Onboarding and Solar Basics
+                    </p>
                 </div>
             </div>
         </div>

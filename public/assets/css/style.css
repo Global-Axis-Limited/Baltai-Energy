@@ -1768,6 +1768,14 @@ textarea:focus {
 
 /**Footer Ends**/
 
+.Beadcrumm {
+    background:#535353;
+    padding: 180px 0px 30px 0px;
+}
+.Beadcrumm .text {
+    color: #fff;
+}
+
 .Beadcrum {
     padding: 250px 0px 120px 0px;
     background-image: url(https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737355408/Energy/Group_48097580_r4eaky.jpg);
