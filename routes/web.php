@@ -21,6 +21,9 @@ Route::get('/learning/solar-basics/company_introduction', [App\Http\Controllers\
 Route::get('/learning/solar-basics/ssn_overview', [App\Http\Controllers\HomePageController::class, 'ssn_overview'])->name('ssn_overview');
 Route::get('/learning/solar-basics/solar_technology', [App\Http\Controllers\HomePageController::class, 'solar_technology'])->name('solar_technology');
 Route::get('/learning/solar-basics/solar_energy_benefits', [App\Http\Controllers\HomePageController::class, 'solar_energy_benefits'])->name('solar_energy_benefits');
+Route::get('/learning/solar-basics/onboarding_process', [App\Http\Controllers\HomePageController::class, 'onboarding_process'])->name('onboarding_process');
+Route::get('/learning/solar-basics/dress_code', [App\Http\Controllers\HomePageController::class, 'dress_code'])->name('dress_code');
+Route::get('/learning/solar-basics/communication', [App\Http\Controllers\HomePageController::class, 'communication'])->name('communication');
 
 // Sales Techniques and Customer Acquisition Routes
 Route::get('/learning/customer_acquisition', [App\Http\Controllers\HomePageController::class, 'customer_acquisition'])->name('customer_acquisition');

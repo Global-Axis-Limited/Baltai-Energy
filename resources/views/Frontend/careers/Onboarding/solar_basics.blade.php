@@ -92,8 +92,10 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Ensuring Seamless Solar Transitions: The Customer Onboarding Process</h5>
                         <p class="card-text">A clear understanding of the customer onboarding process, enabling them to guide potential.</p>
-
                     </div>
+                    <a href="{{route('onboarding_process')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -106,6 +108,9 @@
                         <h5 class="card-title">Dressing for Success: Professional Representation as an SRM</h5>
                         <p class="card-text">Importance of professional appearance, adherence to company dress codes, and how their presentation reflects Baltai Energy’s.</p>
                     </div>
+                    <a href="{{route('dress_code')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 7 -->
@@ -116,22 +121,12 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Communicating with Confidence: Establishing Professional Communication Channels</h5>
                         <p class="card-text">Knowledge and skills to set up and maintain professional communication channels that align.</p>
-
                     </div>
+                    <a href="{{route('communication')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
-            <!-- Card 8 -->
-            <!-- <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738224652/Group_48097655_rrp3bv.png" draggable="false" class="card-img-top" alt="Harnessing the Sun">
-                    <div class="card-bodyy">
-                        <h5 class="card-title">Soft Skills and Personal Development</h5>
-                        <p class="card-text">Develop interpersonal and professional skills that enhance SRMs’ effectiveness and resilience in the field.</p>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
