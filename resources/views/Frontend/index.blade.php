@@ -529,13 +529,17 @@
         </div>
     </div>
 </section>
+<!-- <section id="latest-blogs" class="container my-5">
+  <h2 class="text-center mb-4">Latest From Our Blog</h2>
+  <div id="blog-posts" class="row"></div>
+</section> -->
 
 <section class="insights-section">
     <div class="container">
         <h2 class="text-center mb-5">Insights</h2>
         <div class="row mt-5">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+           
+            <!-- <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
@@ -547,7 +551,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 2 -->
+           
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-up"
                     data-aos-duration="3000">
@@ -559,7 +563,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 3 -->
             <div class="col-lg-4 col-md-12 mb-4">
                 <div class="card" data-aos="fade-left"
                     data-aos-offset="300"
@@ -571,7 +574,7 @@
                         <a href="" class="btn">Read More →</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -668,5 +671,40 @@ function calculateSavings() {
     var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
     myModal.show();
 }
+</script>
+
+
+<script>
+async function fetchLatestBlogs() {
+  try {
+    const response = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://blog.baltaienergy.com/'));
+    const data = await response.json();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, "application/xml");
+    const items = xml.querySelectorAll("item");
+    const container = document.getElementById('blog-posts');
+
+    for (let i = 0; i < Math.min(3, items.length); i++) {
+      const item = items[i];
+      const title = item.querySelector('title').textContent;
+      const link = item.querySelector('link').textContent;
+      const postDiv = document.createElement('div');
+      postDiv.className = 'col-md-4 mb-4';
+      postDiv.innerHTML = `
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">${title}</h5>
+            <a href="${link}" class="btn btn-primary mt-auto" target="_blank">Read More</a>
+          </div>
+        </div>
+      `;
+      container.appendChild(postDiv);
+    }
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+  }
+}
+
+fetchLatestBlogs();
 </script>
 

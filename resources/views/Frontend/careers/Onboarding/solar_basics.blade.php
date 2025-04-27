@@ -1,4 +1,6 @@
 @extends('Layouts.connection')
+
+@section('page-content')
 <!-- Beadcrum -->
 <section class="Beadcrumm">
     <div class="container">
@@ -6,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="text">
                     <p>
-                   <a href="{{route('index')}}">Home</a> >> <a href="{{route('baltai')}}">Baltai Learning</a> >> Onboarding and Solar Basics
+                        <a href="{{route('index')}}">Home</a> >> <a href="{{route('baltai')}}">Baltai Learning</a> >> Onboarding and Solar Basics
                     </p>
                 </div>
             </div>
@@ -32,6 +34,9 @@
                         <h5 class="card-title">Getting to Know Baltai Energy: Our Story, Vision, and Values</h5>
                         <p class="card-text">An in-depth understanding of Baltai Energy's history, mission, vision, and core values to inspire confidence and alignment with the company’s goals.</p>
                     </div>
+                    <a href="{{route('company_introduction')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +48,9 @@
                         <h5 class="card-title">Understanding the Solar Solutions Network (SSN) Campaign</h5>
                         <p class="card-text">A comprehensive understanding of the SSN campaign, its goals, target audience, and how it aligns with Baltai Energy’s mission to transform.</p>
                     </div>
+                    <a href="{{route('ssn_overview')}}">
+                    <button class="btn btn-primary enroll-btn">View courses</button>
+                </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,6 +63,9 @@
                         <h5 class="card-title">Understanding the Building Blocks of Solar Technology</h5>
                         <p class="card-text">Key components of solar technology—panels, batteries, and inverters. This knowledge will enable SRMs to explain the technology confidently.</p>
                     </div>
+                    <a href="{{route('solar_technology')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
 
             </div>
@@ -68,6 +79,9 @@
                         <h5 class="card-title">Harnessing Solar Energy: Benefits and Real-World Applications</h5>
                         <p class="card-text">A clear understanding of the key benefits and versatile applications of solar energy, enabling them to communicate its value effectively to.</p>
                     </div>
+                    <a href="{{route('solar_energy_benefits')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -121,7 +135,15 @@
         </div>
     </div>
 </section>
-
-@section('page-content')
-
 @endsection
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>

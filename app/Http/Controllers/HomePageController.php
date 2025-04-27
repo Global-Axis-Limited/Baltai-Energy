@@ -128,6 +128,25 @@ class HomePageController extends Controller
     {
         return view('Frontend.careers.Onboarding.solar_basics');
     }
+    public function company_introduction()
+    {
+        return view('Frontend.careers.Onboarding.Modules.company_introduction');
+    }
+
+    public function ssn_overview()
+    {
+        return view('Frontend.careers.Onboarding.Modules.ssn_overview');
+    }
+
+    public function solar_technology()
+    {
+        return view('Frontend.careers.Onboarding.Modules.solar_technology');
+    }
+
+    public function solar_energy_benefits()
+    {
+        return view('Frontend.careers.Onboarding.Modules.solar_energy_benefits');
+    }
 
     // Sales Techniques and Customer Acquisition Routes
 
