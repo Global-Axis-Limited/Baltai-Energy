@@ -1805,6 +1805,7 @@ textarea:focus {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Montserrat", serif;
+    background-position: center;
 }
 
 .Beadcrum .text h1 {

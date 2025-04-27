@@ -170,6 +170,47 @@ class HomePageController extends Controller
         return view('Frontend.careers.Sales.customer_acquisition');
     }
 
+    public function solar_market()
+    {
+        return view('Frontend.careers.Sales.Modules.solar_market');
+    }
+
+    public function target_audiences()
+    {
+        return view('Frontend.careers.Sales.Modules.target_audiences');
+    }
+
+    public function lead_generation()
+    {
+        return view('Frontend.careers.Sales.Modules.lead_generation');
+    }
+
+    public function consultations()
+    {
+        return view('Frontend.careers.Sales.Modules.consultations');
+    }
+
+    public function pricing_models()
+    {
+        return view('Frontend.careers.Sales.Modules.pricing_model');
+    }
+
+    public function overcoming_objections()
+    {
+        return view('Frontend.careers.Sales.Modules.overcoming_objections');
+    }
+
+    public function developing_sales_pitches()
+    {
+        return view('Frontend.careers.Sales.Modules.developing_sales_pitches');
+    }
+
+    public function tracking_sales_performance()
+    {
+        return view('Frontend.careers.Sales.Modules.tracking_sales_performance');
+    }
+    
+
     // Solar Products and Financing Options Routes
 
     public function financing_options()

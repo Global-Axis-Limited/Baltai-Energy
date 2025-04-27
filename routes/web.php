@@ -27,6 +27,16 @@ Route::get('/learning/solar-basics/communication', [App\Http\Controllers\HomePag
 
 // Sales Techniques and Customer Acquisition Routes
 Route::get('/learning/customer_acquisition', [App\Http\Controllers\HomePageController::class, 'customer_acquisition'])->name('customer_acquisition');
+Route::get('/learning/customer_acquisition/solar_market', [App\Http\Controllers\HomePageController::class, 'solar_market'])->name('solar_market');
+Route::get('/learning/customer_acquisition/target_audiences', [App\Http\Controllers\HomePageController::class, 'target_audiences'])->name('target_audiences');
+Route::get('/learning/customer_acquisition/lead_generation', [App\Http\Controllers\HomePageController::class, 'lead_generation'])->name('lead_generation');
+Route::get('/learning/customer_acquisition/consultations', [App\Http\Controllers\HomePageController::class, 'consultations'])->name('consultations');
+Route::get('/learning/customer_acquisition/pricing_models', [App\Http\Controllers\HomePageController::class, 'pricing_models'])->name('pricing_models');
+Route::get('/learning/customer_acquisition/overcoming_objections', [App\Http\Controllers\HomePageController::class, 'overcoming_objections'])->name('overcoming_objections');
+Route::get('/learning/customer_acquisition/developing_sales_pitches', [App\Http\Controllers\HomePageController::class, 'developing_sales_pitches'])->name('developing_sales_pitches');
+Route::get('/learning/customer_acquisition/tracking_sales_performance', [App\Http\Controllers\HomePageController::class, 'tracking_sales_performance'])->name('tracking_sales_performance');
+
+
 
 // Solar Products and Financing Options Routes
 
