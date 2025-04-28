@@ -66,7 +66,7 @@
                             <tr>
                                 <td>
                                     <a href="#" class="course-link">
-                                        <i class="bi bi-play-circle"></i> 5. Tips for Effective Performance Tracking
+                                        <i class="bi bi-play-circle"></i> 5. Tips for Efefective Performance Tracking
                                     </a>
                                 </td>
                             </tr>
