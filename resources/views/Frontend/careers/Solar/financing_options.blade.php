@@ -32,6 +32,9 @@
                         <h5 class="card-title">Exploring Baltai Energy’s Solar Solutions: A Comprehensive Guide for SRMs</h5>
                         <p class="card-text">Understand the detailed features, benefits, and applications of Baltai Energy’s solar product lines.</p>
                     </div>
+                    <a href="{{route('solar_products')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +46,9 @@
                         <h5 class="card-title">Understanding Flexible Financing Options for Solar Installations</h5>
                         <p class="card-text">Comprehensive knowledge of available financing options for solar installations, enabling them to recommend the best solutions to.</p>
                     </div>
+                    <a href="{{route('flexible_financing')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,9 +61,12 @@
                         <h5 class="card-title">Tailoring Solar Solutions: Meeting Unique Customer Needs with Precision</h5>
                         <p class="card-text">The knowledge and skills to assess customer energy requirements and recommend the most suitable solar.</p>
                     </div>
+                    <a href="{{route('customer_needs')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
-
             </div>
+
             <!-- Card 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card" data-aos="fade-right"
@@ -68,6 +77,9 @@
                         <h5 class="card-title">Calculating Energy Efficiency: Unlocking Savings with Solar Power</h5>
                         <p class="card-text">The knowledge and skills to calculate energy efficiency and demonstrate potential savings for customers.</p>
                     </div>
+                    <a href="{{route('potential_savings')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -80,6 +92,9 @@
                         <p class="card-text">The knowledge and communication skills to articulate the long-term financial, environmental, and...</p>
 
                     </div>
+                    <a href="{{route('solar_investments')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -92,6 +107,9 @@
                         <h5 class="card-title">Upselling Made Easy: Mastering the Art of Promoting Advanced Solar Solutions</h5>
                         <p class="card-text">The skills to effectively identify opportunities for upselling advanced solar packages, tailor...</p>
                     </div>
+                    <a href="{{route('solar_packages')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,3 +119,14 @@
 @section('page-content')
 
 @endsection
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>

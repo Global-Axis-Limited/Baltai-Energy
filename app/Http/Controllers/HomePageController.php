@@ -218,11 +218,72 @@ class HomePageController extends Controller
         return view('Frontend.careers.Solar.financing_options');
     }
 
+    public function solar_products()
+    {
+        return view('Frontend.careers.Solar.Modules.solar_products');
+    }
+
+    public function flexible_financing()
+    {
+        return view('Frontend.careers.Solar.Modules.flexible_financing');
+    }
+
+    public function customer_needs()
+    {
+        return view('Frontend.careers.Solar.Modules.customer_needs');
+    }
+
+    public function potential_savings()
+    {
+        return view('Frontend.careers.Solar.Modules.potential_savings');
+    }
+
+    public function solar_investments()
+    {
+        return view('Frontend.careers.Solar.Modules.solar_investments');
+    }
+
+    public function solar_packages()
+    {
+        return view('Frontend.careers.Solar.Modules.solar_packages');
+    }
+
+
     // Customer Relationship Management Routes
 
     public function relationship_management()
     {
         return view('Frontend.careers.Management.relationship_management');
+    }
+
+    public function customer_engagement()
+    {
+        return view('Frontend.careers.Management.Modules.customer_engagement');
+    }
+
+    public function customer_feedback()
+    {
+        return view('Frontend.careers.Management.Modules.customer_feedback');
+    }
+
+    public function continued_satisfaction()
+    {
+        return view('Frontend.careers.Management.Modules.continued_satisfaction');
+    }
+
+    public function new_leads()
+    {
+        return view('Frontend.careers.Management.Modules.new_leads');
+    }
+
+    public function resolving_complaints()
+    {
+        return view('Frontend.careers.Management.Modules.resolving_complaints');
+    }
+
+    public function customer_loyalty()
+    {
+        return view('Frontend.careers.Management.Modules.customer_loyalty');
     }
 
     // Technical Knowledge for SRMs Routes

@@ -41,10 +41,27 @@ Route::get('/learning/customer_acquisition/tracking_sales_performance', [App\Htt
 // Solar Products and Financing Options Routes
 
 Route::get('/learning/financing_options', [App\Http\Controllers\HomePageController::class, 'financing_options'])->name('financing_options');
+Route::get('/learning/financing_options/solar_products', [App\Http\Controllers\HomePageController::class, 'solar_products'])->name('solar_products');
+Route::get('/learning/financing_options/flexible_financing', [App\Http\Controllers\HomePageController::class, 'flexible_financing'])->name('flexible_financing');
+Route::get('/learning/financing_options/customer_needs', [App\Http\Controllers\HomePageController::class, 'customer_needs'])->name('customer_needs');
+Route::get('/learning/financing_options/potential_savings', [App\Http\Controllers\HomePageController::class, 'potential_savings'])->name('potential_savings');
+Route::get('/learning/financing_options/solar_investments', [App\Http\Controllers\HomePageController::class, 'solar_investments'])->name('solar_investments');
+Route::get('/learning/financing_options/solar_packages', [App\Http\Controllers\HomePageController::class, 'solar_packages'])->name('solar_packages');
+
 
 // Customer Relationship Management Routes
- 
 Route::get('/learning/relationship_management', [App\Http\Controllers\HomePageController::class, 'relationship_management'])->name('relationship_management');
+Route::get('/learning/relationship_management/customer_engagement', [App\Http\Controllers\HomePageController::class, 'customer_engagement'])->name('customer_engagement');
+Route::get('/learning/relationship_management/customer_feedback', [App\Http\Controllers\HomePageController::class, 'customer_feedback'])->name('customer_feedback');
+Route::get('/learning/relationship_management/continued_satisfaction', [App\Http\Controllers\HomePageController::class, 'continued_satisfaction'])->name('continued_satisfaction');
+Route::get('/learning/relationship_management/new_leads', [App\Http\Controllers\HomePageController::class, 'new_leads'])->name('new_leads');
+Route::get('/learning/relationship_management/resolving_complaints', [App\Http\Controllers\HomePageController::class, 'resolving_complaints'])->name('resolving_complaints');
+Route::get('/learning/relationship_management/customer_loyalty', [App\Http\Controllers\HomePageController::class, 'customer_loyalty'])->name('customer_loyalty');
+
+
+
+
+
 
 // Technical Knowledge for SRMs Rourtes
 Route::get('/learning/technical_knowledge', [App\Http\Controllers\HomePageController::class, 'technical_knowledge'])->name('technical_knowledge');
