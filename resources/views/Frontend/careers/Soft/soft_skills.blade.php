@@ -32,6 +32,9 @@
                         <h5 class="card-title">Communication Techniques for Engaging Customers</h5>
                         <p class="card-text">Equip SRMs with effective communication strategies to build relationships, enhance customer trust, and increase sales.</p>
                     </div>
+                    <a href="{{route('communication_techniques')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +46,9 @@
                         <h5 class="card-title">Negotiation Skills for Closing Deals</h5>
                         <p class="card-text">Equip SRMs with effective negotiation techniques to close deals successfully while ensuring a win-win outcome for both the customer and the company.</p>
                     </div>
+                    <a href="{{route('negotiation_skills')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,8 +61,10 @@
                         <h5 class="card-title">Stress Management and Resilience Building</h5>
                         <p class="card-text">Help SRMs develop coping strategies to manage stress, maintain motivation, and build resilience in a challenging sales environment.</p>
                     </div>
+                    <a href="{{route('stress_management')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
-
             </div>
             <!-- Card 4 -->
             <div class="col-md-4 mb-4">
@@ -114,3 +122,14 @@
 @section('page-content')
 
 @endsection
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>

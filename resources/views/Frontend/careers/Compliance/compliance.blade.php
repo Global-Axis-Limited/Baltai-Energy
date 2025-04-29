@@ -32,6 +32,9 @@
                         <h5 class="card-title">Solar Industry Regulations in Nigeria</h5>
                         <p class="card-text">Key regulations, policies, and frameworks governing the solar industry in Nigeria, enabling them to operate within compliance...</p>
                     </div>
+                    <a href="{{route('industry_regulations')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +46,9 @@
                         <h5 class="card-title">Government Incentives for Solar Solutions in Nigeria</h5>
                         <p class="card-text">Knowledge of government programs, subsidies, and incentives designed to promote solar energy adoption in Nigeria, enabling SRMs to effectively..</p>
                     </div>
+                    <a href="{{route('government_incentives')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,6 +61,9 @@
                         <h5 class="card-title">Environmental Compliance and Sustainability Goals</h5>
                         <p class="card-text">Knowledge of environmental standards and sustainability goals, enabling SRMs to promote solar solutions responsibly while adhering..</p>
                     </div>
+                    <a href="{{route('environmental_compliance')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
 
             </div>
@@ -68,6 +77,9 @@
                         <h5 class="card-title">Ethical Sales Practices for Solar Solutions</h5>
                         <p class="card-text">Knowledge and skills to engage with customers ethically, ensuring trust, transparency, and a positive reputation for Baltai Energy.</p>
                     </div>
+                    <a href="{{route('ethical_standards')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -78,8 +90,10 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Customer Data Privacy and Protection</h5>
                         <p class="card-text">Importance of safeguarding customer information and ensuring compliance with data protection laws while fostering trust in Baltai ...</p>
-
                     </div>
+                    <a href="{{route('customer_data_privacy')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -90,8 +104,11 @@
                     <img src="https://res.cloudinary.com/diqa0sakr/image/upload/v1745868941/Group_48097646_d0a1y8.png" draggable="false" class="card-img-top" alt="Harnessing the Sun">
                     <div class="card-bodyy">
                         <h5 class="card-title">Documentation and Contract Management</h5>
-                        <p class="card-text">Knowledge and skills required to effectively manage customer documentation, contracts, and records while ensuring accuracy,...</p>
+                        <p class="card-text">Knowledge and skills required to effectively manage customer documentation, contracts, and records while ensuring accuracy.</p>
                     </div>
+                    <a href="{{route('documentation')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,3 +118,13 @@
 @section('page-content')
 
 @endsection
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>

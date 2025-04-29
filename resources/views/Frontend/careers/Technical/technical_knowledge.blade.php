@@ -32,6 +32,9 @@
                         <h5 class="card-title">Solar Panel and Inverter Basics</h5>
                         <p class="card-text">Fundamental knowledge of solar panels and inverters to effectively explain their operations, benefits, and relevance to potential customers.</p>
                     </div>
+                    <a href="{{route('solar_panel_basics')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +46,9 @@
                         <h5 class="card-title">Battery Storage Systems Overview</h5>
                         <p class="card-text">Foundational knowledge about battery storage systems, enabling them to explain the importance, functionality, and advantages of...</p>
                     </div>
+                    <a href="{{route('battery_storage_systems')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,9 +61,12 @@
                         <h5 class="card-title">Installation Process Fundamentals (Non-Technical)</h5>
                         <p class="card-text">A foundational understanding of the solar installation process to confidently explain it to customers and address their non-technical...</p>
                     </div>
+                    <a href="{{route('installation_process')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
-
             </div>
+
             <!-- Card 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card" data-aos="fade-right"
@@ -68,6 +77,9 @@
                         <h5 class="card-title">Monitoring Solar System Performance</h5>
                         <p class="card-text">Knowledge to explain how solar system performance is monitored and guide customers in effectively utilizing monitoring tools for...</p>
                     </div>
+                    <a href="{{route('monitoring_performance')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -78,8 +90,10 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Troubleshooting Common Customer Issues</h5>
                         <p class="card-text">Skills and knowledge to address common customer concerns and resolve basic issues related to solar system performance, ensuring...</p>
-
                     </div>
+                    <a href="{{route('troubleshooting')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -92,6 +106,9 @@
                         <h5 class="card-title">Explaining Maintenance and Warranty Policies</h5>
                         <p class="card-text">Baltai Energy’s maintenance requirements and warranty policies to customers, ensuring transparency and building long-term trust.</p>
                     </div>
+                    <a href="{{route('maintenance_warranty')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,3 +118,14 @@
 @section('page-content')
 
 @endsection
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>

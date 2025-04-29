@@ -59,22 +59,38 @@ Route::get('/learning/relationship_management/resolving_complaints', [App\Http\C
 Route::get('/learning/relationship_management/customer_loyalty', [App\Http\Controllers\HomePageController::class, 'customer_loyalty'])->name('customer_loyalty');
 
 
-
-
-
-
 // Technical Knowledge for SRMs Rourtes
 Route::get('/learning/technical_knowledge', [App\Http\Controllers\HomePageController::class, 'technical_knowledge'])->name('technical_knowledge');
+Route::get('/learning/technical_knowledge/solar_panel_basics', [App\Http\Controllers\HomePageController::class, 'solar_panel_basics'])->name('solar_panel_basics');
+Route::get('/learning/technical_knowledge/battery_storage_systems', [App\Http\Controllers\HomePageController::class, 'battery_storage_systems'])->name('battery_storage_systems');
+Route::get('/learning/technical_knowledge/installation_process', [App\Http\Controllers\HomePageController::class, 'installation_process'])->name('installation_process');
+Route::get('/learning/technical_knowledge/monitoring_performance', [App\Http\Controllers\HomePageController::class, 'monitoring_performance'])->name('monitoring_performance');
+Route::get('/learning/technical_knowledge/troubleshooting', [App\Http\Controllers\HomePageController::class, 'troubleshooting'])->name('troubleshooting');
+Route::get('/learning/technical_knowledge/maintenance_warranty', [App\Http\Controllers\HomePageController::class, 'maintenance_warranty'])->name('maintenance_warranty');
 
 // Compliance and Ethical Standards Routes
 Route::get('/learning/compliance', [App\Http\Controllers\HomePageController::class, 'compliance'])->name('compliance');
+Route::get('/learning/compliance/industry_regulations', [App\Http\Controllers\HomePageController::class, 'industry_regulations'])->name('industry_regulations');
+Route::get('/learning/compliance/government_incentives', [App\Http\Controllers\HomePageController::class, 'government_incentives'])->name('government_incentives');Route::get('/learning/compliance/environmental_compliance', [App\Http\Controllers\HomePageController::class, 'environmental_compliance'])->name('environmental_compliance');
+Route::get('/learning/compliance/ethical_standards', [App\Http\Controllers\HomePageController::class, 'ethical_standards'])->name('ethical_standards');
+Route::get('/learning/compliance/customer_data_privacy', [App\Http\Controllers\HomePageController::class, 'customer_data_privacy'])->name('customer_data_privacy');
+Route::get('/learning/compliance/documentation', [App\Http\Controllers\HomePageController::class, 'documentation'])->name('documentation');
 
 // Digital Tools and Technology Routes
 Route::get('/learning/digital_tools', [App\Http\Controllers\HomePageController::class, 'digital_tools'])->name('digital_tools');
+Route::get('/learning/digital_tools/crm_tools', [App\Http\Controllers\HomePageController::class, 'crm_tools'])->name('crm_tools');
+Route::get('/learning/digital_tools/lead_tracking', [App\Http\Controllers\HomePageController::class, 'lead_tracking'])->name('lead_tracking');
+Route::get('/learning/digital_tools/solar_system_design', [App\Http\Controllers\HomePageController::class, 'solar_system_design'])->name('solar_system_design');
+Route::get('/learning/digital_tools/social_media', [App\Http\Controllers\HomePageController::class, 'social_media'])->name('social_media');
+Route::get('/learning/digital_tools/digital_marketing', [App\Http\Controllers\HomePageController::class, 'digital_marketing'])->name('digital_marketing');
+Route::get('/learning/digital_tools/cybersecurity', [App\Http\Controllers\HomePageController::class, 'cybersecurity'])->name('cybersecurity');
+
 
 // Soft Skills and Personal Development Routes
 Route::get('/learning/soft_skills', [App\Http\Controllers\HomePageController::class, 'soft_skills'])->name('soft_skills');
-
+Route::get('/learning/soft_skills/communication_techniques', [App\Http\Controllers\HomePageController::class, 'communication_techniques'])->name('communication_techniques');
+Route::get('/learning/soft_skills/negotiation_skills', [App\Http\Controllers\HomePageController::class, 'negotiation_skills'])->name('negotiation_skills');
+Route::get('/learning/soft_skills/stress_management', [App\Http\Controllers\HomePageController::class, 'stress_management'])->name('stress_management');
 
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');

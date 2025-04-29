@@ -293,12 +293,74 @@ class HomePageController extends Controller
         return view('Frontend.careers.Technical.technical_knowledge');
     }
 
+    public function solar_panel_basics()
+    {
+        return view('Frontend.careers.Technical.Modules.solar_panel_basics');
+    }
+
+    public function battery_storage_systems()
+    {
+        return view('Frontend.careers.Technical.Modules.battery_storage_systems');
+    }
+
+    public function installation_process()
+    {
+        return view('Frontend.careers.Technical.Modules.installation_process');
+    }
+
+    public function monitoring_performance()
+    {
+        return view('Frontend.careers.Technical.Modules.monitoring_performance');
+    }
+    
+    public function troubleshooting()
+    {
+        return view('Frontend.careers.Technical.Modules.troubleshooting');
+    }
+
+    public function maintenance_warranty()
+    {
+        return view('Frontend.careers.Technical.Modules.maintenance_warranty');
+    }
+
+
     // Compliance and Ethical Standards Routes
 
     public function compliance()
     {
         return view('Frontend.careers.Compliance.compliance');
     }
+
+    public function industry_regulations()
+    {
+        return view('Frontend.careers.Compliance.Modules.industry_regulations');
+    }
+
+    public function government_incentives()
+    {
+        return view('Frontend.careers.Compliance.Modules.government_incentives');
+    }
+
+    public function environmental_compliance()
+    {
+        return view('Frontend.careers.Compliance.Modules.environmental_compliance');
+    }
+
+    public function ethical_standards()
+    {
+        return view('Frontend.careers.Compliance.Modules.ethical_standards');
+    }
+
+    public function customer_data_privacy()
+    {
+        return view('Frontend.careers.Compliance.Modules.customer_data_privacy');
+    }
+
+    public function documentation()
+    {
+        return view('Frontend.careers.Compliance.Modules.documentation');
+    }
+
 
     // Digital Tools and Technology Routes
 
@@ -307,11 +369,55 @@ class HomePageController extends Controller
         return view('Frontend.careers.Digital.digital_tools');
     }
 
+    public function crm_tools()
+    {
+        return view('Frontend.careers.Digital.Modules.crm_tools');
+    }
+
+    public function lead_tracking()
+    {
+        return view('Frontend.careers.Digital.Modules.lead_tracking');
+    }
+
+    public function solar_system_design()
+    {
+        return view('Frontend.careers.Digital.Modules.solar_system_design');
+    }
+
+    public function social_media()
+    {
+        return view('Frontend.careers.Digital.Modules.social_media');
+    }
+
+    public function digital_marketing()
+    {
+        return view('Frontend.careers.Digital.Modules.digital_marketing');
+    }
+
+    public function cybersecurity()
+    {
+        return view('Frontend.careers.Digital.Modules.cybersecurity');
+    }
+
     // Soft Skills and Personal Development Routes
     
     public function soft_skills()
     {
         return view('Frontend.careers.Soft.soft_skills');
     }
+    
+    public function communication_techniques()
+    {
+        return view('Frontend.careers.Soft.Modules.communication_techniques');
+    }
 
+    public function negotiation_skills()
+    {
+        return view('Frontend.careers.Soft.Modules.negotiation_skills');
+    }
+
+    public function stress_management()
+    {
+        return view('Frontend.careers.Soft.Modules.stress_management');
+    }
 }

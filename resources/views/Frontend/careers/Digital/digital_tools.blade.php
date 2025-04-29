@@ -32,6 +32,9 @@
                         <h5 class="card-title">CRM Tools for Sales and Customer Management</h5>
                         <p class="card-text">Knowledge and skills to effectively use Customer Relationship Management (CRM) tools for tracking leads, managing customer ...</p>
                     </div>
+                    <a href="{{route('crm_tools')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -43,6 +46,9 @@
                         <h5 class="card-title">Digital Platforms for Lead Tracking and Communication</h5>
                         <p class="card-text">Equip SRMs with knowledge of digital platforms that help track leads, manage customer interactions, and communicate effectively...</p>
                     </div>
+                    <a href="{{route('lead_tracking')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -55,6 +61,9 @@
                         <h5 class="card-title">Solar System Design Software Basics</h5>
                         <p class="card-text">Solar system design software, enabling SRMs to create accurate system proposals, size solar installations, and communicate...</p>
                     </div>
+                    <a href="{{route('solar_system_design')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
 
             </div>
@@ -68,6 +77,9 @@
                         <h5 class="card-title">Using Social Media for Customer Outreach</h5>
                         <p class="card-text">How to leverage social media platforms to generate leads, build customer relationships, and increase solar product awareness.</p>
                     </div>
+                    <a href="{{route('social_media')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -78,8 +90,10 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Digital Marketing Fundamentals for SRMs</h5>
                         <p class="card-text">Essential digital marketing skills to generate leads, increase brand awareness, and drive sales for solar energy solutions.</p>
-
                     </div>
+                    <a href="{{route('digital_marketing')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -92,6 +106,9 @@
                         <h5 class="card-title">Cybersecurity Awareness and Safe Practices for SRMs</h5>
                         <p class="card-text">Educate SRMs on cybersecurity threats, best practices for protecting digital assets, and safe online behavior to prevent cyberattacks.</p>
                     </div>
+                    <a href="{{route('cybersecurity')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,3 +118,14 @@
 @section('page-content')
 
 @endsection
+
+<script>
+    // Add click event listener for interactivity
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            let btn = this.querySelector('.enroll-btn');
+            btn.style.opacity = '1';
+            btn.style.transform = 'translateX(-50%) translateY(-10px)';
+        });
+    });
+</script>
