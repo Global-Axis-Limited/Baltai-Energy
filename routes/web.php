@@ -91,6 +91,10 @@ Route::get('/learning/soft_skills', [App\Http\Controllers\HomePageController::cl
 Route::get('/learning/soft_skills/communication_techniques', [App\Http\Controllers\HomePageController::class, 'communication_techniques'])->name('communication_techniques');
 Route::get('/learning/soft_skills/negotiation_skills', [App\Http\Controllers\HomePageController::class, 'negotiation_skills'])->name('negotiation_skills');
 Route::get('/learning/soft_skills/stress_management', [App\Http\Controllers\HomePageController::class, 'stress_management'])->name('stress_management');
+Route::get('/learning/soft_skills/handling_difficult_customers', [App\Http\Controllers\HomePageController::class, 'handling_difficult_customers'])->name('handling_difficult_customers');
+Route::get('/learning/soft_skills/presentation_skills', [App\Http\Controllers\HomePageController::class, 'presentation_skills'])->name('presentation_skills');
+Route::get('/learning/soft_skills/time_management', [App\Http\Controllers\HomePageController::class, 'time_management'])->name('time_management');
+
 
 Route::get('/finance', [App\Http\Controllers\HomePageController::class, 'finance'])->name('finance');
 Route::get('/partners', [App\Http\Controllers\HomePageController::class, 'partners'])->name('partners');

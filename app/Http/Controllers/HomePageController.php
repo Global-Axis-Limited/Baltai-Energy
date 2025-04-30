@@ -420,4 +420,19 @@ class HomePageController extends Controller
     {
         return view('Frontend.careers.Soft.Modules.stress_management');
     }
+
+    public function handling_difficult_customers()
+    {
+        return view('Frontend.careers.Soft.Modules.handling_difficult_customers');
+    }
+
+    public function presentation_skills()
+    {
+        return view('Frontend.careers.Soft.Modules.presentation_skills');
+    }
+
+    public function time_management()
+    {
+        return view('Frontend.careers.Soft.Modules.time_management');
+    }
 }

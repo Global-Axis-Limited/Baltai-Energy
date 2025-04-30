@@ -76,6 +76,9 @@
                         <h5 class="card-title">Email, Phone, and WhatsApp Etiquette</h5>
                         <p class="card-text">Pofessional communication skills across email, phone, and WhatsApp to improve customer interactions, build trust, and enhance sales ...</p>
                     </div>
+                    <a href="{{route('stress_management')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 5 -->
@@ -86,8 +89,10 @@
                     <div class="card-bodyy">
                         <h5 class="card-title">Handling Difficult Customer Situations Professionally</h5>
                         <p class="card-text">Equip SRMs with skills to effectively handle challenging customer interactions while maintaining professionalism, confidence, and a ...</p>
-
                     </div>
+                    <a href="{{route('handling_difficult_customers')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 6 -->
@@ -100,6 +105,9 @@
                         <h5 class="card-title">Presentation and Public Speaking Skills</h5>
                         <p class="card-text">Equip SRMs with the ability to confidently present solar products, deliver persuasive pitches, and engage audiences effectively in ...</p>
                     </div>
+                    <a href="{{route('presentation_skills')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
 
@@ -113,6 +121,9 @@
                         <h5 class="card-title">Time Management and Goal Setting</h5>
                         <p class="card-text">Equip SRMs with strategies to manage their time efficiently, prioritize tasks, and set achievable goals to maximize productivity in...</p>
                     </div>
+                    <a href="{{route('time_management')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
         </div>
