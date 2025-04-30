@@ -1,4 +1,6 @@
 @extends('Layouts.connection')
+
+@section('page-content')
 <!-- Beadcrum -->
 <section class="Beadcrumm">
     <div class="container">
@@ -110,7 +112,6 @@
                     </a>
                 </div>
             </div>
-
             <!-- Card 7 -->
             <div class="col-md-4 mb-4">
                 <div class="card" data-aos="fade-left"
@@ -129,9 +130,6 @@
         </div>
     </div>
 </section>
-
-@section('page-content')
-
 @endsection
 
 <script>
