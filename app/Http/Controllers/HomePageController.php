@@ -97,30 +97,30 @@ class HomePageController extends Controller
         return view('Frontend.energy_calculator');
     }
 
-    public function courses_details()
-    {
-        return view('Frontend.careers.courses_details');
-    }  
+    // public function courses_details()
+    // {
+    //     return view('Frontend.careers.courses_details');
+    // }  
 
-    public function courses()
-    {
-        return view('Frontend.careers.courses');
-    } 
+    // public function courses()
+    // {
+    //     return view('Frontend.careers.courses');
+    // } 
 
-    public function courses_two()
-    {
-        return view('Frontend.careers.list.courses_two');
-    } 
+    // public function courses_two()
+    // {
+    //     return view('Frontend.careers.list.courses_two');
+    // } 
 
-    public function kick_start()
-    {
-        return view('Frontend.careers.kick_start');
-    } 
+    // public function kick_start()
+    // {
+    //     return view('Frontend.careers.kick_start');
+    // } 
 
-    public function login()
-    {
-        return view('Frontend.auth.login');
-    }  
+    // public function login()
+    // {
+    //     return view('Frontend.auth.login');
+    // }  
 
     // Onboarding And Solar Basics Routes
     

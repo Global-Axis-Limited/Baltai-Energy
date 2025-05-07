@@ -1,4 +1,5 @@
 @extends('Layouts.connection')
+@section('page-content')
 <!-- Beadcrum -->
 <section class="Beadcrumm">
     <div class="container">
@@ -127,13 +128,9 @@
         </div>
     </div>
 </section>
-
-@section('page-content')
-
 @endsection
 
 <script>
-    // Add click event listener for interactivity
     document.querySelectorAll('.card').forEach(card => {
         card.addEventListener('click', function() {
             let btn = this.querySelector('.enroll-btn');
