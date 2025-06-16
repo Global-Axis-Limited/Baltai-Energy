@@ -1324,9 +1324,12 @@ textarea:focus {
 /*  */
 
 .insights-section {
-    padding: 80px 0 150px 0;
+    padding: 80px 0 80px 0;
     background-color: #F9F9F9;
     font-family: "Montserrat", serif;
+}
+.New{
+    padding: 80px 0 80px 0;
 }
 
 .insights-section h2 {
@@ -1355,7 +1358,7 @@ textarea:focus {
 
 .insights-section .card-body {
     padding: 35px 20px !important;
-    height: 200px;
+    height: 450px;
 }
 
 @media (max-width:1400px) {
@@ -1366,14 +1369,15 @@ textarea:focus {
 }
 
 .insights-section .card img {
+    height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .insights-section .card-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 2;
+    line-height: 35px !important;
 }
 
 .insights-section .card-text {
@@ -3522,6 +3526,7 @@ mark {
     opacity: 1;
     transform: translateX(-50%) translateY(-10px);
 }
+
 
 /* Hero Section Styling */
 .hero-section {

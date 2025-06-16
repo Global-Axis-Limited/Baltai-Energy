@@ -32,6 +32,9 @@
                         <h5 class="card-title">Navigating the Solar Landscape: Insights into the Nigerian Market</h5>
                         <p class="card-text">Understanding of the solar energy market in Nigeria, including its challenges, opportunities, and potential for growth.</p>
                     </div>
+                    <a href="{{route('solar_market')}}">
+                        <button class="btn btn-primary enroll-btn">View courses</button>
+                    </a>
                 </div>
             </div>
             <!-- Card 3 -->

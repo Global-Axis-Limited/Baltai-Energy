@@ -253,7 +253,7 @@
                         <summary> Unmatched Warranties </summary>
                         <div class="faq-content">
                             <p> We offer the best warranties in the business for our Panels, Batteries and Inverters which are unmatched by other operators. You can be rest assured that handing the powering of your precious homes and burgeoning businesses to Baltai Energy is the safest best.
- </p>
+                            </p>
                         </div>
                     </details>
                 </div>
@@ -400,7 +400,7 @@
                     <div class="text-white">
                         <h2 class="fw-bold Joiil">Spotlight on <strong>SSN</strong></h2>
                         <p class="mt-3">
-                        Say goodbye to power outages and high bills. With Baltai Energy’s Solar Solutions Network (SSN), you can now enjoy uninterrupted electricity powered by the sun.
+                            Say goodbye to power outages and high bills. With Baltai Energy’s Solar Solutions Network (SSN), you can now enjoy uninterrupted electricity powered by the sun.
                         </p>
                         <a href="{{route('our_ssn')}}" class="btn btn-warning text-white mt-3 px-4 py-2 text-capitalize">Discover more</a>
                     </div>
@@ -538,28 +538,42 @@
     <div class="container">
         <h2 class="text-center mb-5">Insights</h2>
         <div class="row mt-5">
-           
-            <!-- <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285731/Energy/image_ipdrpv.jpg" draggable="false" class="card-img-top" alt="Solar Home">
+                    <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/04/ricardo-gomez-angel-MagdWoazARo-unsplash-scaled.jpg" draggable="false" class="card-img-top" alt="Solar Home">
                     <div class="card-body">
-                        <h5 class="card-title">5 Reasons to Switch to Solar</h5>
-                        <p class="card-text">From lower electricity bills to eco-friendliness, discover why solar power is the solution for you.</p>
-                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
+                        <h5 class="card-title">Understanding the Components of a Solar Power System: Inverters, Panels, and Beyond</h5>
+                        <p class="card-text">Solar power systems are becoming a popular solution for homes and businesses in Nigeria, but many people are unsure of how the technology works. Understanding the key components of a solar power system can help you make informed decisions about adopting this clean energy solution.</p>
+                        <a
+                            href="https://blog.baltaienergy.com/understanding-the-components-of-a-solar-power-system-inverters-panels-and-beyond-2/"
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Read More →
+                        </a>
                     </div>
                 </div>
             </div>
-           
+
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-up"
                     data-aos-duration="3000">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285728/Energy/image1_uu1dwu.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
+                    <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/04/AD_4nXfSFjPyqFa9N4Gfu_BFUmgrpxHlnxOqMIWzXkchz5qsdgObvXuChAgOENwzHZ-5CSD1Clf32zAxsD-2ZV__tN6lXOZKYgbTb50sNRnMP0uFsOp_CRiZ41UnXrUgoqza_Jma51aO5g.jpg" draggable="false" class="card-img-top" alt="Solar Panels">
                     <div class="card-body">
-                        <h5 class="card-title">Sustainable Future with Solar</h5>
-                        <p class="card-text">Solar technology continues to advance, offering more efficient and versatile energy solutions.</p>
-                        <a href="{{route('our_insight')}}" class="btn">Read More →</a>
+                        <h5 class="card-title">Grid Independence: Why Solar Power Is the Key to Energy Security in Nigeria</h5>
+                        <p class="card-text">Nigeria has long struggled with an unreliable power grid, leading to frequent blackouts and energy insecurity. This instability forces many homes and businesses to rely on expensive generators or face long periods without electricity. Solar power offers a solution, providing grid independence and a stable, reliable energy source for millions of Nigerians.</p>
+
+                        <a
+                            href="https://blog.baltaienergy.com/grid-independence-why-solar-power-is-the-key-to-energy-security-in-nigeria/"
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Read More →
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -567,17 +581,26 @@
                 <div class="card" data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737285723/Energy/image2_hkepaj.jpg" draggable="false" class="card-img-top" alt="Harnessing the Sun">
+                    <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/04/AD_4nXcZVUQODjqc_uaTsXpG7_k-nedwmrBx4Wn34f1vZ0KufX0jFEj-pt3nKQhMCOlUjnpxr-pAv4xOMPJdBOVcoA5P-FPrvZgjQA5I7545IPOtwCBK-5YtU0EqT_xhpX6veTEgCHN66w.jpg" draggable="false" class="card-img-top" alt="Harnessing the Sun">
                     <div class="card-body">
-                        <h5 class="card-title">Harnessing the Sun</h5>
-                        <p class="card-text">Solar energy is more than just power—it's a step towards a sustainable and reliable future.</p>
-                        <a href="" class="btn">Read More →</a>
+                        <h5 class="card-title">Powering the Future: How Solar Energy Is Changing Lives in Nigeria</h5>
+                        <p class="card-text">As Nigeria grapples with frequent power outages and rising energy costs, solar energy is providing a solution that is transforming lives across the country. Whether in urban areas or rural communities, solar energy is proving to be more than just an alternative—it’s a powerful force for change.</p>
+                        <a
+                            href="https://blog.baltaienergy.com/wp-content/uploads/2025/04/AD_4nXcZVUQODjqc_uaTsXpG7_k-nedwmrBx4Wn34f1vZ0KufX0jFEj-pt3nKQhMCOlUjnpxr-pAv4xOMPJdBOVcoA5P-FPrvZgjQA5I7545IPOtwCBK-5YtU0EqT_xhpX6veTEgCHN66w.jpg"
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Read More →
+                        </a>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </section>
+
+<div class="New">
+</div>
 
 
 @endsection
@@ -632,65 +655,65 @@
     });
 </script>
 <script>
-function calculateSavings() {
-    let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
-    let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
-    let electricityBand = parseFloat(document.getElementById("electricity-band").value);
-    let electricitySupply = document.getElementById("electricity-supply").value;
-    let apartmentType = document.getElementById("apartment-type").value;
-    
-    if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
-        alert("Please enter valid numbers for electricity bill and fuel cost.");
-        return;
+    function calculateSavings() {
+        let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
+        let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
+        let electricityBand = parseFloat(document.getElementById("electricity-band").value);
+        let electricitySupply = document.getElementById("electricity-supply").value;
+        let apartmentType = document.getElementById("apartment-type").value;
+
+        if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
+            alert("Please enter valid numbers for electricity bill and fuel cost.");
+            return;
+        }
+
+        let supplyFactor = {
+            "3-5": 0.7,
+            "6-8": 0.8,
+            "9-12": 0.9,
+            "13-15": 1.0,
+            "16-18": 1.1,
+            "19-24": 1.2
+        } [electricitySupply];
+
+        let apartmentFactor = {
+            "Duplex": 1.3,
+            "Flat": 1.2,
+            "Bungalow": 1.1,
+            "Self-contained": 1.0,
+            "Mini-flat": 0.9,
+            "Terraced House": 1.15,
+            "Penthouse": 1.25
+        } [apartmentType];
+
+        let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
+        document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>" +
+            "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>" +
+            "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
+
+        var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
+        myModal.show();
     }
-    
-    let supplyFactor = {
-        "3-5": 0.7,
-        "6-8": 0.8,
-        "9-12": 0.9,
-        "13-15": 1.0,
-        "16-18": 1.1,
-        "19-24": 1.2
-    }[electricitySupply];
-    
-    let apartmentFactor = {
-        "Duplex": 1.3,
-        "Flat": 1.2,
-        "Bungalow": 1.1,
-        "Self-contained": 1.0,
-        "Mini-flat": 0.9,
-        "Terraced House": 1.15,
-        "Penthouse": 1.25
-    }[apartmentType];
-    
-    let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
-    document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>"
-    + "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>"
-    + "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
-    
-    var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
-    myModal.show();
-}
 </script>
 
 
 <script>
-async function fetchLatestBlogs() {
-  try {
-    const response = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://blog.baltaienergy.com/'));
-    const data = await response.json();
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(data.contents, "application/xml");
-    const items = xml.querySelectorAll("item");
-    const container = document.getElementById('blog-posts');
+    async function fetchLatestBlogs() {
+        try {
+            const response = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://blog.baltaienergy.com/'));
+            const data = await response.json();
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(data.contents, "application/xml");
+            const items = xml.querySelectorAll("item");
+            const container = document.getElementById('blog-posts');
 
-    for (let i = 0; i < Math.min(3, items.length); i++) {
-      const item = items[i];
-      const title = item.querySelector('title').textContent;
-      const link = item.querySelector('link').textContent;
-      const postDiv = document.createElement('div');
-      postDiv.className = 'col-md-4 mb-4';
-      postDiv.innerHTML = `
+            for (let i = 0; i < Math.min(3, items.length); i++) {
+                const item = items[i];
+                const title = item.querySelector('title').textContent;
+                const link = item.querySelector('link').textContent;
+                const postDiv = document.createElement('div');
+                postDiv.className = 'col-md-4 mb-4';
+                postDiv.innerHTML = `
         <div class="card h-100 shadow-sm">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">${title}</h5>
@@ -698,13 +721,12 @@ async function fetchLatestBlogs() {
           </div>
         </div>
       `;
-      container.appendChild(postDiv);
+                container.appendChild(postDiv);
+            }
+        } catch (error) {
+            console.error('Error fetching blogs:', error);
+        }
     }
-  } catch (error) {
-    console.error('Error fetching blogs:', error);
-  }
-}
 
-fetchLatestBlogs();
+    fetchLatestBlogs();
 </script>
-
