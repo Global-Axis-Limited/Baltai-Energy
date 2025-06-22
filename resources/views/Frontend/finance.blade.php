@@ -87,7 +87,8 @@
 
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
-                <form class="Just" style="background: #fff; border-radius:5px; padding:70px 30px;">
+            <iframe aria-label='Financing' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/Financing/formperma/33BTQrzoaL_OdotP7tSou0woKKiLA3kaayemE8Fe0Mg'></iframe>
+                <!-- <form class="Just" style="background: #fff; border-radius:5px; padding:70px 30px;">
                     <div class="mb-4">
                         <label for="fullName" class="form-label mb-3">Full Name</label>
                         <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
@@ -107,7 +108,7 @@
                     <div>
                     <button type="submit" class="btn btn-submit mb-4" required>Send Message</button>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </div>

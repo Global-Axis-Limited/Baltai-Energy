@@ -45,8 +45,8 @@
 
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 mt-lg-0">
-                <form class="Just" id="contactFForm">
-                <iframe aria-label='.' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/Contact/formperma/IhqWVTc279ILoazCF6qWcCBaEe17yp3lN2miTp4nxIE'></iframe>
+            <iframe aria-label='.' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/Contact/formperma/IhqWVTc279ILoazCF6qWcCBaEe17yp3lN2miTp4nxIE'></iframe>
+                <!-- <form class="Just" id="contactFForm">
                     <div class="mb-4">
                         <label for="fullName" class="form-label mb-3">Full Name</label>
                         <input type="text" class="form-control" name="name" id="name" placeholder="Your full name" required>
@@ -72,7 +72,7 @@
                     <button type="submit" class="btn btn-submit">Send Message</button>
                     <div id="loader" class="loader"></div>
                 </form>
-                <p id="responseMessage" style="margin-top: 15px; color: green;"></p>
+                <p id="responseMessage" style="margin-top: 15px; color: green;"></p> -->
             </div>
 
         </div>

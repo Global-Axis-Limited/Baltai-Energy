@@ -534,7 +534,7 @@
   <div id="blog-posts" class="row"></div>
 </section> -->
 
-<section class="insights-section">
+<section class="insights-sectioner">
     <div class="container">
         <h2 class="text-center mb-5">Insights</h2>
         <div class="row mt-5">

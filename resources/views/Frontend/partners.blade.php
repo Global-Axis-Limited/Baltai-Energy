@@ -105,7 +105,8 @@
 
             <!-- Right Column -->
             <div class="col-lg-6 col-md-12 mt-lg-0">
-                <form class="Just" id="contactForm" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
+            <iframe aria-label='JOIN US' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/Signup/formperma/Cr6uUzEUCOEocFHNunCAJHaoO2EUhbSBszOM6RFbMeE'></iframe>
+                <!-- <form class="Just" id="contactForm" style="background: #fff; border-radius:5px; padding:20px 30px 70px 30px;">
                     <h6 style="color: #F8861A;" class="text-center"> JOIN US</h6>
                     <h2 class="text-black mb-4 text-center">Become a Partner</h2>
                     <div class="mb-4">
@@ -129,7 +130,7 @@
                         <textarea class="form-control" id="message" cols="30" rows="3" placeholder="Write your message here"></textarea>
                     </div>
                     <button type="submit" class="btn btn-submit">Submit</button>
-                </form>
+                </form> -->
 
             </div>
         </div>
