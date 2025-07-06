@@ -83,7 +83,7 @@
                 <div class="sidebar-card">
                 <a href="https://onboarding-and-solar-basics.zoholearn.com">
                         <button class="btn btn-enroll mt-3">ENROLL NOW</button>
-                    </a>
+                </a>
                 </div>
             </div>
         </div>

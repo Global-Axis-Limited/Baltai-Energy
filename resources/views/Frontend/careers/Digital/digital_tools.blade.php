@@ -114,7 +114,8 @@
         </div>
     </div>
 </section>
-
+<div class="New">
+</div>
 @section('page-content')
 
 @endsection

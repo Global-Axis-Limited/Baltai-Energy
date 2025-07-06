@@ -154,6 +154,9 @@
 </section>
 <!-- Mapl Us Ends -->
 
+<div class="New">
+</div>
+
 <script>
     // Add click event listener for interactivity
     document.querySelectorAll('.card').forEach(card => {

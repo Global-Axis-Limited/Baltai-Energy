@@ -1365,7 +1365,7 @@ textarea:focus {
 
 .insights-section .card-bodyy {
     padding: 35px 20px !important;
-    height: 250px;
+    height: 280px;
 }
 
 @media (max-width:1400px) {
@@ -1388,7 +1388,7 @@ textarea:focus {
 }
 
 .insights-section .card img {
-    height: 300px;
+    height: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }

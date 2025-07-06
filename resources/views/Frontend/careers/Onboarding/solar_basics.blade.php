@@ -130,6 +130,8 @@
         </div>
     </div>
 </section>
+<div class="New">
+</div>
 @endsection
 
 <script>
