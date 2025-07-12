@@ -82,7 +82,7 @@
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
                 <div class="sidebar-card">
-                    <a href="https://sales-techniques.zoholearn.com/c/sales-techniques-and-customer-acquisition">
+                    <a href="https://sales-techniques.zoholearn.com/c/sales-techniques-and-customer-acquisition" target="_blank">
                         <button class="btn btn-enroll mt-3">ENROLL NOW</button>
                     </a>
                 </div>

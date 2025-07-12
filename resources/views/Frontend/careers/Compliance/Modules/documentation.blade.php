@@ -7,7 +7,7 @@
                 <div class="texting">
                     <h2>Documentation and Contract Management</h2>
                     <p>
-                    <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Documentation and Contract Management / <a href="#">What You’ll Learn</a>
+                        <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Documentation and Contract Management / <a href="#">What You’ll Learn</a>
                     </p>
                 </div>
             </div>
@@ -95,8 +95,9 @@
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
                 <div class="sidebar-card">
-                    <button class="btn btn-enroll mt-3">ENROLL NOW</button>
-                    <button class="btn btn-start">START NOW</button>
+                    <a href="https://compliance-and-ethical-standards.zoholearn.com" target="_blank">
+                        <button class="btn btn-enroll mt-3">ENROLL NOW</button>
+                    </a>
                 </div>
             </div>
         </div>

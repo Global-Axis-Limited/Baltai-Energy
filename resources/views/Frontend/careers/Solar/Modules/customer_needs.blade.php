@@ -7,7 +7,7 @@
                 <div class="texting">
                     <h2>Matching Solar Solutions to Customer Needs</h2>
                     <p>
-                    <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Matching Solar Solutions to Customer Needs / <a href="#">What You’ll Learn</a>
+                        <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Matching Solar Solutions to Customer Needs / <a href="#">What You’ll Learn</a>
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                                     </a>
                                 </td>
                             </tr>
-                           
+
                         </tbody>
                     </table>
                 </div>
@@ -75,8 +75,9 @@
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
                 <div class="sidebar-card">
-                    <button class="btn btn-enroll mt-3">ENROLL NOW</button>
-                    <button class="btn btn-start">START NOW</button>
+                    <a href="https://solar-products-and-financing-options.zoholearn.com" target="_blank">
+                        <button class="btn btn-enroll mt-3">ENROLL NOW</button>
+                    </a>
                 </div>
             </div>
         </div>

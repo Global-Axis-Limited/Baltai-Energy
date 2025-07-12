@@ -457,7 +457,7 @@
                             <label for="electricity-bill" class="form-label text-white">Monthly Electricity Bill</label>
                             <div class="input-group">
                                 <span class="input-group-text">₦</span>
-                                <input type="number" class="form-control" id="electricity-bill" value="40000" required />
+                                <input type="text" class="form-control" id="electricity-bill" placeholder="40000" required />
                             </div>
                         </div>
 
@@ -466,7 +466,7 @@
                             <label for="fuel-cost" class="form-label text-white">Monthly Cost on Fuel (Generator)</label>
                             <div class="input-group">
                                 <span class="input-group-text">₦</span>
-                                <input type="number" class="form-control" id="fuel-cost" value="190000" required />
+                                <input type="text" class="form-control" id="fuel-cost" placeholder="190000" required />
                             </div>
                         </div>
 
@@ -474,7 +474,8 @@
                         <div class="mb-4">
                             <label for="electricity-supply" class="form-label text-white">Hours of Electricity Supply (Daily)</label>
                             <select id="electricity-supply" class="form-select" required>
-                                <option selected>3-5</option>
+                                <option value="" disabled selected>Select hours</option>
+                                <option>3-5</option>
                                 <option>6-8</option>
                                 <option>9-12</option>
                                 <option>13-15</option>
@@ -487,7 +488,8 @@
                         <div class="mb-4">
                             <label for="apartment-type" class="form-label text-white">Type of Apartment</label>
                             <select id="apartment-type" class="form-select" required>
-                                <option selected>Duplex</option>
+                                <option value="" disabled selected>Select apartment type</option>
+                                <option>Duplex</option>
                                 <option>Flat</option>
                                 <option>Bungalow</option>
                                 <option>Self-contained</option>
@@ -501,7 +503,8 @@
                         <div class="mb-4">
                             <label for="electricity-band" class="form-label text-white">Electricity Band</label>
                             <select id="electricity-band" class="form-select" required>
-                                <option selected value="1.2">Band A</option>
+                                <option value="" disabled selected>Select band</option>
+                                <option value="1.2">Band A</option>
                                 <option value="1.1">Band B</option>
                                 <option value="1.0">Band C</option>
                                 <option value="0.9">Band D</option>
@@ -654,46 +657,47 @@
         });
     });
 </script>
+
 <script>
-    function calculateSavings() {
-        let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
-        let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
-        let electricityBand = parseFloat(document.getElementById("electricity-band").value);
-        let electricitySupply = document.getElementById("electricity-supply").value;
-        let apartmentType = document.getElementById("apartment-type").value;
+function calculateSavings() {
+    let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
+    let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
+    let electricityBand = parseFloat(document.getElementById("electricity-band").value);
+    let electricitySupply = document.getElementById("electricity-supply").value;
+    let apartmentType = document.getElementById("apartment-type").value;
 
-        if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
-            alert("Please enter valid numbers for electricity bill and fuel cost.");
-            return;
-        }
-
-        let supplyFactor = {
-            "3-5": 0.7,
-            "6-8": 0.8,
-            "9-12": 0.9,
-            "13-15": 1.0,
-            "16-18": 1.1,
-            "19-24": 1.2
-        } [electricitySupply];
-
-        let apartmentFactor = {
-            "Duplex": 1.3,
-            "Flat": 1.2,
-            "Bungalow": 1.1,
-            "Self-contained": 1.0,
-            "Mini-flat": 0.9,
-            "Terraced House": 1.15,
-            "Penthouse": 1.25
-        } [apartmentType];
-
-        let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
-        document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>" +
-            "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>" +
-            "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
-
-        var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
-        myModal.show();
+    if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
+        alert("Please enter valid numbers for electricity bill and fuel cost.");
+        return;
     }
+
+    let supplyFactor = {
+        "3-5": 0.7,
+        "6-8": 0.8,
+        "9-12": 0.9,
+        "13-15": 1.0,
+        "16-18": 1.1,
+        "19-24": 1.2
+    }[electricitySupply];
+
+    let apartmentFactor = {
+        "Duplex": 1.3,
+        "Flat": 1.2,
+        "Bungalow": 1.1,
+        "Self-contained": 1.0,
+        "Mini-flat": 0.9,
+        "Terraced House": 1.15,
+        "Penthouse": 1.25
+    }[apartmentType];
+
+    let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
+    document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>" +
+        "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>" +
+        "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
+
+    var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
+    myModal.show();
+}
 </script>
 
 

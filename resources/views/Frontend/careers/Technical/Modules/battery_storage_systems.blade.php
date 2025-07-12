@@ -7,7 +7,7 @@
                 <div class="texting">
                     <h2>Battery Storage Systems Overview</h2>
                     <p>
-                    <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Battery Storage Systems Overview / <a href="#">What You’ll Learn</a>
+                        <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Battery Storage Systems Overview / <a href="#">What You’ll Learn</a>
                     </p>
                 </div>
             </div>
@@ -87,9 +87,11 @@
                 <div class="sidebar-card">
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
+
                 <div class="sidebar-card">
-                    <button class="btn btn-enroll mt-3">ENROLL NOW</button>
-                    <button class="btn btn-start">START NOW</button>
+                    <a href="https://technical-knowledge-for-srms.zoholearn.com" target="_blank">
+                        <button class="btn btn-enroll mt-3">ENROLL NOW</button>
+                    </a>
                 </div>
             </div>
         </div>
