@@ -3238,7 +3238,19 @@ textarea:focus {
     background: #565052;
     color: white;
     padding: 2px 20px 20px 20px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.custom-carder {
+    background: #565052;
+    color: white;
+    padding: 2px 20px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Mooo {
+    margin-top: -20px !important;
+    float: right !important;
 }
 
 .custom-card label {
@@ -3247,16 +3259,20 @@ textarea:focus {
 
 .custom-card .form-control {
     border: none;
-    background-color: #6E696A !important;
-    color: #fff;
+    background-color: #fff !important;
+    color: #000 !important;
     padding: 10px 10px;
     border-radius: 5px;
 }
 
+.custom-card ::placeholder{
+    color: #000 !important;
+}
+
 .custom-card .form-select {
     border: none;
-    background-color: #6E696A !important;
-    color: #fff;
+    background-color: #fff !important;
+    color: #000 !important;
     padding: 13px 10px !important;
     border-radius: 5px;
 }

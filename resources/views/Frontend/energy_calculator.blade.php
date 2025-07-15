@@ -34,14 +34,22 @@
             Use our 'Energy Audit' calculator below to calculate how much electricity you use (in kWh) daily and determine your maximum power usage (in kW). Simply enter your appliance details and usage to get started.
         </div>
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-6">
                 <div id="appliance-container"></div>
-                <div class="mt-2 d-flex justify-content-center gap-2">
-                    <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
-                    <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
+                <div class="custom-carder">
+                    <div class="mt-2 d-flex justify-content-center gap-2">
+                        <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
+                        <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+                <div class="d-flex flex-column gap-3" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737284084/Energy/Group_48097585_ve6ahj.jpg" draggable="false" alt="Solar Engineer" class="img-fluid rounded">
+                </div>
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-6">
@@ -58,7 +66,9 @@
             </div>
         </div>
         <div class="mt-4 d-flex justify-content-center">
-            <button class="btn-custom">View Recommended Solar Solutions</button>
+            <a href="{{route('product')}}" target="_blank">
+                <button class="btn-custom">Reccommended Solution</button>
+            </a>
         </div>
     </div>
 </section>
@@ -161,27 +171,28 @@
         div.classList.add("custom-card", "mt-1");
         div.innerHTML = `
             <div class="row">
-                <div class="col-md-3">
+                            <div class="col-md-12">
+                    <button class="btn btn-danger mt-3 Mooo" onclick="removeAppliance(this)">X</button>
+                </div>
+                <div class="col-md-12">
+                
                     <label>Appliance</label>
                     <select class="form-select appliance">
                         <option value="">-- Select Appliance --</option>
                         ${Object.keys(appliances).map(appliance => `<option value="${appliance}">${appliance}</option>`).join("")}
                     </select>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <label>Power Rating (Watts)</label>
-                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" >
+                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" readonly>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <label>Average Daily Usage</label>
                     <input type="number" class="form-control usage" value="0">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-12">
                     <label>Quantity</label>
                     <input type="number" class="form-control quantity" value="1">
-                </div>
-                <div class="col-md-1 mt-5">
-                <button class="btn btn-danger mt-3" onclick="removeAppliance(this)">X</button>
                 </div>
             </div>
         `;
