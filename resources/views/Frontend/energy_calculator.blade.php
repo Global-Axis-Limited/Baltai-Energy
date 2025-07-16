@@ -81,36 +81,35 @@
             <p>Let us help you find the perfect solar system tailored to your needs.</p>
         </div>
         <div class="form-container">
-            <form>
+            <form id="energyAuditForm" onsubmit="handleSubmit(event)">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label>Full Name</label>
-                        <input type="text" class="form-control" placeholder="Your full name" required>
+                        <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label>Email Address</label>
-                        <input type="email" class="form-control" placeholder="Your email address" required>
+                        <input type="email" class="form-control" id="email" placeholder="Your email address" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <label>Total Solar Value (in kWh)</label>
-                        <input type="number" class="form-control" placeholder="0.00" required>
+                        <label>Total Energy Consumption (in kWh)</label>
+                        <input type="number" class="form-control" id="energyConsumption" placeholder="0.00" required>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label>I Require a System For</label>
-                        <select class="form-select" required>
-                            <option>Residential</option>
-                            <option>Commercial</option>
-                            <option>Industrial</option>
+                        <select class="form-select" id="systemType" required>
+                            <option value="Residential">Residential</option>
+                            <option value="Commercial">Commercial</option>
+                            <option value="Industrial">Industrial</option>
                         </select>
                     </div>
                     <div class="col-lg-12">
                         <div class="mb-3">
                             <label>Additional Information (Optional)</label>
-                            <textarea rows="4" col="30" placeholder="Write your message here" required></textarea>
+                            <textarea rows="4" cols="30" id="additionalInfo" placeholder="Write your message here"></textarea>
                         </div>
-
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
@@ -161,7 +160,8 @@
         "Microwave": 1000,
         "Refrigerator": 1000,
         "Freezer": 1000,
-        "Blender": 750
+        "Blender": 750,
+        "Water Pump": 750,
     };
 
     function addAppliance() {
@@ -234,4 +234,35 @@
     // Add the first appliance row on page load
     addAppliance();
 </script>
+
+<script>
+function handleSubmit(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Collect form data
+    const fullName = document.getElementById('fullName').value;
+    const email = document.getElementById('email').value;
+    const energyConsumption = document.getElementById('energyConsumption').value;
+    const systemType = document.getElementById('systemType').value;
+    const additionalInfo = document.getElementById('additionalInfo').value;
+
+    // Construct email body
+    const subject = encodeURIComponent('Energy Audit Submission');
+    const body = encodeURIComponent(
+        `Full Name: ${fullName}\n` +
+        `Email: ${email}\n` +
+        `Total Energy Consumption: ${energyConsumption} kWh\n` +
+        `System Type: ${systemType}\n` +
+        `Additional Information: ${additionalInfo || 'None'}`
+    );
+
+    // Your Gmail address
+    const yourEmail = 'hmztadeleke@gmail.com'; // Replace with your actual Gmail address
+
+    // Create mailto link and trigger it
+    const mailtoLink = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
+    window.location.href = mailtoLink;
+}
+</script>
 @endsection
+
