@@ -6,12 +6,13 @@
                 <h1>Stay informed on Industry trends</h1>
             </div>
             <div class="col-lg-5">
-                <form class="search-bar">
+                <!-- <form class="search-bar">
                     <div class="input-group">
                         <input type="text" class="form-control" name="email" placeholder="Your email Address" required>
                         <input type="submit" class="input-group-text" value="Subscribe Now" id="basic-addon2">
                     </div>
-                </form>
+                </form> -->
+                <iframe aria-label='Newsletter Subscription' frameborder="0" style="height:100px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/NewsletterSubscriptionForm/formperma/KdR9VMsOJNm1vQ6pKojLQ53euv-fnertPKHQCGC5QSY'></iframe>
             </div>
         </div>
     </div>
@@ -81,7 +82,7 @@
                             <a href="{{route('energy_calculator')}}">Energy Calculator</a>
                         </li>
                         <li>
-                            <a href="#">Apply for SSN</a>
+                            <a href="{{route('our_ssn')}}">Apply for SSN</a>
                         </li>
                     </ul>
                 </div>
