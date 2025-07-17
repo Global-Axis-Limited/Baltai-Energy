@@ -298,174 +298,38 @@
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Investor Form</h1>
+                <h5 class="modal-title" id="staticBackdropLabel">Investor Form</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="" id="contact-form" onsubmit="sendEmail(event)">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="mb-4 mt-2">
-                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
-                                <div class="input-group">
-                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Message</label>
-                                <div class="input-group">
-                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
-                    <div id="loader" class="loader"></div>
-                </div>
-                <!-- Success Message -->
-                <div id="successMessage" class="success-message">
-                    ✅ Your message has been sent successfully!
-                </div>
-            </form>
+            <div class="">
+            <iframe aria-label="Investor Form" frameborder="0" style="width: 100%; min-height: 500px; border: none;" src="https://forms.zohopublic.com/baltaienergyltd1/form/InvestorForm/formperma/AaJ-72FcXpzrZ2YmFPnB7-UPQtmGE0DyS8Y-LbcKlZQ"></iframe>
+            </div>
         </div>
     </div>
 </div>
 <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">OEM Form</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="" id="contact-form" onsubmit="sendEmail(event)">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="mb-4 mt-2">
-                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
-                                <div class="input-group">
-                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Message</label>
-                                <div class="input-group">
-                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
-                    <div id="loader" class="loader"></div>
-                </div>
-                <!-- Success Message -->
-                <div id="successMessage" class="success-message">
-                    ✅ Your message has been sent successfully!
-                </div>
-            </form>
+            <iframe aria-label='OEM Form' frameborder="0" style="height:500px;width:100%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/OEMForm/formperma/MsPXLSzMrL4z4CIOQE3JtF0wjXlecAxBsyiS_baiCcc'></iframe>
         </div>
     </div>
 </div>
 
 <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Solar Financier</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="" id="contact-form" onsubmit="sendEmail(event)">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="mb-4 mt-2">
-                                <label for="fuel-cost" class="form-label text-black">Full Name</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Email Address</label>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Enter email address" id="email" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Phone Number</label>
-                                <div class="input-group">
-                                    <input type="tel" id="phone" class="form-control" placeholder="Enter phone number" required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mb-4">
-                                <label for="fuel-cost" class="form-label text-black">Message</label>
-                                <div class="input-group">
-                                    <textarea name="" id="message" cols="30" placeholder="Write your message here" rows="10" required></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" id="submitBtn" class="btn btn-warning text-white">Submit</button>
-                    <div id="loader" class="loader"></div>
-                </div>
-                <!-- Success Message -->
-                <div id="successMessage" class="success-message">
-                    ✅ Your message has been sent successfully!
-                </div>
-            </form>
+            <iframe aria-label='Solar Financier Form' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/SolarFinancierForm/formperma/5UtjFAyYAPJaCstIgnKQp8lwqvkh8G-2O6WQ8j-KTEQ'></iframe>
         </div>
     </div>
 </div>
