@@ -77,22 +77,20 @@
 <section class="energy-calculator-section" style="background: #F8F6F5;">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Left: Form Section -->
             <!-- Multi-step Form -->
             <div class="col-md-6">
-                <div class="calculator-form Justiin p-5" data-aos="zoom-out-right" style="background: #FEF9ED;">
+                <div class="calculator-form Justiin p-4" data-aos="zoom-out-right" style="background: #FEF9ED;">
                     <div class="step-indicator">
                         <div class="indicator active"></div>
                         <div class="indicator"></div>
-                        <div class="indicator"></div>
                     </div>
                     <h3 class="fw-bold text-black text-anime-wave mb-2">Let’s Calculate Your Savings!</h3>
-                    <h5 class="text-black mb-4">Estimate Your Solar Savings</h5>
+                    <h5 class="text-black mb-4">Estimate Your Potential Solar Savings</h5>
                     <form id="multiStepForm">
                         <!-- Step 1 -->
                         <div class="step active">
                             <div class="mb-4">
-                                <label class="form-label text-black mb-4">What Appliances are critical for you?</label>
+                                <label class="form-label text-black mb-4">What Appliances are critical to your daily operations?</label>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-check">
@@ -119,13 +117,13 @@
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="appliance-others">
-                                            <label class="form-check-label text-dark ms-2" for="appliance-others">Others</label>
+                                            <label class="form-check-label text-dark ms-2" for="appliance-others">Other Appliances</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <label class="form-label text-black mb-4">Hours of Electricity Supply (Daily)</label>
+                                <label class="form-label text-black mb-4">Average Daily Electricity Supply Hours</label>
                                 <select id="electricity-supply" class="form-select" required>
                                     <option selected>3-5</option>
                                     <option>6-8</option>
@@ -135,20 +133,20 @@
                                 </select>
                             </div>
                             <div class="mb-4">
-                                <label class="form-label text-black mb-4">Monthly Electricity Bill</label>
+                                <label class="form-label text-black mb-4">Current Monthly Electricity Bill (₦)</label>
                                 <div class="input-group mb-4">
                                     <span class="input-group-text">₦</span>
-                                    <input type="number" class="form-control" id="monthly-bill" required />
+                                    <input type="number" class="form-control" id="monthly-bill" placeholder="Enter amount" required />
                                 </div>
                             </div>
                             <div class="d-grid mt-4">
-                                <button type="button" class="btn btn-primary next-btn">Next</button>
+                                <button type="button" class="btn btn-primary next-btn">Proceed</button>
                             </div>
                         </div>
                         <!-- Step 2 -->
                         <div class="step">
                             <div class="mb-4">
-                                <label class="form-label text-black mb-4">Do you use any of the following?</label>
+                                <label class="form-label text-black mb-4">Do you currently utilize any backup power solutions?</label>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-check">
@@ -161,13 +159,13 @@
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="generator-inverter">
-                                            <label class="form-check-label text-dark ms-2" for="generator-inverter">Inverter</label>
+                                            <label class="form-check-label text-dark ms-2" for="generator-inverter">Inverter System</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <label class="form-label text-black mb-4">Type of Apartment</label>
+                                <label class="form-label text-black mb-4">Type of Residence or Facility</label>
                                 <select id="apartment-type" class="form-select" required>
                                     <option selected>Duplex</option>
                                     <option>Flat</option>
@@ -178,28 +176,12 @@
                             </div>
                             <div class="d-grid">
                                 <button type="button" class="btn btn-secondary back-btn mt-3">Back</button>
-                                <button type="button" class="btn btn-primary next-btn mt-3">Next</button>
-                            </div>
-                        </div>
-                        <!-- Step 3 -->
-                        <div class="step">
-                            <div class="mb-4">
-                                <label class="form-label text-black mb-4">Your Name</label>
-                                <input type="text" class="form-control" id="user-name" required>
-                            </div>
-                            <div class="mb-4">
-                                <label class="form-label text-black mb-4">Your Email</label>
-                                <input type="email" class="form-control" id="user-email" required>
-                            </div>
-                            <div class="d-grid">
-                                <button type="button" class="btn btn-secondary back-btn mt-3">Back</button>
-                                <button type="submit" class="btn btn-primary fw-bold mt-3">Submit</button>
+                                <button type="submit" class="btn btn-primary fw-bold mt-3">Calculate Savings</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-
 
             <!-- Right: Images -->
             <div class="col-md-6">
@@ -253,7 +235,7 @@
 </section>
 <section class="Form">
     <div class="container">
-    <iframe aria-label='Solar Solution Network' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/ApplyforSSN/formperma/hV99W39w6FFq_Jr8tuH0WwUqAQx3sq9XYgojDzCEObI'></iframe>
+        <iframe aria-label='Solar Solution Network' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/ApplyforSSN/formperma/hV99W39w6FFq_Jr8tuH0WwUqAQx3sq9XYgojDzCEObI'></iframe>
     </div>
 </section>
 <section class="Justt">
@@ -264,17 +246,52 @@
 
 <!-- Mapl Us Ends -->
 @endsection
-<!-- JavaScript for Multi-step Navigation -->
+<!-- Multi-step Form -->
+
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="savingsModal" tabindex="-1" aria-labelledby="savingsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="savingsModalLabel">Your Personalized Solar Savings Analysis</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="{{route('contact')}}" class="btn btn-success" data-bs-dismiss="modal">Contact Us for a Quote</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const steps = document.querySelectorAll(".step");
+        const indicators = document.querySelectorAll(".indicator");
         const nextButtons = document.querySelectorAll(".next-btn");
         const backButtons = document.querySelectorAll(".back-btn");
         let currentStep = 0;
 
+        const appliances = {
+            "refrigerator": 1000,
+            "lighting": 60,
+            "laptop": 45,
+            "fans": 75,
+            "water": 750,
+            "others": 0
+        };
+
         function showStep(step) {
             steps.forEach((s, index) => {
                 s.classList.toggle("active", index === step);
+            });
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle("active", index === step);
             });
         }
 
@@ -298,10 +315,85 @@
 
         document.getElementById("multiStepForm").addEventListener("submit", function(event) {
             event.preventDefault();
-            let apartmentType = document.getElementById("apartment-type").value;
-            let electricitySupply = document.getElementById("electricity-supply").value;
-            let monthlyBill = document.getElementById("monthly-bill").value;
-            alert(`Type of Apartment: ${apartmentType}\nMonthly Electricity Bill: ₦${monthlyBill}\nHours of Electricity Supply: ${electricitySupply}`);
+            if (currentStep === steps.length - 1) {
+                const electricitySupply = document.getElementById("electricity-supply").value.split('-')[0];
+                const monthlyBill = parseFloat(document.getElementById("monthly-bill").value) || 0;
+                const apartmentType = document.getElementById("apartment-type").value;
+
+                let totalApplianceCost = 0;
+                for (let appliance in appliances) {
+                    if (document.getElementById(`appliance-${appliance}`).checked) {
+                        totalApplianceCost += appliances[appliance];
+                    }
+                }
+
+                const dailyUsageHours = parseInt(electricitySupply);
+                const estimatedSolarCost = totalApplianceCost * 0.8; // 20% savings assumption
+                const monthlySavings = monthlyBill * 0.2; // 20% savings on bill
+                const annualSavings = monthlySavings * 12;
+                const fiveYearSavings = annualSavings * 5 - estimatedSolarCost; // Net savings over 5 years
+
+                const modalBody = document.getElementById("modalBody");
+                modalBody.innerHTML = `
+                    <p>Dear Valued Customer,</p>
+                    <p>Thank you for providing your energy usage details. Based on the information submitted, we have conducted a preliminary analysis of your potential savings by transitioning to a solar energy solution. Below are the key findings:</p>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr><td><strong>Total Annual Appliance Cost:</strong></td><td>₦${totalApplianceCost.toLocaleString()}</td></tr>
+                                <tr><td><strong>Estimated Solar System Investment:</strong></td><td>₦${estimatedSolarCost.toLocaleString()}</td></tr>
+                                <tr><td><strong>Monthly Savings:</strong></td><td>₦${monthlySavings.toLocaleString()}</td></tr>
+                                <tr><td><strong>Annual Savings:</strong></td><td>₦${annualSavings.toLocaleString()}</td></tr>
+                                <tr><td><strong>Projected 5-Year Net Savings:</strong></td><td>₦${fiveYearSavings.toLocaleString()}</td></tr>
+                                <tr><td><strong>Daily Usage Hours:</strong></td><td>${dailyUsageHours} hours</td></tr>
+                                <tr><td><strong>Property Type:</strong></td><td>${apartmentType}</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p><strong>Compelling Reasons to Switch to Solar Energy:</strong></p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Achieve significant cost savings, with up to 20% reduction in electricity expenses and potential long-term returns on investment.</li>
+                        <li class="list-group-item">Contribute to environmental sustainability by utilizing a renewable energy source, reducing your carbon footprint by an estimated 3-4 tons annually.</li>
+                        <li class="list-group-item">Mitigate the impact of rising energy costs with a stable, predictable energy solution.</li>
+                        <li class="list-group-item">Ensure uninterrupted power supply, enhancing reliability for critical appliances and operations.</li>
+                        <li class="list-group-item">Benefit from government incentives and potential tax rebates in supported regions (consult local regulations).</li>
+                    </ol>
+                    <p><em>This analysis was generated on ${new Date().toLocaleString('en-US', { timeZone: 'Africa/Lagos' })} WAT. For a more detailed, please contact our solar experts.</em></p>
+                `;
+                const modal = new bootstrap.Modal(document.getElementById('savingsModal'));
+                modal.show();
+            }
         });
     });
 </script>
+<style>
+    .step-indicator {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .indicator {
+        width: 80% !important;
+        height: 10px;
+        background-color: #ccc;
+        border-radius: 50%;
+        transition: background-color 0.3s;
+    }
+
+    .indicator.active {
+        background-color: #007bff;
+    }
+
+    .step {
+        display: none;
+    }
+
+    .step.active {
+        display: block;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f8f9fa;
+    }
+</style>
