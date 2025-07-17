@@ -125,43 +125,46 @@
 <script>
     // Appliance power rating list
     const appliances = {
-        "Plasma TV": 250,
         "LED TV": 100,
+        "AC": 1500,
+        "Freezer": 1000,
+        "Refrigerator": 1000,
+        "Ceiling Fan": 75,
+        "Standing Fan": 100,
+        "Water Pump": 750,
         "Laptop": 45,
-        "Game Console": 200,
-        "Projector": 350,
-        "Sound System": 150,
-        "Satelite Dish": 20,
-        "Bluray player": 15,
-        "Central AC": 2500,
+        "DSTV": 20,
         "Desktop": 150,
-        "LED Light Bulbs": 10,
-        "Incandescent Light Bulbs(Yellow)": 60,
-        "Router": 20,
+        "Smartphone": 6,
+        "Sound System": 150,
+        "Modem": 15,
+        "Blur-Ray/DVD Player": 15,
+        "Games Console": 200,
+        "Water Heater": 2000,
+        "Washing Machine": 750,
+        "Central AC": 2500,
         "Printer": 45,
+        "CCTV": 15,
+        "Projector": 350,
+        "Blender": 750,
+        "Microwave": 1000,
+        "Toaster": 1500,
+        "Vacuum Cleaner": 1250,
+        "Plasma TV": 250,
+        "Game Console": 200,
         "Photocopier": 300,
         "Scanner": 25,
         "LCD Monitor": 40,
-        "Modem": 15,
         "Smartphone Charger": 6,
-        "Vacuum Cleaner": 1250,
-        "CCTV": 15,
         "Sewing Machine": 750,
         "Drill": 720,
         "Pressing Iron": 1000,
-        "Air Conditioner": 1500,
-        "Water Heater": 2000,
-        "Ceiling Fan": 75,
-        "Standing Fan": 100,
         "Rice Cooker": 400,
         "Electric Kettle": 1500,
         "Electric Oven": 1500,
-        "Toaster": 1500,
-        "Microwave": 1000,
-        "Refrigerator": 1000,
-        "Freezer": 1000,
-        "Blender": 750,
-        "Water Pump": 750,
+        "LED Light Bulbs": 10,
+        "Incandescent Light Bulbs(Yellow)": 60,
+        "Router": 20
     };
 
     function addAppliance() {
@@ -236,33 +239,32 @@
 </script>
 
 <script>
-function handleSubmit(event) {
-    event.preventDefault(); // Prevent default form submission
+    function handleSubmit(event) {
+        event.preventDefault(); // Prevent default form submission
 
-    // Collect form data
-    const fullName = document.getElementById('fullName').value;
-    const email = document.getElementById('email').value;
-    const energyConsumption = document.getElementById('energyConsumption').value;
-    const systemType = document.getElementById('systemType').value;
-    const additionalInfo = document.getElementById('additionalInfo').value;
+        // Collect form data
+        const fullName = document.getElementById('fullName').value;
+        const email = document.getElementById('email').value;
+        const energyConsumption = document.getElementById('energyConsumption').value;
+        const systemType = document.getElementById('systemType').value;
+        const additionalInfo = document.getElementById('additionalInfo').value;
 
-    // Construct email body
-    const subject = encodeURIComponent('Energy Audit Submission');
-    const body = encodeURIComponent(
-        `Full Name: ${fullName}\n` +
-        `Email: ${email}\n` +
-        `Total Energy Consumption: ${energyConsumption} kWh\n` +
-        `System Type: ${systemType}\n` +
-        `Additional Information: ${additionalInfo || 'None'}`
-    );
+        // Construct email body
+        const subject = encodeURIComponent('Energy Audit Submission');
+        const body = encodeURIComponent(
+            `Full Name: ${fullName}\n` +
+            `Email: ${email}\n` +
+            `Total Energy Consumption: ${energyConsumption} kWh\n` +
+            `System Type: ${systemType}\n` +
+            `Additional Information: ${additionalInfo || 'None'}`
+        );
 
-    // Your Gmail address
-    const yourEmail = 'hmztadeleke@gmail.com'; // Replace with your actual Gmail address
+        // Your Gmail address
+        const yourEmail = 'hmztadeleke@gmail.com'; // Replace with your actual Gmail address
 
-    // Create mailto link and trigger it
-    const mailtoLink = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
-}
+        // Create mailto link and trigger it
+        const mailtoLink = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
+        window.location.href = mailtoLink;
+    }
 </script>
 @endsection
-
