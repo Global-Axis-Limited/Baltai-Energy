@@ -35,18 +35,33 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div id="appliance-container"></div>
-                <div class="custom-carder">
-                    <div class="mt-2 d-flex justify-content-center gap-2">
-                        <button class="btn btn-success" onclick="addAppliance()">Add More Appliances</button>
+                <div class="custom-card p-3 border rounded">
+                    <div class="mb-3">
+                        <label for="applianceSelect" class="form-label">Select Appliances</label>
+                        <select class="form-select" id="applianceSelect">
+                            <option value="">-- Select Appliance --</option>
+                        </select>
+                    </div>
+                    <div id="selectedAppliances" class="d-flex flex-wrap gap-2"></div>
+                    <div class="mb-3">
+                        <label for="powerRating" class="form-label">Total Power Rating (Watts)</label>
+                        <input type="number" class="form-control" id="powerRating" placeholder="Auto-fill" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="usage" class="form-label">Average Daily Usage (Hours)</label>
+                        <input type="number" class="form-control" id="usage" value="0">
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" value="1">
+                    </div>
+                    <div class="d-flex justify-content-center">
                         <button class="btn btn-primary" onclick="calculateTotals()">Submit</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="d-flex flex-column gap-3" data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
+                <div class="d-flex flex-column gap-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1737284084/Energy/Group_48097585_ve6ahj.jpg" draggable="false" alt="Solar Engineer" class="img-fluid rounded">
                 </div>
             </div>
@@ -65,61 +80,47 @@
                 </div>
             </div>
         </div>
-        <div class="mt-4 d-flex justify-content-center">
-            <a href="{{route('product')}}" target="_blank">
-                <button class="btn-custom">Reccommended Solution</button>
-            </a>
-        </div>
-    </div>
-</section>
 
-<section class="Form">
-    <div class="container">
-        <iframe aria-label='Energy Audit' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/EnergyAudit/formperma/UsbEnwSEwARzrB7HD6hr86ehytIBjwODTvay8t2Maas'></iframe>
-        <!-- <div class="text-center mb-4">
-            <h6 class="text-warning mb-2">ENERGY AUDIT</h6>
-            <h3><strong>Submit Your Energy Audit</strong></h3>
-            <p>Let us help you find the perfect solar system tailored to your needs.</p>
-        </div>
-        <div class="form-container">
-            <form id="energyAuditForm" onsubmit="handleSubmit(event)">
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label>Full Name</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label>Email Address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Your email address" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label>Total Energy Consumption (in kWh)</label>
-                        <input type="number" class="form-control" id="energyConsumption" placeholder="0.00" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label>I Require a System For</label>
-                        <select class="form-select" id="systemType" required>
-                            <option value="Residential">Residential</option>
-                            <option value="Commercial">Commercial</option>
-                            <option value="Industrial">Industrial</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="mb-3">
-                            <label>Additional Information (Optional)</label>
-                            <textarea rows="4" cols="30" id="additionalInfo" placeholder="Write your message here"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn-submit">Submit Your Energy Requirements</button>
-                </div>
-            </form>
-        </div> -->
     </div>
 </section>
+<div class="modal fade" id="resultsModal" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-sm rounded-3">
+
+            <div class="modal-header bg-light border-bottom">
+                <h5 class="modal-title fw-bold text-dark" id="resultsModalLabel">Energy Calculation Results</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="mb-4 text-center">
+                    <h6 class="text-secondary">Total Power Usage (kW)</h6>
+                    <h3 id="modalTotalPower" class="text-primary fw-semibold">0.00 kW</h3>
+                </div>
+
+                <div class="mb-4 text-center">
+                    <h6 class="text-secondary">Total Energy Usage (kWh)</h6>
+                    <h3 id="modalTotalEnergy" class="text-success fw-semibold">0.00 kWh</h3>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+                    <span class="text-black">Would you like a solar recommendation based on your energy consumption?</span>
+                    <a id="auditLink" href="#" class="btn btn-custom" onclick="scrollToForm(event)">Submit</a>
+                </div>
+            </div>
+
+            <div class="modal-footer border-top text-center">
+                <button type="button" class="w-100 btn" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<section class="Form mt-5">
+        <div class="container">
+            <iframe aria-label='Energy Audit' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/baltaienergyltd1/form/EnergyAudit/formperma/UsbEnwSEwARzrB7HD6hr86ehytIBjwODTvay8t2Maas'></iframe>
+        </div>
+    </section>
 <section class="Justt">
 
 </section>
@@ -168,104 +169,126 @@
         "Router": 20
     };
 
-    function addAppliance() {
-        const container = document.getElementById("appliance-container");
+    let selectedAppliances = [];
 
-        const div = document.createElement("div");
-        div.classList.add("custom-card", "mt-1");
-        div.innerHTML = `
-            <div class="row">
-                            <div class="col-md-12">
-                    <button class="btn btn-danger mt-3 Mooo" onclick="removeAppliance(this)">X</button>
-                </div>
-                <div class="col-md-12">
-                
-                    <label>Appliance</label>
-                    <select class="form-select appliance">
-                        <option value="">-- Select Appliance --</option>
-                        ${Object.keys(appliances).map(appliance => `<option value="${appliance}">${appliance}</option>`).join("")}
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label>Power Rating (Watts)</label>
-                    <input type="number" class="form-control power-rating" placeholder="Auto-fill" readonly>
-                </div>
-                <div class="col-md-12">
-                    <label>Average Daily Usage</label>
-                    <input type="number" class="form-control usage" value="0">
-                </div>
-                <div class="col-md-12">
-                    <label>Quantity</label>
-                    <input type="number" class="form-control quantity" value="1">
-                </div>
-            </div>
-        `;
+    // Populate dropdown with appliances
+    document.addEventListener("DOMContentLoaded", () => {
+        const select = document.getElementById("applianceSelect");
+        Object.keys(appliances).forEach(appliance => {
+            const option = document.createElement("option");
+            option.value = appliance;
+            option.textContent = appliance;
+            select.appendChild(option);
+        });
+    });
 
-        container.appendChild(div);
+    function updateSelectedAppliances() {
+        const selectElement = document.getElementById("applianceSelect");
+        const selectedValue = selectElement.value;
+        const selectedAppliancesDiv = document.getElementById("selectedAppliances");
+        const powerInput = document.getElementById("powerRating");
 
-        // Attach event listener for auto-filling power rating
-        div.querySelector(".appliance").addEventListener("change", updatePowerRating);
+        if (selectedValue && !selectedAppliances.includes(selectedValue) && selectedAppliances.length < 4) {
+            selectedAppliances.push(selectedValue);
+            updateApplianceDisplay();
+            selectElement.value = ""; // Reset dropdown
+        }
+
+        if (selectedAppliances.length === 4) {
+            selectElement.disabled = true; // Disable dropdown when 4 appliances are selected
+        }
+
+        let totalPower = selectedAppliances.reduce((sum, appliance) => sum + (appliances[appliance] || 0), 0);
+        powerInput.value = totalPower || "";
     }
 
-    function removeAppliance(button) {
-        button.closest(".custom-card").remove();
-        calculateTotals(); // Recalculate immediately when an appliance is removed
+    function removeAppliance(appliance) {
+        selectedAppliances = selectedAppliances.filter(item => item !== appliance);
+        updateApplianceDisplay();
+        document.getElementById("applianceSelect").disabled = false; // Re-enable dropdown
+        let totalPower = selectedAppliances.reduce((sum, appliance) => sum + (appliances[appliance] || 0), 0);
+        document.getElementById("powerRating").value = totalPower || "";
     }
 
-    function updatePowerRating(event) {
-        const selectedAppliance = event.target.value;
-        const powerInput = event.target.closest(".custom-card").querySelector(".power-rating");
-        powerInput.value = appliances[selectedAppliance] || "";
+    function updateApplianceDisplay() {
+        const selectedAppliancesDiv = document.getElementById("selectedAppliances");
+        selectedAppliancesDiv.innerHTML = selectedAppliances.map(appliance => `
+                <button class="appliance-button" type="button">
+                    ${appliance}
+                    <button type="button" class="btn-close" aria-label="Close" onclick="removeAppliance('${appliance}')"></button>
+                </button>
+            `).join("");
     }
 
     function calculateTotals() {
-        let totalPower = 0;
-        let totalEnergy = 0;
+        if (selectedAppliances.length !== 4) {
+            alert("Please select exactly 4 appliances.");
+            return;
+        }
 
-        document.querySelectorAll(".custom-card").forEach(card => {
-            const power = parseFloat(card.querySelector(".power-rating").value) || 0;
-            const usage = parseFloat(card.querySelector(".usage").value) || 0;
-            const quantity = parseFloat(card.querySelector(".quantity").value) || 0;
+        const power = parseFloat(document.getElementById("powerRating").value) || 0;
+        const usage = parseFloat(document.getElementById("usage").value) || 0;
+        const quantity = parseFloat(document.getElementById("quantity").value) || 0;
 
-            totalPower += (power * quantity) / 1000; // Convert Watts to kW
-            totalEnergy += (power * usage * quantity) / 1000; // Convert Watts to kWh
-        });
+        const totalPower = (power * quantity) / 1000; // Convert Watts to kW
+        const totalEnergy = (power * usage * quantity) / 1000; // Convert Watts to kWh
 
+        // Update immediate results
         document.getElementById("totalPower").textContent = `${totalPower.toFixed(2)} kW`;
         document.getElementById("totalEnergy").textContent = `${totalEnergy.toFixed(2)} kWh`;
+
+        // Show modal after 2 seconds
+        setTimeout(() => {
+            const modal = new bootstrap.Modal(document.getElementById("resultsModal"));
+            document.getElementById("modalTotalPower").textContent = `${totalPower.toFixed(2)} kW`;
+            document.getElementById("modalTotalEnergy").textContent = `${totalEnergy.toFixed(2)} kWh`;
+            const auditLink = document.getElementById("auditLink");
+            if (totalEnergy > 0) {
+                auditLink.href = `{{route('product')}}?totalEnergy=${totalEnergy.toFixed(2)}`;
+                modal.show();
+            } else {
+                alert("Total energy usage is 0. Please enter valid usage and quantity.");
+            }
+        }, 2000); // 2 seconds delay
     }
 
-    // Add the first appliance row on page load
-    addAppliance();
+    function scrollToForm(event) {
+            event.preventDefault(); // Prevent default link behavior
+            const formSection = document.querySelector(".Form");
+            formSection.scrollIntoView({ behavior: "smooth" });
+            const modal = bootstrap.Modal.getInstance(document.getElementById("resultsModal"));
+            modal.hide(); // Close the modal after scrolling
+        }
+
+        // Initialize event listener for appliance selection
+        document.getElementById("applianceSelect").addEventListener("change", updateSelectedAppliances);
+
+    // Initialize event listener for appliance selection
+    document.getElementById("applianceSelect").addEventListener("change", updateSelectedAppliances);
 </script>
-
-<script>
-    function handleSubmit(event) {
-        event.preventDefault(); // Prevent default form submission
-
-        // Collect form data
-        const fullName = document.getElementById('fullName').value;
-        const email = document.getElementById('email').value;
-        const energyConsumption = document.getElementById('energyConsumption').value;
-        const systemType = document.getElementById('systemType').value;
-        const additionalInfo = document.getElementById('additionalInfo').value;
-
-        // Construct email body
-        const subject = encodeURIComponent('Energy Audit Submission');
-        const body = encodeURIComponent(
-            `Full Name: ${fullName}\n` +
-            `Email: ${email}\n` +
-            `Total Energy Consumption: ${energyConsumption} kWh\n` +
-            `System Type: ${systemType}\n` +
-            `Additional Information: ${additionalInfo || 'None'}`
-        );
-
-        // Your Gmail address
-        const yourEmail = 'hmztadeleke@gmail.com'; // Replace with your actual Gmail address
-
-        // Create mailto link and trigger it
-        const mailtoLink = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
-        window.location.href = mailtoLink;
+<style>
+    .appliance-button {
+        background-color: #f4c10f;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+        display: inline-flex;
+        align-items: center;
     }
-</script>
+    .btn-custom{
+        color: white !important;
+    }
+
+    /* .appliance-button .btn-close {
+        margin-left: 5px;
+        font-size: 5px;
+        background: transparent;
+        border: none;
+        background-color: #f4c10f;
+        color: white !important;
+    } */
+</style>
 @endsection
