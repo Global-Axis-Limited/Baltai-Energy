@@ -608,21 +608,31 @@
 
 @endsection
 <!-- Modal -->
+<!-- Redesigned Savings Modal -->
 <div class="modal fade" id="savingsModal" tabindex="-1" aria-labelledby="savingsModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
+    <div class="modal-dialog modal-dialog-centered modal-md"> <!-- Smaller Width -->
+        <div class="modal-content rounded-4 shadow-sm border-0">
+
+            <!-- Header -->
+            <div class="modal-header bg-black text-white py-4 px-3 rounded-top-4">
                 <h5 class="modal-title" id="savingsModalLabel">Estimated Solar Savings</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-white btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" id="savingsResult">
+
+            <!-- Body -->
+            <div class="modal-body text-center px-4 py-3" id="savingsResult" style="font-size: 0.875rem;">
+                <!-- JS output will go here -->
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            <!-- Footer -->
+            <div class="modal-footer justify-content-center border-0 pb-3">
+                <button type="button" class="btn btn-secondary btn-md px-4" data-bs-dismiss="modal">Close</button>
             </div>
+
         </div>
     </div>
 </div>
+
 
 <script>
     const indicators = document.querySelectorAll('.icon-group span');
@@ -659,45 +669,54 @@
 </script>
 
 <script>
-function calculateSavings() {
-    let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
-    let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
-    let electricityBand = parseFloat(document.getElementById("electricity-band").value);
-    let electricitySupply = document.getElementById("electricity-supply").value;
-    let apartmentType = document.getElementById("apartment-type").value;
+    function calculateSavings() {
+        let electricityBill = parseFloat(document.getElementById("electricity-bill").value);
+        let fuelCost = parseFloat(document.getElementById("fuel-cost").value);
+        let electricityBand = parseFloat(document.getElementById("electricity-band").value);
+        let electricitySupply = document.getElementById("electricity-supply").value;
+        let apartmentType = document.getElementById("apartment-type").value;
 
-    if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
-        alert("Please enter valid numbers for electricity bill and fuel cost.");
-        return;
+        if (isNaN(electricityBill) || isNaN(fuelCost) || isNaN(electricityBand)) {
+            alert("Please enter valid numbers for electricity bill and fuel cost.");
+            return;
+        }
+
+        let supplyFactor = {
+            "3-5": 0.7,
+            "6-8": 0.8,
+            "9-12": 0.9,
+            "13-15": 1.0,
+            "16-18": 1.1,
+            "19-24": 1.2
+        } [electricitySupply];
+
+        let apartmentFactor = {
+            "Duplex": 1.3,
+            "Flat": 1.2,
+            "Bungalow": 1.1,
+            "Self-contained": 1.0,
+            "Mini-flat": 0.9,
+            "Terraced House": 1.15,
+            "Penthouse": 1.25
+        } [apartmentType];
+
+        let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
+        document.getElementById("savingsResult").innerHTML = `
+  <p class="mb-2">By switching to solar, you can save:</p>
+  <h5 class="text-success fw-bold mb-3">₦${estimatedSavings.toLocaleString()}</h5>
+  <p class="small">Switching to solar is a smart investment—cut costs, reduce reliance on fuel, and enjoy greater energy security for years to come.</p>
+  <p class="">
+    <strong>Have questions?</strong> Speak with our solar expert today. 
+    <br>
+    <a href="mailto:info@baltaienergy.com" class="text-primary text-black text-decoration-underline">Email us</a> or 
+    <a href="{{route('contact')}}" target="_blank" class="text-primary text-black text-decoration-underline">contact us here</a>.
+  </p>
+`;
+
+
+        var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
+        myModal.show();
     }
-
-    let supplyFactor = {
-        "3-5": 0.7,
-        "6-8": 0.8,
-        "9-12": 0.9,
-        "13-15": 1.0,
-        "16-18": 1.1,
-        "19-24": 1.2
-    }[electricitySupply];
-
-    let apartmentFactor = {
-        "Duplex": 1.3,
-        "Flat": 1.2,
-        "Bungalow": 1.1,
-        "Self-contained": 1.0,
-        "Mini-flat": 0.9,
-        "Terraced House": 1.15,
-        "Penthouse": 1.25
-    }[apartmentType];
-
-    let estimatedSavings = (electricityBill + fuelCost) * electricityBand * supplyFactor * apartmentFactor;
-    document.getElementById("savingsResult").innerHTML = "<p>By switching to solar, you can save a significant amount on your electricity and fuel costs every month!</p>" +
-        "<p>Your estimated savings per month: <strong>₦" + estimatedSavings.toLocaleString() + "</strong></p>" +
-        "<p>Investing in solar energy reduces your dependence on the grid and brings long-term financial and environmental benefits.</p>";
-
-    var myModal = new bootstrap.Modal(document.getElementById('savingsModal'));
-    myModal.show();
-}
 </script>
 
 
