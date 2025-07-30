@@ -26,7 +26,7 @@
                         </a>
                     </div>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/baltaienergy/" class="icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/baltaienergy/" class="icon"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/company/baltai-energy/" class="icon"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.facebook.com/baltaienergy/" class="icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/BaltaiEnergy" class="icon"><i class="bi bi-twitter-x"></i></a>
@@ -51,9 +51,6 @@
                         <li>
                             <a href="{{route('partners')}}">Partners</a>
                         </li>
-                        <!-- <li>
-                            <a href="{{route('solution')}}">Solution</a>
-                        </li> -->
                         <li>
                             <a href="https://blog.baltaienergy.com/">Insights</a>
                         </li>
@@ -74,6 +71,9 @@
                         </li>
                         <li>
                             <a href="{{route('partners')}}">Partnerships</a>
+                        </li>
+                        <li>
+                            <a href="{{route('solution')}}">Solution</a>
                         </li>
                         <li>
                             <a href="{{route('energy_glossary')}}">Energy Glossary</a>
@@ -124,7 +124,7 @@
                             <a href="#"><i class="bi bi-envelope"></i> baltaienergy@gmail.com</a>
                         </li>
                         <li>
-                            <a href="#"><i class="bi bi-phone"></i> +234-913-714-8567‬, ‪+234 913 713 1599‬</a>
+                            <a href="#"><i class="bi bi-phone"></i> +234-913-714-8567, +234 913 713 1599</a>
                         </li>
                         <li>
                             <a href="#"><i class="bi bi-geo-alt"></i> 652 Lagos-Abeokuta Express Way, Alagbado, Adura bus stop, Lagos.</a>

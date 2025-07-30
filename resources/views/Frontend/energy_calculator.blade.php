@@ -125,8 +125,8 @@
 
 </section>
 <script>
-    // Appliance power rating list
-    const appliances = {
+   // Appliance power rating list
+   const appliances = {
         "LED TV": 100,
         "AC": 1500,
         "Freezer": 1000,
@@ -188,14 +188,10 @@
         const selectedAppliancesDiv = document.getElementById("selectedAppliances");
         const powerInput = document.getElementById("powerRating");
 
-        if (selectedValue && !selectedAppliances.includes(selectedValue) && selectedAppliances.length < 4) {
+        if (selectedValue && !selectedAppliances.includes(selectedValue)) {
             selectedAppliances.push(selectedValue);
             updateApplianceDisplay();
             selectElement.value = ""; // Reset dropdown
-        }
-
-        if (selectedAppliances.length === 4) {
-            selectElement.disabled = true; // Disable dropdown when 4 appliances are selected
         }
 
         let totalPower = selectedAppliances.reduce((sum, appliance) => sum + (appliances[appliance] || 0), 0);
@@ -205,7 +201,6 @@
     function removeAppliance(appliance) {
         selectedAppliances = selectedAppliances.filter(item => item !== appliance);
         updateApplianceDisplay();
-        document.getElementById("applianceSelect").disabled = false; // Re-enable dropdown
         let totalPower = selectedAppliances.reduce((sum, appliance) => sum + (appliances[appliance] || 0), 0);
         document.getElementById("powerRating").value = totalPower || "";
     }
@@ -221,8 +216,8 @@
     }
 
     function calculateTotals() {
-        if (selectedAppliances.length !== 4) {
-            alert("Please select exactly 4 appliances.");
+        if (selectedAppliances.length === 0) {
+            alert("Please select at least one appliance.");
             return;
         }
 
@@ -253,22 +248,19 @@
     }
 
     function scrollToForm(event) {
-            event.preventDefault(); // Prevent default link behavior
-            const formSection = document.querySelector(".Form");
-            formSection.scrollIntoView({ behavior: "smooth" });
-            const modal = bootstrap.Modal.getInstance(document.getElementById("resultsModal"));
-            modal.hide(); // Close the modal after scrolling
-        }
-
-        // Initialize event listener for appliance selection
-        document.getElementById("applianceSelect").addEventListener("change", updateSelectedAppliances);
+        event.preventDefault(); // Prevent default link behavior
+        const formSection = document.querySelector(".Form");
+        formSection.scrollIntoView({ behavior: "smooth" });
+        const modal = bootstrap.Modal.getInstance(document.getElementById("resultsModal"));
+        modal.hide(); // Close the modal after scrolling
+    }
 
     // Initialize event listener for appliance selection
     document.getElementById("applianceSelect").addEventListener("change", updateSelectedAppliances);
 </script>
 <style>
     .appliance-button {
-        background-color: #f4c10f;
+        background: linear-gradient(to top, #F8861A 0%, #FEC31C 100%) !important;
         color: white;
         border: none;
         padding: 5px 10px;
