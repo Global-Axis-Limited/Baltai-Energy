@@ -588,7 +588,6 @@ header nav .offcanvas-header button i {
 
 .modal-title {
     color: #F8861A;
-    font-style: italic;
 }
 
 .modal-body img {
@@ -1223,12 +1222,12 @@ header nav .offcanvas-header button i {
     font-family: "Montserrat", serif;
 }
 
-.calculator-form {
+/* .calculator-form {
     background: linear-gradient(135deg, #F8861A, #FEC31C);
     border-radius: 15px;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .calculator-form h3 {
     font-size: 1.5rem;
@@ -2994,24 +2993,7 @@ textarea:focus {
     display: block;
 }
 
-.step-indicator {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
 
-.step-indicator div {
-    width: 30%;
-    text-align: center;
-    padding: 2px;
-    border-radius: 5px;
-    background-color: #EEEEEE;
-}
-
-.step-indicator .active {
-    background-color: #F8861A;
-    font-weight: bold;
-}
 
 .Multi {
     padding: 80px 0;
