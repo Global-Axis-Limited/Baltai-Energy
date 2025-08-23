@@ -12,60 +12,77 @@
 
 
 <body class="flex flex-col ">
-  <section id="carouselExampleIndicators" class="relative w-full" data-bs-ride="carousel">
-    <div class="relative overflow-hidden">
-      <div class="carousel-inner flex transition-transform duration-500 ease-in-out">
-        <div class="carousel-item flex-shrink-0 w-full min-h-[400px] bg-cover bg-top bg-no-repeat" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215035/Group_48097580_pzw4s2.png')">
-          <div class="container mx-auto px-4 h-full flex items-center">
-            <div class="w-full md:w-10/12 lg:w-6/12">
-              <div class="text text-white">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Enjoy Quality Time with your Family</h1>
-                <p class="text-lg md:text-xl">
-                  Easily access our Solar Financing options to power all your business operations
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item flex-shrink-0 w-full min-h-[400px] bg-cover bg-top bg-no-repeat" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215034/Group_480580_pn7hoa.png')">
-          <div class="container mx-auto px-4 h-full flex items-center">
-            <div class="w-full md:w-10/12 lg:w-6/12">
-              <div class="text text-white">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Your Journey to reliable Power Begins Here</h1>
-                <p class="text-lg md:text-xl">
-                  Easily access our Solar Financing options to power all your business operations
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item flex-shrink-0 w-full min-h-[400px] bg-cover bg-top bg-no-repeat" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215033/Group_4580_ockves.png')">
-          <div class="container mx-auto px-4 h-full flex items-center">
-            <div class="w-full md:w-10/12 lg:w-6/12">
-              <div class="text text-white">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Sign Up to the SSN Programme</h1>
-                <p class="text-lg md:text-xl">
-                  Easily access our Solar Financing options to power all your business operations
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item flex-shrink-0 w-full min-h-[400px] bg-cover bg-top bg-no-repeat" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215029/Group_489_kgyihl.png')">
-          <div class="container mx-auto px-4 h-full flex items-center">
-            <div class="w-full lg:w-7/12">
-              <div class="text text-white">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">SSN Keeps the wheels of your Business Running</h1>
-                <p class="text-lg md:text-xl">
-                  Easily access our Solar Financing options to power all your business operations
-                </p>
-              </div>
+<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215035/Group_48097580_pzw4s2.png'); background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-10">
+            <div class="text">
+              <h1>Enjoy Quality Time with your Family</h1>
+              <p>
+                Easily access our Solar Financing options to power all your business operations
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215034/Group_480580_pn7hoa.png'); background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-10">
+            <div class="text">
+
+              <h1>Your Journey to reliable Power Begins Here</h1>
+              <p>
+                Easily access our Solar Financing options to power all your business operations
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215033/Group_4580_ockves.png'); background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-10">
+            <div class="text">
+
+              <h1>Sign Up to the SSN Programme</h1>
+              <p>
+                Easily access our Solar Financing options to power all your business operations
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215029/Group_489_kgyihl.png'); background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="text">
+
+              <h1>SSN Keeps the wheels of your Business Running</h1>
+              <p>
+                Easily access our Solar Financing options to power all your business operations
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <div id="loaderModal" class="fixed inset-0 bg-black/40 backdrop-blur-sm hidden flex items-center justify-center z-50">
     <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
       <div class="animate-spin rounded-full h-12 w-12 border-4 border-orange-500 border-t-transparent mb-4"></div>
@@ -852,30 +869,7 @@
       });
     });
   </script>
-  <script>
-    // Basic carousel functionality
-    const carousel = document.querySelector('.carousel-inner');
-    const items = document.querySelectorAll('.carousel-item');
-    let currentIndex = 0;
-
-    function showSlide(index) {
-      carousel.style.transform = `translateX(-${index * 100}%)`;
-      items.forEach((item, i) => {
-        item.classList.toggle('active', i === index);
-      });
-    }
-
-    function nextSlide() {
-      currentIndex = (currentIndex + 1) % items.length;
-      showSlide(currentIndex);
-    }
-
-    // Auto-advance every 5 seconds
-    setInterval(nextSlide, 5000);
-
-    // Show first slide
-    showSlide(currentIndex);
-  </script>
+ 
 </body>
 
 </html>
