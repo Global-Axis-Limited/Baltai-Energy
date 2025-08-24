@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="sidebar-card">
-                    <a href="https://technical-knowledge-for-srms.zoholearn.com" target="_blank">
+                    <a href="https://zurl.to/NENw?source=CareerSite" target="_blank">
                         <button class="btn btn-enroll mt-3">ENROLL NOW</button>
                     </a>
                 </div>

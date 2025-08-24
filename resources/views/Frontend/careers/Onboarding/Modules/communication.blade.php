@@ -81,7 +81,7 @@
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
                 <div class="sidebar-card">
-                <a href="https://onboarding-and-solar-basics.zoholearn.com" target="_blank">
+                <a href="https://zurl.to/NENw?source=CareerSite" target="_blank">
                         <button class="btn btn-enroll mt-3">ENROLL NOW</button>
                 </a>
                 </div>
