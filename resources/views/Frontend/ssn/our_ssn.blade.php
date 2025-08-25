@@ -12,77 +12,77 @@
 
 
 <body class="flex flex-col ">
-<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215035/Group_48097580_pzw4s2.png'); background-size: cover;
+  <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215035/Group_48097580_pzw4s2.png'); background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-10">
-            <div class="text">
-              <h1>Enjoy Quality Time with your Family</h1>
-              <p>
-                Easily access our Solar Financing options to power all your business operations
-              </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-10">
+              <div class="text">
+                <h1>Enjoy Quality Time with your Family</h1>
+                <p>
+                  Easily access our Solar Financing options to power all your business operations
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215034/Group_480580_pn7hoa.png'); background-size: cover;
+      <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215034/Group_480580_pn7hoa.png'); background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-10">
-            <div class="text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-10">
+              <div class="text">
 
-              <h1>Your Journey to reliable Power Begins Here</h1>
-              <p>
-                Easily access our Solar Financing options to power all your business operations
-              </p>
+                <h1>Your Journey to reliable Power Begins Here</h1>
+                <p>
+                  Easily access our Solar Financing options to power all your business operations
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215033/Group_4580_ockves.png'); background-size: cover;
+      <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215033/Group_4580_ockves.png'); background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-10">
-            <div class="text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-10">
+              <div class="text">
 
-              <h1>Sign Up to the SSN Programme</h1>
-              <p>
-                Easily access our Solar Financing options to power all your business operations
-              </p>
+                <h1>Sign Up to the SSN Programme</h1>
+                <p>
+                  Easily access our Solar Financing options to power all your business operations
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215029/Group_489_kgyihl.png'); background-size: cover;
+      <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/ddj0k8gdw/image/upload/v1739215029/Group_489_kgyihl.png'); background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="text">
 
-              <h1>SSN Keeps the wheels of your Business Running</h1>
-              <p>
-                Easily access our Solar Financing options to power all your business operations
-              </p>
+                <h1>SSN Keeps the wheels of your Business Running</h1>
+                <p>
+                  Easily access our Solar Financing options to power all your business operations
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
   <div id="loaderModal" class="fixed inset-0 bg-black/40 backdrop-blur-sm hidden flex items-center justify-center z-50">
     <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
       <div class="animate-spin rounded-full h-12 w-12 border-4 border-orange-500 border-t-transparent mb-4"></div>
@@ -90,411 +90,466 @@
     </div>
   </div>
 
-
   <!-- Main Content -->
-  <main class="flex-1 flex items-center justify-center p-6 " style="padding:100px 0px;">
-    <div class="w-full max-w-3xl bg-white rounded-md overflow-hidden border border-[#ccc]">
-      <!-- Card Header -->
-      <div class="bg-gradient-to-r from-[#F8861A] to-[#FEC31C] px-6 py-4">
-        <h2 class="text-xl font-bold text-white">Step <span id="stepNumber">1</span> of 5</h2>
-      </div>
-
-      <!-- Stepper Progress -->
-      <div class="flex justify-between items-center px-8 py-6 step-indicator">
-        <div class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-orange-600 text-white font-bold">
-          1</div>
-        <div class="flex-1 h-1 bg-orange-400 mx-2"></div>
-        <div
-          class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">2
-        </div>
-        <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
-        <div
-          class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">3
-        </div>
-        <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
-        <div
-          class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">4
-        </div>
-        <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
-        <div
-          class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">5
-        </div>
-      </div>
-
-      <!-- Step 1 -->
-      <form class="p-8 space-y-6 step" id="step1">
-        <h1 class="text-2xl font-bold text-black">Let’s Calculate Your Savings</h1>
-        <h1 class="text-lg font-bold text-black mb-2">How many hours of power do you use from the public grid each day?
-        </h1>
-        <p id="step1Note"
-          class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
-          <span class="flex items-center gap-2">
-            <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
-            Understanding how many hours of light you get from the utility helps us understand your current energy need.
-          </span>
-          <button type="button" onclick="document.getElementById('step1Note').style.display='none'"
-            class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
-        </p>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-black mb-3">Hours of Grid Power</label>
-            <input id="gridHours" placeholder="Enter your hours of grid power" type="number"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
-          </div>
-          <div>
-            <label class="block text-black mb-3">Last month’s utility bill (₦)</label>
-            <input id="utilityBill" placeholder="Enter your utility bill" type="number"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
-          </div>
-        </div>
-        <div>
-          <label class="block text-black mb-3">Business operating hours</label>
-          <div class="flex items-center gap-2">
-            <select id="businessFrom" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
-              <option value="">From</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-              <option>10</option>
-              <option>11</option>
-              <option>12</option>
-            </select>
-            <select id="businessFromPeriod" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
-              <option>AM</option>
-              <option>PM</option>
-            </select>
-            <select id="businessTo" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
-              <option value="">To</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-              <option>10</option>
-              <option>11</option>
-              <option>12</option>
-            </select>
-            <select id="businessToPeriod" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
-              <option>PM</option>
-              <option>AM</option>
-            </select>
-          </div>
-        </div>
-        <div class="flex justify-between pt-6">
-          <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline"
-            disabled>← Back</button>
-          <button type="button"
-            class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
-            →</button>
-        </div>
-      </form>
-
-      <!-- Step 2 -->
-      <form class="p-8 space-y-6 step" id="step2" style="display:none;">
-        <h3 class="text-2xl font-bold text-gray-800">Do you own any of the following? <span
-            class="font-normal text-lg">(select all that apply)</span></h3>
-        <p id="sourceInfoNote"
-          class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
-          <span class="flex items-center gap-2">
-            <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
-            Knowing your current source helps us calculate your savings.
-          </span>
-          <button type="button" onclick="document.getElementById('sourceInfoNote').style.display='none'"
-            class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
-        </p>
-        <div class="space-y-4">
-          <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
-            <span class="text-gray-800 font-medium">Use of Petrol Generator</span>
-            <input id="petrolGenerator" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
-          </label>
-          <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
-            <span class="text-gray-800 font-medium">Use of Diesel Generator</span>
-            <input id="dieselGenerator" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
-          </label>
-          <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
-            <span class="text-gray-800 font-medium">Use of Inverter</span>
-            <input id="inverter" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
-          </label>
-        </div>
-        <div class="flex justify-between pt-6">
-          <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
-            Back</button>
-          <button type="button"
-            class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
-            →</button>
-        </div>
-      </form>
-
-      <!-- Step 3 -->
-      <form class="p-8 space-y-6 step" id="step3" style="display:none;">
-        <h6 id="step3Selection" class="text-base font-bold text-gray-800"></h6>
-        <h1 class="text-2xl font-bold text-black mb-2">How much did you spend on power last week?</h1>
-        <p id="step3Note"
-          class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
-          <span class="flex items-center gap-2">
-            <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
-            Understanding how much you spend helps us understand your current energy need to be exact! All fields
-            required
-          </span>
-          <button type="button" onclick="document.getElementById('step3Note').style.display='none'"
-            class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
-        </p>
-        <div id="generatorInputs">
-          <!-- Dynamic inputs will be inserted here -->
-        </div>
-        <div class="flex justify-between pt-6">
-          <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
-            Back</button>
-          <button type="button"
-            class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
-            →</button>
-        </div>
-      </form>
-
-      <!-- Step 4 -->
-      <form class="p-8 space-y-6 step" id="step4" style="display:none;">
-        <h1 class="text-2xl font-bold text-black mb-2">How much money do you generate per month?</h1>
-        <p id="step4Note"
-          class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
-          <span class="flex items-center gap-2">
-            <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
-            Based on your revenue or income, we'll find a financing plan that works with your budget
-          </span>
-          <button type="button" onclick="document.getElementById('step4Note').style.display='none'"
-            class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
-        </p>
-        <div class="mb-4">
-          <label class="block text-black mb-3">Monthly Revenue Average (₦):</label>
-          <input id="monthlyRevenue" type="number"
-            class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
-          <p class="text-sm text-black mt-3">* A rough estimate is fine for now. We'll verify this through your bank
-            later.</p>
-        </div>
-        <div class="flex justify-between pt-6">
-          <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
-            Back</button>
-          <button type="button"
-            class="skipBtn bg-gray-500 text-white px-8 py-2 rounded-md hover:bg-gray-600 transition">Skip</button>
-          <button type="button"
-            class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
-            →</button>
-        </div>
-      </form>
-
-      <!-- Step 5 -->
-      <form class="p-8 space-y-6 step" id="step5" style="display:none;">
-        <div class="mb-8">
-          <h1 class="text-2xl font-bold text-black mb-2">Switch to Solar and Save Millions</h1>
-          <p class="text-black text-base mb-2">Baltai energy team member will contact you via phone or email to provide
-            details on a free quote</p>
-          <p class="text-black text-sm">You could pay less than ₦934,390 in monthly installments.</p>
-        </div>
-        <!-- Name Fields -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">First name:</label>
-            <input type="text" placeholder="John"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Last name:</label>
-            <input type="text" placeholder="Doe"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-        </div>
-        <!-- Email and Phone -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Email address:</label>
-            <input type="email" placeholder="john@example.com"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Phone Number/WhatsApp Number</label>
-            <div class="flex">
-              <select class="px-3 py-3 border border-[#CCCCCC] outline-none rounded-l-lg bg-white" required>
-                <option>NG +234</option>
-              </select>
-              <input type="tel" placeholder="Enter phone number"
-                class="flex-1 px-4 py-3 border border-[#CCCCCC] outline-none border-l-0 rounded-r-lg" required>
-            </div>
-          </div>
-        </div>
-        <!-- Gender and Installation Site -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Gender:</label>
-            <div class="flex gap-4">
-              <label
-                class="flex items-center px-4 py-3 border-2 border-orange-500 bg-orange-100 rounded-lg cursor-pointer">
-                <input type="radio" name="gender" value="male" class="sr-only" required checked>
-                <div
-                  class="w-4 h-4 border-2 border-orange-500 rounded-full bg-orange-500 flex items-center justify-center mr-3">
-                  <div class="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-                <span class="text-gray-700 font-medium">Male</span>
-              </label>
-              <label
-                class="flex items-center px-4 py-3 border-2 border-gray-300 bg-gray-100 rounded-lg cursor-pointer hover:border-orange-500">
-                <input type="radio" name="gender" value="female" class="sr-only">
-                <div class="w-4 h-4 border-2 border-gray-400 rounded-full mr-3"></div>
-                <span class="text-gray-700 font-medium">Female</span>
-              </label>
-            </div>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Installation Site:</label>
-            <div class="flex gap-4">
-              <label
-                class="flex items-center px-4 py-3 border-2 border-orange-500 bg-orange-100 rounded-lg cursor-pointer">
-                <input type="radio" name="installation" value="business" class="sr-only" required checked>
-                <div
-                  class="w-4 h-4 border-2 border-orange-500 rounded-full bg-orange-500 flex items-center justify-center mr-3">
-                  <div class="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-                <span class="text-gray-700 font-medium">Business</span>
-              </label>
-              <label
-                class="flex items-center px-4 py-3 border-2 border-gray-300 bg-gray-100 rounded-lg cursor-pointer hover:border-orange-500">
-                <input type="radio" name="installation" value="household" class="sr-only">
-                <div class="w-4 h-4 border-2 border-gray-400 rounded-full mr-3"></div>
-                <span class="text-gray-700 font-medium">Household</span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!-- Business/Employer and Job Role -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Business/Employer Name:</label>
-            <input type="text" placeholder="Enter your business name or employer name"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Job Role:</label>
-            <input type="text" placeholder="Enter your job role"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-        </div>
-        <!-- Industry and State -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">Industry</label>
-            <select class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg appearance-none bg-white"
-              required>
-              <option value="">--Select Industry--</option>
-              <option value="Technology">Technology</option>
-              <option value="Finance">Finance</option>
-              <option value="Healthcare">Healthcare</option>
-              <option value="Education">Education</option>
-              <option value="Manufacturing">Manufacturing</option>
-              <option value="Retail">Retail</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">State</label>
-            <select id="stateSelect" class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg"
-              onchange="populateLGAs()" required>
-              <option value="">Select a State</option>
-              <option value="Abia">Abia</option>
-              <option value="Adamawa">Adamawa</option>
-              <option value="Akwa Ibom">Akwa Ibom</option>
-              <option value="Anambra">Anambra</option>
-              <option value="Bauchi">Bauchi</option>
-              <option value="Bayelsa">Bayelsa</option>
-              <option value="Benue">Benue</option>
-              <option value="Borno">Borno</option>
-              <option value="Cross River">Cross River</option>
-              <option value="Delta">Delta</option>
-              <option value="Ebonyi">Ebonyi</option>
-              <option value="Edo">Edo</option>
-              <option value="Ekiti">Ekiti</option>
-              <option value="Enugu">Enugu</option>
-              <option value="Gombe">Gombe</option>
-              <option value="Imo">Imo</option>
-              <option value="Jigawa">Jigawa</option>
-              <option value="Kaduna">Kaduna</option>
-              <option value="Kano">Kano</option>
-              <option value="Katsina">Katsina</option>
-              <option value="Kebbi">Kebbi</option>
-              <option value="Kogi">Kogi</option>
-              <option value="Kwara">Kwara</option>
-              <option value="Lagos">Lagos</option>
-              <option value="Nasarawa">Nasarawa</option>
-              <option value="Niger">Niger</option>
-              <option value="Ogun">Ogun</option>
-              <option value="Ondo">Ondo</option>
-              <option value="Osun">Osun</option>
-              <option value="Oyo">Oyo</option>
-              <option value="Plateau">Plateau</option>
-              <option value="Rivers">Rivers</option>
-              <option value="Sokoto">Sokoto</option>
-              <option value="Taraba">Taraba</option>
-              <option value="Yobe">Yobe</option>
-              <option value="Zamfara">Zamfara</option>
-              <option value="FCT">FCT</option>
-            </select>
-          </div>
-        </div>
-        <!-- LGA and City -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">LGA</label>
-            <select id="lgaSelect" class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" disabled
-              required>
-              <option value="">Select a State first</option>
-            </select>
-          </div>
-          <div>
-            <label class="block text-gray-700 font-medium mb-2">City</label>
-            <input type="text" placeholder="Lekki"
-              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-          </div>
-        </div>
-        <!-- Street Address -->
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Street Address:</label>
-          <input type="text" placeholder="7b, Plot 5"
-            class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
-        </div>
-        <!-- Buttons -->
-        <div class="flex justify-between pt-6">
-          <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
-            Back</button>
-          <button type="button"
-            class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">See
-            my options →</button>
-        </div>
-      </form>
-
-      <!-- Savings Modal -->
-      <div id="savingsModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
-        style="display: none;">
-        <div class="bg-[#F8861A] p-6 rounded-lg w-[100%] sm:w-[500px] text-center">
-          <h2 class="text-2xl font-bold text-white mb-2">Baltai Energy could save you this much</h2>
-          <p class="text-white mb-4">By using reliable solar powered electricity instead of buying costly fuel for your
-            generator</p>
-          <div class="bg-white p-4 rounded-lg mb-4">
-            <p class="text-2xl font-bold text-gray-800" id="savingsAmount">₦ </p>
-          </div>
-          <button id="continueBtn"
-            class="bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-700 transition">Continue</button>
+  <div class="flex flex-col lg:flex-row items-center justify-center bg-gray-100">
+    <!-- Left Side Design -->
+    <div class="w-full max-w-md p-4">
+      <div class="bg-white rounded-lg overflow-hidden ">
+        <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738589782/image_14_ohsawv.png" draggable="false" alt="Solar Engineer" alt="Left Side Image" class="w-full h-74 object-cover">
+        <div class="p-4 text-center">
+          <h3 class="text-lg font-semibold text-orange-600">Solar Benefits</h3>
+          <p class="text-gray-600 mt-2">Explore how solar energy can save you money by harnessing the power of the sun to reduce your electricity bills, promote sustainable living, and contribute to a cleaner environment for future generations.</p>
         </div>
       </div>
     </div>
-  </main>
+    <main class="flex-1 flex items-center justify-center p-6" style="padding:100px 0px;">
+      <div class="w-full max-w-3xl bg-white rounded-md overflow-hidden ">
+        <!-- Card Header -->
+        <div class="bg-gradient-to-r from-[#F8861A] to-[#FEC31C] px-6 py-4">
+          <h2 class="text-xl font-bold text-white">Step <span id="stepNumber">1</span> of 5</h2>
+        </div>
 
+        <!-- Stepper Progress -->
+        <div class="flex justify-between items-center px-8 py-6 step-indicator">
+          <div class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-orange-600 text-white font-bold">
+            1</div>
+          <div class="flex-1 h-1 bg-orange-400 mx-2"></div>
+          <div
+            class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">2
+          </div>
+          <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
+          <div
+            class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">3
+          </div>
+          <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
+          <div
+            class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">4
+          </div>
+          <div class="flex-1 h-1 bg-gray-200 mx-2"></div>
+          <div
+            class="indicator w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 font-bold">5
+          </div>
+        </div>
+
+        <!-- Step 1 -->
+        <form class="p-8 space-y-6 step" id="step1">
+          <h1 class="text-2xl font-bold text-black">Let’s Calculate Your Savings</h1>
+          <h1 class="text-lg font-bold text-black mb-2">How many hours of power do you use from the public grid each day?
+          </h1>
+          <p id="step1Note"
+            class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
+            <span class="flex items-center gap-2">
+              <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
+              Understanding how many hours of light you get from the utility helps us understand your current energy need.
+            </span>
+            <button type="button" onclick="document.getElementById('step1Note').style.display='none'"
+              class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
+          </p>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-black mb-3">Hours of Grid Power</label>
+              <input id="gridHours" placeholder="Enter your hours of grid power" type="number"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
+            </div>
+            <div>
+              <label class="block text-black mb-3">Last month’s utility bill (₦)</label>
+              <input id="utilityBill" placeholder="Enter your utility bill" type="number"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
+            </div>
+          </div>
+          <div>
+            <label class="block text-black mb-3">Business operating hours</label>
+            <div class="flex items-center gap-2">
+              <select id="businessFrom" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
+                <option value="">From</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <select id="businessFromPeriod" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
+                <option>AM</option>
+                <option>PM</option>
+              </select>
+              <select id="businessTo" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
+                <option value="">To</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <select id="businessToPeriod" class="p-3 border border-[#CCCCCC] outline-none rounded-lg w-52 text-sm">
+                <option>PM</option>
+                <option>AM</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex justify-between pt-6">
+            <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline"
+              disabled>← Back</button>
+            <button type="button"
+              class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
+              →</button>
+          </div>
+        </form>
+
+        <!-- Step 2 -->
+        <form class="p-8 space-y-6 step" id="step2" style="display:none;">
+          <h3 class="text-2xl font-bold text-gray-800">Do you own any of the following? <span
+              class="font-normal text-lg">(select all that apply)</span></h3>
+          <p id="sourceInfoNote"
+            class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
+            <span class="flex items-center gap-2">
+              <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
+              Knowing your current source helps us calculate your savings.
+            </span>
+            <button type="button" onclick="document.getElementById('sourceInfoNote').style.display='none'"
+              class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
+          </p>
+          <div class="space-y-4">
+            <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
+              <span class="text-gray-800 font-medium">Use of Petrol Generator</span>
+              <input id="petrolGenerator" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
+            </label>
+            <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
+              <span class="text-gray-800 font-medium">Use of Diesel Generator</span>
+              <input id="dieselGenerator" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
+            </label>
+            <label class="flex items-center justify-between p-4 border rounded-lg cursor-pointer hover:bg-orange-50">
+              <span class="text-gray-800 font-medium">Use of Inverter</span>
+              <input id="inverter" type="checkbox" class="w-5 h-5 text-orange-600 rounded">
+            </label>
+          </div>
+          <div class="flex justify-between pt-6">
+            <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
+              Back</button>
+            <button type="button"
+              class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
+              →</button>
+          </div>
+        </form>
+
+        <!-- Step 3 -->
+        <form class="p-8 space-y-6 step" id="step3" style="display:none;">
+          <h6 id="step3Selection" class="text-base font-bold text-gray-800"></h6>
+          <h1 class="text-2xl font-bold text-black mb-2">How much did you spend on power last week?</h1>
+          <p id="step3Note"
+            class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
+            <span class="flex items-center gap-2">
+              <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
+              Understanding how much you spend helps us understand your current energy need to be exact! All fields
+              required
+            </span>
+            <button type="button" onclick="document.getElementById('step3Note').style.display='none'"
+              class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
+          </p>
+          <div id="generatorInputs">
+            <!-- Dynamic inputs will be inserted here -->
+          </div>
+          <div class="flex justify-between pt-6">
+            <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
+              Back</button>
+            <button type="button"
+              class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
+              →</button>
+          </div>
+        </form>
+
+        <!-- Step 4 -->
+        <form class="p-8 space-y-6 step" id="step4" style="display:none;">
+          <h1 class="text-2xl font-bold text-black mb-2">How much money do you generate per month?</h1>
+          <p id="step4Note"
+            class="text-sm text-black flex items-center justify-between gap-2 mb-4 bg-white rounded-xl border border-[#CCCCCC] p-4">
+            <span class="flex items-center gap-2">
+              <span class="bg-orange-100 text-black rounded-full px-2 py-0.5 text-xs">i</span>
+              Based on your revenue or income, we'll find a financing plan that works with your budget
+            </span>
+            <button type="button" onclick="document.getElementById('step4Note').style.display='none'"
+              class="text-orange-600 border p-2 border-[#CCCCCC] hover:text-red-600 rounded-full text-xs font-bold">X</button>
+          </p>
+          <div class="mb-4">
+            <label class="block text-black mb-3">Monthly Revenue Average (₦):</label>
+            <input id="monthlyRevenue" type="number"
+              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg">
+            <p class="text-sm text-black mt-3">* A rough estimate is fine for now. We'll verify this through your bank
+              later.</p>
+          </div>
+          <div class="flex justify-between pt-6">
+            <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
+              Back</button>
+            <button type="button"
+              class="skipBtn bg-gray-500 text-white px-8 py-2 rounded-md hover:bg-gray-600 transition">Skip</button>
+            <button type="button"
+              class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">Next
+              →</button>
+          </div>
+        </form>
+
+        <!-- Step 5 -->
+        <form class="p-8 space-y-6 step" id="step5" style="display:none;">
+          <div class="mb-8">
+            <h1 class="text-2xl font-bold text-black mb-2">Switch to Solar and Save Millions</h1>
+            <p class="text-black text-base mb-2">Baltai energy team member will contact you via phone or email to provide
+              details on a free quote</p>
+            <p class="text-black text-sm">You could pay less than ₦934,390 in monthly installments.</p>
+          </div>
+          <!-- Name Fields -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">First name:</label>
+              <input type="text" placeholder="John"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Last name:</label>
+              <input type="text" placeholder="Doe"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+          </div>
+          <!-- Email and Phone -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Email address:</label>
+              <input type="email" placeholder="john@example.com"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Phone Number/WhatsApp Number</label>
+              <div class="flex">
+                <select class="px-3 py-3 border border-[#CCCCCC] outline-none rounded-l-lg bg-white" required>
+                  <option>NG +234</option>
+                </select>
+                <input type="tel" placeholder="Enter phone number"
+                  class="flex-1 px-4 py-3 border border-[#CCCCCC] outline-none border-l-0 rounded-r-lg" required>
+              </div>
+            </div>
+          </div>
+          <!-- Gender and Installation Site -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Gender:</label>
+              <div class="flex gap-4">
+                <label
+                  class="flex items-center px-4 py-3 border-2 border-orange-500 bg-orange-100 rounded-lg cursor-pointer">
+                  <input type="radio" name="gender" value="male" class="sr-only" required checked>
+                  <div
+                    class="w-4 h-4 border-2 border-orange-500 rounded-full bg-orange-500 flex items-center justify-center mr-3">
+                    <div class="w-2 h-2 bg-white rounded-full"></div>
+                  </div>
+                  <span class="text-gray-700 font-medium">Male</span>
+                </label>
+                <label
+                  class="flex items-center px-4 py-3 border-2 border-gray-300 bg-gray-100 rounded-lg cursor-pointer hover:border-orange-500">
+                  <input type="radio" name="gender" value="female" class="sr-only">
+                  <div class="w-4 h-4 border-2 border-gray-400 rounded-full mr-3"></div>
+                  <span class="text-gray-700 font-medium">Female</span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Installation Site:</label>
+              <div class="flex gap-4">
+                <label
+                  class="flex items-center px-4 py-3 border-2 border-orange-500 bg-orange-100 rounded-lg cursor-pointer">
+                  <input type="radio" name="installation" value="business" class="sr-only" required checked>
+                  <div
+                    class="w-4 h-4 border-2 border-orange-500 rounded-full bg-orange-500 flex items-center justify-center mr-3">
+                    <div class="w-2 h-2 bg-white rounded-full"></div>
+                  </div>
+                  <span class="text-gray-700 font-medium">Business</span>
+                </label>
+                <label
+                  class="flex items-center px-4 py-3 border-2 border-gray-300 bg-gray-100 rounded-lg cursor-pointer hover:border-orange-500">
+                  <input type="radio" name="installation" value="household" class="sr-only">
+                  <div class="w-4 h-4 border-2 border-gray-400 rounded-full mr-3"></div>
+                  <span class="text-gray-700 font-medium">Household</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Business/Employer and Job Role -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Business/Employer Name:</label>
+              <input type="text" placeholder="Enter your business name or employer name"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Job Role:</label>
+              <input type="text" placeholder="Enter your job role"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+          </div>
+          <!-- Industry and State -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">Industry</label>
+              <select class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg appearance-none bg-white"
+                required>
+                <option value="">--Select Industry--</option>
+                <option value="Technology">Technology</option>
+                <option value="Finance">Finance</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Education">Education</option>
+                <option value="Manufacturing">Manufacturing</option>
+                <option value="Retail">Retail</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">State</label>
+              <select id="stateSelect" class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg"
+                onchange="populateLGAs()" required>
+                <option value="">Select a State</option>
+                <option value="Abia">Abia</option>
+                <option value="Adamawa">Adamawa</option>
+                <option value="Akwa Ibom">Akwa Ibom</option>
+                <option value="Anambra">Anambra</option>
+                <option value="Bauchi">Bauchi</option>
+                <option value="Bayelsa">Bayelsa</option>
+                <option value="Benue">Benue</option>
+                <option value="Borno">Borno</option>
+                <option value="Cross River">Cross River</option>
+                <option value="Delta">Delta</option>
+                <option value="Ebonyi">Ebonyi</option>
+                <option value="Edo">Edo</option>
+                <option value="Ekiti">Ekiti</option>
+                <option value="Enugu">Enugu</option>
+                <option value="Gombe">Gombe</option>
+                <option value="Imo">Imo</option>
+                <option value="Jigawa">Jigawa</option>
+                <option value="Kaduna">Kaduna</option>
+                <option value="Kano">Kano</option>
+                <option value="Katsina">Katsina</option>
+                <option value="Kebbi">Kebbi</option>
+                <option value="Kogi">Kogi</option>
+                <option value="Kwara">Kwara</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Nasarawa">Nasarawa</option>
+                <option value="Niger">Niger</option>
+                <option value="Ogun">Ogun</option>
+                <option value="Ondo">Ondo</option>
+                <option value="Osun">Osun</option>
+                <option value="Oyo">Oyo</option>
+                <option value="Plateau">Plateau</option>
+                <option value="Rivers">Rivers</option>
+                <option value="Sokoto">Sokoto</option>
+                <option value="Taraba">Taraba</option>
+                <option value="Yobe">Yobe</option>
+                <option value="Zamfara">Zamfara</option>
+                <option value="FCT">FCT</option>
+              </select>
+            </div>
+          </div>
+          <!-- LGA and City -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">LGA</label>
+              <select id="lgaSelect" class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" disabled
+                required>
+                <option value="">Select a State first</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-2">City</label>
+              <input type="text" placeholder="Lekki"
+                class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+            </div>
+          </div>
+          <!-- Street Address -->
+          <div>
+            <label class="block text-gray-700 font-medium mb-2">Street Address:</label>
+            <input type="text" placeholder="7b, Plot 5"
+              class="w-full text-sm p-3 border border-[#CCCCCC] outline-none rounded-lg" required>
+          </div>
+          <!-- Buttons -->
+          <div class="flex justify-between pt-6">
+            <button type="button" class="backBtn text-orange-600 font-medium flex items-center gap-1 hover:underline">←
+              Back</button>
+            <button type="button"
+              class="nextBtn bg-gradient-to-r from-[#F8861A] to-[#FEC31C] text-white px-8 py-2 rounded-md hover:opacity-90 transition">See
+              my options →</button>
+          </div>
+        </form>
+
+        <!-- Savings Modal -->
+        <div id="savingsModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
+          style="display: none;">
+          <div class="bg-[#F8861A] p-6 rounded-lg w-[100%] sm:w-[500px] text-center">
+            <h2 class="text-2xl font-bold text-white mb-2">Baltai Energy could save you this much</h2>
+            <p class="text-white mb-4">By using reliable solar powered electricity instead of buying costly fuel for your
+              generator</p>
+            <div class="bg-white p-4 rounded-lg mb-4">
+              <p class="text-2xl font-bold text-gray-800" id="savingsAmount">₦ </p>
+            </div>
+            <button id="continueBtn"
+              class="bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-700 transition">Continue</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="w-full max-w-md p-4 flex flex-col items-center space-y-4">
+      <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/04/jackery-power-station-VXJx3B2Wpzg-unsplash-scaled.jpg" alt="Image 1" class="w-24 h-24 rounded-full object-cover">
+      <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/03/image2_hkepaj.jpg" alt="Image 2" class="w-64 h-64 rounded-full object-cover animate-pulse">
+      <img src="https://blog.baltaienergy.com/wp-content/uploads/2025/04/beigners.avif" alt="Image 3" class="w-24 h-24 rounded-full object-cover">
+    </div>
+  </div>
+
+  <section class="benefits-section py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-2">Benefits of Our Solar Solution Network</h2>
+      <p class="text-center text-black mb-8">Save money, limit the environmental impact, and enjoy working with SolarTech & Co.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+        <div class="benefit-item p-4">
+          <div class="benefit-icon mx-auto mb-4 w-16 h-16">
+            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_49_eeueia.png" draggable="false" alt="">
+          </div>
+          <h5 class="text-lg font-semibold text-black mb-2">Cost Savings</h5>
+          <p class="text-white">Save up to 60% on energy bills.</p>
+        </div>
+        <div class="benefit-item p-4">
+          <div class="benefit-icon mx-auto mb-4 w-16 h-16">
+            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_46_ei6h2o.png" draggable="false" alt="">
+          </div>
+          <h5 class="text-lg font-semibold text-black mb-2">Easy Financing</h5>
+          <p class="text-white">Flexible payment plans to fit your budget.</p>
+        </div>
+        <div class="benefit-item p-4">
+          <div class="benefit-icon mx-auto mb-4 w-16 h-16">
+            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_47_wh5pez.png" draggable="false" alt="">
+          </div>
+          <h5 class="text-lg font-semibold text-black mb-2">Reliable Energy</h5>
+          <p class="text-white">24/7 uninterrupted power supply.</p>
+        </div>
+        <div class="benefit-item p-4">
+          <div class="benefit-icon mx-auto mb-4 w-16 h-16">
+            <img src="https://res.cloudinary.com/ddj0k8gdw/image/upload/v1738666445/Group_487_doatlr.png" draggable="false" alt="">
+          </div>
+          <h5 class="text-lg font-semibold text-black mb-2">Eco-Friendly</h5>
+          <p class="text-white">Reduce carbon emissions for a sustainable future.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Justt">
+
+  </section>
   <section class="Justt">
 
   </section>
@@ -869,7 +924,7 @@
       });
     });
   </script>
- 
+
 </body>
 
 </html>
