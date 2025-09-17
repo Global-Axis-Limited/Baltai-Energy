@@ -14,7 +14,7 @@ Route::get('/faqs', [App\Http\Controllers\HomePageController::class, 'faqs'])->n
 Route::get('/contact', [App\Http\Controllers\HomePageController::class, 'contact'])->name('contact');
 Route::get('/ssn', [App\Http\Controllers\HomePageController::class, 'our_ssn'])->name('our_ssn');
 Route::get('/srm', [App\Http\Controllers\HomePageController::class, 'career'])->name('career');
-Route::get('/learning', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
+Route::get('/learnings', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
 // Onboarding And Solar Basics Routes
 Route::get('/learning/solar-basics', [App\Http\Controllers\HomePageController::class, 'solar_basics'])->name('solar_basics');
 Route::get('/learning/solar-basics/company_introduction', [App\Http\Controllers\HomePageController::class, 'company_introduction'])->name('company_introduction');
