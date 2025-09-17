@@ -7,7 +7,7 @@
                 <div class="texting">
                     <h2>Developing and Delivering Winning Sales Pitches</h2>
                     <p>
-                    <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Developing and Delivering Winning Sales Pitches / <a href="#">What You’ll Learn</a>
+                        <a href="{{route('index')}}">Home</a> / <a href="{{route('baltai')}}">Baltai Learning</a> / Developing and Delivering Winning Sales Pitches / <a href="#">What You’ll Learn</a>
                     </p>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     <h5>Kickstart your journey<br>with Baltai Energy</h5>
                 </div>
                 <div class="sidebar-card">
-                <a href="https://zurl.to/NENw?source=CareerSite" target="_blank">
+                    <a href="https://forms.gle/1WTurN1doiMACudH9" target="_blank">
                         <button class="btn btn-enroll mt-3">ENROLL NOW</button>
                     </a>
                 </div>

@@ -12,9 +12,9 @@ Route::get('/solution/industrial', [App\Http\Controllers\HomePageController::cla
 Route::get('/solution/product', [App\Http\Controllers\HomePageController::class, 'product'])->name('product');
 Route::get('/faqs', [App\Http\Controllers\HomePageController::class, 'faqs'])->name('faqs');
 Route::get('/contact', [App\Http\Controllers\HomePageController::class, 'contact'])->name('contact');
-Route::get('/ssn/our_ssn', [App\Http\Controllers\HomePageController::class, 'our_ssn'])->name('our_ssn');
-Route::get('/careers/career', [App\Http\Controllers\HomePageController::class, 'career'])->name('career');
-Route::get('/careers/baltai', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
+Route::get('/ssn', [App\Http\Controllers\HomePageController::class, 'our_ssn'])->name('our_ssn');
+Route::get('/srm', [App\Http\Controllers\HomePageController::class, 'career'])->name('career');
+Route::get('/learning', [App\Http\Controllers\HomePageController::class, 'baltai'])->name('baltai');
 // Onboarding And Solar Basics Routes
 Route::get('/learning/solar-basics', [App\Http\Controllers\HomePageController::class, 'solar_basics'])->name('solar_basics');
 Route::get('/learning/solar-basics/company_introduction', [App\Http\Controllers\HomePageController::class, 'company_introduction'])->name('company_introduction');

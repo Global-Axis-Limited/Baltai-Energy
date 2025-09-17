@@ -1217,17 +1217,17 @@ header nav .offcanvas-header button i {
 
 /* Energy Calculator Section */
 .energy-calculator-section {
-    background-color: #fff;
+    
     padding: 50px 0px;
     font-family: "Montserrat", serif;
 }
 
-/* .calculator-form {
+.calculator-form {
     background: linear-gradient(135deg, #F8861A, #FEC31C);
     border-radius: 15px;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-} */
+}
 
 .calculator-form h3 {
     font-size: 1.5rem;
